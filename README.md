@@ -1,6 +1,6 @@
 # IONDV. Telecom
 
-Эта страница на [русском](/README.md)
+Эта страница на [русском](https://github.com/iondv/telecom-ru/edit/master/README.md)
 
 <h1 align="center"> <img src="/images/telecom.png" alt="IONDV. Telecom" align="center"></h1>  
 
@@ -20,15 +20,15 @@ Watch a brief [video](https://www.youtube.com/watch?v=r7NjctIR9bA&feature=youtu.
 
 ### Demo
 
-Go to https://telecom-ru.iondv.com to see the demo version - the login for access is - **demo** and the password is – **ion-demo**.
+Go to https://telecom-en.iondv.com to see the demo version - the login for access is - **demo** and the password is – **ion-demo**.
 
-Open geomap data without authorization - https://telecom-ru.iondv.com/geomap.
+Open geomap data without authorization - https://telecom-en.iondv.com/geomap.
 
-Account for [back office](https://telecom-ru.iondv.com/registry): login - **demo**, password **ion-demo**. 
+Account for [back office](https://telecom-en.iondv.com/registry): login - **demo**, password **ion-demo**. 
 
 ### Additional benefits:
  
-* Open source system components- https://github.com/iondv/telecom-ru;
+* Open source system components- https://github.com/iondv/telecom-en;
 * Open source software used for DBMS and server OS (under linux and windows);
 * Any adaptation and upgrading of the system is possible, including data structures without programming in the [visual editor](https://studio.iondv.com);
 * Run your own version in a few minutes - see [How to get the app](#how-to-get-the-app?).
