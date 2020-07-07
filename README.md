@@ -1,6 +1,6 @@
 # IONDV. Telecom
 
-Эта страница на [русском](https://github.com/iondv/telecom-ru/edit/master/README.md)
+Эта страница на [русском](https://github.com/iondv/telecom-ru/blob/master/README.md)
 
 <h1 align="center"> <img src="/images/telecom.png" alt="IONDV. Telecom" align="center"></h1>  
 
