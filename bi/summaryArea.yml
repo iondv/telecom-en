@@ -1,8 +1,8 @@
 name: summaryArea
-caption: Доступ к услугам связи
+caption: Access to communication services
 sources:
   - name: internetInAdministartion
-    caption: Интернет в администрациях
+    caption: Internet in the administrations
     load:
       - className: adminTerritory
         filter:
