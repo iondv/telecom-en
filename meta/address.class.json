@@ -6,7 +6,7 @@
   "semantic": "region| |area|, |place|, |street|, д.|house|, |building",
   "name": "address",
   "version": "",
-  "caption": "Адрес",
+  "caption": "Address",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 56,
       "name": "place",
-      "caption": "Населённый пункт",
+      "caption": "Locality",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 58,
       "name": "street",
-      "caption": "Улица",
+      "caption": "Street",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 70,
       "name": "house",
-      "caption": "Дом",
+      "caption": "House",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 75,
       "name": "building",
-      "caption": "Корпус (строение, литера)",
+      "caption": "Building (letter)",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 80,
       "name": "flat",
-      "caption": "Квартира",
+      "caption": "Apartment",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 80,
       "name": "adressValue",
-      "caption": "Адрес, при отсутствии значений в справочниках",
+      "caption": "Address, if there are no values in the catalogs",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 80,
       "name": "adressFormula",
-      "caption": "Адрес [вычислимое]",
+      "caption": "Address [computable]",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -293,7 +293,7 @@
     {
       "orderNumber": 40,
       "name": "area",
-      "caption": "Район",
+      "caption": "District",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -322,7 +322,7 @@
     {
       "orderNumber": 30,
       "name": "region",
-      "caption": "Регион",
+      "caption": "Region",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -351,7 +351,7 @@
     {
       "orderNumber": 50,
       "name": "index",
-      "caption": "Индекс",
+      "caption": "Postcode",
       "type": 6,
       "size": null,
       "decimals": 0,

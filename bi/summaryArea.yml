@@ -20,7 +20,7 @@ sources:
           - field: capacity
             expr: $internet.volum
   - name: station
-    caption: Стационарная связь
+    caption: Stationary communication
     load:
       - className: svyaz
         filter:
@@ -38,7 +38,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Доступно
+            expr: Available
       - className: svyaz
         filter:
           not:
@@ -58,7 +58,7 @@ sources:
           - field: service
             expr: Отсутствует
   - name: mobiles
-    caption: Обеспечение мобильной связью в населенном пункте
+    caption: Provision of mobile communications in locality
     load:
       - className: mobile
         filter:
@@ -77,13 +77,13 @@ sources:
                 - 2G
                 - 3G
                 - 4G
-                - частично
-                - фемто
+                - partially
+                - femto
         results:
           - field: okato
             expr: $okato.okato.okato
   - name: sector_svyaz
-    caption: Вся информация о секторе связи
+    caption: All information about the communication sector
     load:
       - className: svyaz
         results:
@@ -98,7 +98,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
   - name: mobile
-    caption: Мобильная связь
+    caption: Mobile communication
     load:
       - source: sector_svyaz
         joins:
@@ -119,7 +119,7 @@ sources:
           - field: population
             expr: $population
           - field: service
-            expr: Доступно
+            expr: Available
       - source: sector_svyaz
         joins:
           - table: mobiles
@@ -139,9 +139,9 @@ sources:
           - field: population
             expr: $population
           - field: service
-            expr: Отсутствует
+            expr: Missing
   - name: internet
-    caption: Доступ к интернет
+    caption: Internet access
     load:
       - className: svyaz
         filter:
@@ -159,7 +159,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Проводной
+            expr: Wired
       - className: svyaz
         filter:
           contains:
@@ -181,7 +181,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Мобильный
+            expr: Mobile
       - className: svyaz
         filter:
           contains:
@@ -198,7 +198,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: БШПД
+            expr: WBIA
       - className: svyaz
         filter:
           and:
@@ -232,9 +232,9 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Отсутствует
+            expr: Missing
   - name: television
-    caption: Телевидение
+    caption: Television
     load:
       - className: svyaz
         filter:
@@ -252,7 +252,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Цифровое
+            expr: Digital
       - className: svyaz
         filter:
           contains:
@@ -269,7 +269,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Аналоговое
+            expr: Analog
       - className: svyaz
         filter:
           contains:
@@ -289,7 +289,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Kраевое ТВ
+            expr: Regional TV
       - className: svyaz
         filter:
           and:
@@ -313,9 +313,9 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Отсутствует
+            expr: Missing
   - name: radio
-    caption: Радиовещание
+    caption: Radio broadcasting
     load:
       - className: svyaz
         filter:
@@ -333,7 +333,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Ведется радиовещание
+            expr: Radio broadcasting is on
       - className: svyaz
         filter:
           contains:

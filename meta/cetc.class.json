@@ -6,7 +6,7 @@
   "semantic": "tvlink| |multipl",
   "name": "cetc",
   "version": "",
-  "caption": "РТРС ЦЭТВ",
+  "caption": "RTRN digital television",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateEdit",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 15,
       "name": "tvlink",
-      "caption": "Эфирное телевидение",
+      "caption": "Terrestrial television",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -85,7 +85,7 @@
     {
       "orderNumber": 31,
       "name": "dateOn",
-      "caption": "Дата включения",
+      "caption": "Activation date",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -114,7 +114,7 @@
     {
       "orderNumber": 32,
       "name": "tvk",
-      "caption": "Номер ТВК",
+      "caption": "TVC number",
       "type": 8,
       "size": null,
       "decimals": 0,
@@ -143,7 +143,7 @@
     {
       "orderNumber": 35,
       "name": "comment",
-      "caption": "Примечание",
+      "caption": "Note",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -172,7 +172,7 @@
     {
       "orderNumber": 40,
       "name": "place",
-      "caption": "Место вещания",
+      "caption": "Broadcast location",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -201,7 +201,7 @@
     {
       "orderNumber": 50,
       "name": "power",
-      "caption": "Мощность передатчика, кВт",
+      "caption": "Transmitter power, kW",
       "type": 8,
       "size": null,
       "decimals": 0,
@@ -230,7 +230,7 @@
     {
       "orderNumber": 60,
       "name": "dateEdit",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -259,7 +259,7 @@
     {
       "orderNumber": 30,
       "name": "multipl",
-      "caption": "Мультиплекс",
+      "caption": "Multiplex",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -288,7 +288,7 @@
     {
       "orderNumber": 30,
       "name": "KolCanals",
-      "caption": "Количество каналов [расчетное для ПФ]",
+      "caption": "Number of channels",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -320,7 +320,7 @@
     {
       "orderNumber": 30,
       "name": "mult",
-      "caption": "Мультиплекс",
+      "caption": "Multiplex",
       "type": 0,
       "size": null,
       "decimals": 0,

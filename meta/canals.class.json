@@ -6,7 +6,7 @@
   "semantic": "zonalnost| |typeTKS",
   "name": "canals",
   "version": "",
-  "caption": "Каналы связи",
+  "caption": "Channels of connection",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 30,
       "name": "operator",
-      "caption": "Операторы",
+      "caption": "Operators",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 40,
       "name": "typeTKS",
-      "caption": "Тип ТКС",
+      "caption": "TCC type",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 45,
       "name": "zonalnost",
-      "caption": "Зональность",
+      "caption": "Zonality",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -131,15 +131,15 @@
         "list": [
           {
             "key": "mag",
-            "value": "Магистральные"
+            "value": "Trunk"
           },
           {
             "key": "zon",
-            "value": "Зоновые"
+            "value": "Zonal"
           },
           {
             "key": "mes",
-            "value": "Местные"
+            "value": "Local"
           }
         ],
         "matrix": [],
@@ -153,7 +153,7 @@
     {
       "orderNumber": 50,
       "name": "volum",
-      "caption": "Емкость кабеля",
+      "caption": "Cable capacity",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -182,7 +182,7 @@
     {
       "orderNumber": 55,
       "name": "propusk",
-      "caption": "Пропускная способность Гбит/сек",
+      "caption": "Bandwidth, Gbit/s",
       "type": 8,
       "size": null,
       "decimals": 0,
@@ -211,7 +211,7 @@
     {
       "orderNumber": 60,
       "name": "geoobject",
-      "caption": "Геообъект",
+      "caption": "GeoObject",
       "type": 100,
       "size": null,
       "decimals": 0,

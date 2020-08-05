@@ -6,7 +6,7 @@
   "semantic": "operator| (|clients|)",
   "name": "bshpd",
   "version": "",
-  "caption": "БШПД",
+  "caption": "WBIA",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 20,
       "name": "other",
-      "caption": "Прочие услуги",
+      "caption": "Other services",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 25,
       "name": "operator",
-      "caption": "Оператор БШПД",
+      "caption": "WBIA operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 80,
       "name": "tech",
-      "caption": "Технический охват",
+      "caption": "Technical coverage",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -142,7 +142,7 @@
     {
       "orderNumber": 75,
       "name": "clients",
-      "caption": "Количество абонентов",
+      "caption": "Number of subscribers",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -171,7 +171,7 @@
     {
       "orderNumber": 351,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -200,7 +200,7 @@
     {
       "orderNumber": 352,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
