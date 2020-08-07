@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "invProjStatus",
   "version": "",
-  "caption": "Статус проекта",
+  "caption": "Project status",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "guid",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "code",
-      "caption": "Код",
+      "caption": "Code",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "name",
-      "caption": "Статус проекта",
+      "caption": "Project status",
       "type": 0,
       "size": null,
       "decimals": 0,

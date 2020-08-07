@@ -6,7 +6,7 @@
   "semantic": "mobileOperator| |typeTks",
   "name": "mobile",
   "version": "",
-  "caption": "Сотовая связь",
+  "caption": "Cellular communication",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор паспорта",
+      "caption": "Passport ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 20,
       "name": "okato",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -85,7 +85,7 @@
     {
       "orderNumber": 124,
       "name": "supOktmoMobile",
-      "caption": "Муниципальный район [значение для формы списка]",
+      "caption": "Municipal district [value for list form]",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -117,7 +117,7 @@
     {
       "orderNumber": 25,
       "name": "mobileOperator",
-      "caption": "Оператор сотовой связи",
+      "caption": "Mobile operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -194,7 +194,7 @@
                   "/"
                 ]
               },
-              "нет"
+              "No"
             ]
           },
           ""
@@ -253,7 +253,7 @@
                   "/"
                 ]
               },
-              "нет"
+              "No"
             ]
           },
           ""
@@ -311,7 +311,7 @@
                   "/"
                 ]
               },
-              "нет"
+              "No"
             ]
           },
           ""
@@ -321,7 +321,7 @@
     {
       "orderNumber": 351,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -350,7 +350,7 @@
     {
       "orderNumber": 352,
       "name": "dateCreate",
-      "caption": "Дата создания",
+      "caption": "Date of creation",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -379,7 +379,7 @@
     {
       "orderNumber": 352,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -408,7 +408,7 @@
     {
       "orderNumber": 300,
       "name": "typeTks",
-      "caption": "Тип ТКС",
+      "caption": "TCC type",
       "type": 14,
       "size": 10,
       "decimals": 0,
@@ -442,7 +442,7 @@
     {
       "orderNumber": 351,
       "name": "mobileSvyaz",
-      "caption": "Наличие мобильной связи",
+      "caption": "Availability of mobile communication",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -471,7 +471,7 @@
     {
       "orderNumber": 340,
       "name": "mobileStandart",
-      "caption": "Стандарт мобильной связи",
+      "caption": "Mobile communication standard",
       "type": 14,
       "size": 10,
       "decimals": 0,
@@ -505,7 +505,7 @@
     {
       "orderNumber": 350,
       "name": "mobileInternet",
-      "caption": "Интернет",
+      "caption": "Internet",
       "type": 10,
       "size": null,
       "decimals": 0,

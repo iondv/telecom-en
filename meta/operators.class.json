@@ -6,7 +6,7 @@
   "semantic": "okato| |name",
   "name": "operators",
   "version": "",
-  "caption": "Операторы связи",
+  "caption": "Communications operators",
   "ancestor": "organization",
   "container": null,
   "creationTracker": "dateModif",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 41,
       "name": "fullName",
-      "caption": "Полное наименование предприятия связи",
+      "caption": "Full name of the communication enterprise",
       "type": 1,
       "size": 256,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 11,
       "name": "okato",
-      "caption": "ОКАТО",
+      "caption": "ARCPS",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 111,
       "name": "dateModif",
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 50,
       "name": "urAddr",
-      "caption": "Юридический адрес организации",
+      "caption": "Legal address of the organization",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 56,
       "name": "orgBranch",
-      "caption": "Филиал предприятия связи в Хабаровском крае",
+      "caption": "Branch of a communication company in Australia",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 57,
       "name": "urAddrBranch",
-      "caption": "Юридический адрес филиала",
+      "caption": "Legal address of the branch",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "liderBranch",
-      "caption": "Сотрудник филиала",
+      "caption": "Branch employee",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 120,
       "name": "postAddr",
-      "caption": "Почтовый адрес организации",
+      "caption": "Postal address of the organization",
       "type": 13,
       "size": null,
       "decimals": 0,

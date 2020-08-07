@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "naselenniyPunkt",
   "version": "",
-  "caption": "Населенный пункт",
+  "caption": "Locality",
   "ancestor": null,
   "container": "",
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "okato",
-      "caption": "ОКАТО",
+      "caption": "ARCPS",
       "type": 0,
       "size": 11,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "oktmo",
-      "caption": "ОКТМО",
+      "caption": "RNCMT",
       "type": 0,
       "size": 8,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "name",
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 30,
       "name": "numberDmh",
-      "caption": "Количество Домохозяйств",
+      "caption": "Number of households",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 40,
       "name": "supOktmo",
-      "caption": "Вышестоящее мун. образ.",
+      "caption": "Superior municipality",
       "type": 13,
       "size": 8,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 46,
       "name": "adminMun",
-      "caption": "Административный район",
+      "caption": "Administrative district",
       "type": 14,
       "size": 8,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 30,
       "name": "administration",
-      "caption": "Администрация [вычислимое]",
+      "caption": "Administration [computable]",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -222,7 +222,7 @@
     {
       "orderNumber": 30,
       "name": "managerAdministration",
-      "caption": "Должностные лица [вычислимое]",
+      "caption": "The officials [computable]",
       "type": 0,
       "size": 128,
       "decimals": 0,
@@ -268,7 +268,7 @@
     {
       "orderNumber": 45,
       "name": "schems",
-      "caption": "Материалы о поселении",
+      "caption": "Materials about the settlement",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -297,7 +297,7 @@
     {
       "orderNumber": 50,
       "name": "geocoord",
-      "caption": "Координаты",
+      "caption": "Coordinates",
       "type": 100,
       "size": 20,
       "decimals": 0,
@@ -326,7 +326,7 @@
     {
       "orderNumber": 70,
       "name": "chislennost",
-      "caption": "Численность",
+      "caption": "Population",
       "type": 13,
       "size": 20,
       "decimals": 0,
@@ -355,7 +355,7 @@
     {
       "orderNumber": 80,
       "name": "type",
-      "caption": "Тип населенного пункта",
+      "caption": "Type of locality",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -384,7 +384,7 @@
     {
       "orderNumber": 51,
       "name": "need",
-      "caption": "Потребность в развитии",
+      "caption": "Need for development",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -413,7 +413,7 @@
     {
       "orderNumber": 51,
       "name": "plan",
-      "caption": "План развития",
+      "caption": "Road map",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -450,7 +450,7 @@
     {
       "orderNumber": 200,
       "name": "adminNasPunkt",
-      "caption": "Администрация населенного пункта",
+      "caption": "Locality administration",
       "type": 13,
       "size": 50,
       "decimals": 0,
@@ -488,7 +488,7 @@
     {
       "orderNumber": 210,
       "name": "primechanie",
-      "caption": "Примечание",
+      "caption": "Note",
       "type": 1,
       "size": 1024,
       "decimals": 0,
@@ -517,7 +517,7 @@
     {
       "orderNumber": 220,
       "name": "labels",
-      "caption": "Метки",
+      "caption": "Tags",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -546,7 +546,7 @@
     {
       "orderNumber": 35,
       "name": "rainCentr",
-      "caption": "Является районным центром края",
+      "caption": "Is the regional center",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -572,11 +572,11 @@
         "list": [
           {
             "key": "true",
-            "value": "Да"
+            "value": "Yes"
           },
           {
             "key": "false",
-            "value": "Нет"
+            "value": "No"
           }
         ],
         "matrix": [],
@@ -590,7 +590,7 @@
     {
       "orderNumber": 230,
       "name": "svyaz",
-      "caption": "Связь в населенном пункте",
+      "caption": "Communication in the locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -619,7 +619,7 @@
     {
       "orderNumber": 240,
       "name": "zdravNP",
-      "caption": "Здравоохранение в населенном пункте",
+      "caption": "Health care in the locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -648,7 +648,7 @@
     {
       "orderNumber": 240,
       "name": "education",
-      "caption": "Образование в населенном пункте",
+      "caption": "Education in the locality",
       "type": 13,
       "size": null,
       "decimals": 0,
