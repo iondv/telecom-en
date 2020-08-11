@@ -2,7 +2,7 @@
   "code": "ops.marshrut.magMarsh",
   "orderNumber": 0,
   "type": 1,
-  "caption": "Магистральные маршруты",
+  "caption": "Trunk routes",
   "classname": "magGraf",
   "container": null,
   "collection": null,

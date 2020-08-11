@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "uslugi",
   "version": "",
-  "caption": "Услуги",
+  "caption": "Services",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "nomer",
-      "caption": "Номер",
+      "caption": "Number",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Наименование услуги",
+      "caption": "Service name",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "type",
-      "caption": "Тип услуги",
+      "caption": "Type of service",
       "type": 0,
       "size": null,
       "decimals": 0,

@@ -2,7 +2,7 @@
   "code": "operators.canals",
   "orderNumber": 1,
   "type": 1,
-  "caption": "Каналы связи",
+  "caption": "Channels of connection",
   "classname": "canals",
   "container": null,
   "collection": null,

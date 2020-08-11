@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор паспорта",
+      "caption": "Passport ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 20,
       "name": "okato",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 110,
       "name": "digitalTV",
-      "caption": "РТРС ЦЭТВ",
+      "caption": "RTRN digital television",
       "type": 14,
       "size": 50,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 30,
       "name": "kolvoCanal",
-      "caption": "Количество каналов [расчетное для ПФ]",
+      "caption": "Number of channels",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -148,7 +148,7 @@
     {
       "orderNumber": 110,
       "name": "cetc",
-      "caption": "Цифровое ТВ [значение для формы списка]",
+      "caption": "Digital TV [value for list form]",
       "type": 0,
       "size": 50,
       "decimals": 0,
@@ -186,7 +186,7 @@
     {
       "orderNumber": 110,
       "name": "digitalTVDateOn",
-      "caption": "Актуальное РТРС ЦЭТВ",
+      "caption": "Actual RTRN digital television",
       "type": 14,
       "size": 50,
       "decimals": 0,
@@ -197,7 +197,7 @@
       "indexed": false,
       "unique": false,
       "autoassigned": false,
-      "hint": "Количество каналов",
+      "hint": "Number of channels",
       "defaultValue": null,
       "refClass": "",
       "itemsClass": "cetc",
@@ -222,7 +222,7 @@
     {
       "orderNumber": 117,
       "name": "kachestvoCTB",
-      "caption": "Качество вещания эфирного ЦТВ",
+      "caption": "Broadcast quality of digital TV",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -251,7 +251,7 @@
     {
       "orderNumber": 121,
       "name": "analogTV",
-      "caption": "Аналоговое ТВ",
+      "caption": "Analog TV",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -280,7 +280,7 @@
     {
       "orderNumber": 121,
       "name": "analog",
-      "caption": "Аналоговое ТВ [для формы списка]",
+      "caption": "Analog TV [value for list form]",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -318,7 +318,7 @@
     {
       "orderNumber": 125,
       "name": "kachestvoAnal",
-      "caption": "Качество вещания эфирного аналогового ТВ",
+      "caption": "Broadcast quality of analog TV",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -347,7 +347,7 @@
     {
       "orderNumber": 125,
       "name": "kolvoAnal",
-      "caption": "Количество каналов эфирного аналогового ТВ",
+      "caption": "Number of channels of broadcast analog TV",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -376,7 +376,7 @@
     {
       "orderNumber": 250,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -405,7 +405,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

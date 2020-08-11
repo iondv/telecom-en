@@ -6,7 +6,7 @@
   "semantic": "type",
   "name": "typeNasPunk",
   "version": "",
-  "caption": "Тип населенного пункта",
+  "caption": "Type of locality",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "type",
-      "caption": "Тип",
+      "caption": "Type",
       "type": 0,
       "size": 20,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,

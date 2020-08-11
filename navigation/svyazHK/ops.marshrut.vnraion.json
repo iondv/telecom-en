@@ -2,7 +2,7 @@
   "code": "ops.marshrut.vnraion",
   "orderNumber": 2,
   "type": 1,
-  "caption": "Внутрирайонные маршруты",
+  "caption": "Inside-region routes",
   "classname": "vnutRaion",
   "container": null,
   "collection": null,

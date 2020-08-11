@@ -6,7 +6,7 @@
   "semantic": "name| |operator",
   "name": "tvOperCom",
   "version": "",
-  "caption": "Операторы коммерческого ТВ",
+  "caption": "Commercial TV operators",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateModif",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 35,
       "name": "name",
-      "caption": "ТВ Коммерческое",
+      "caption": "Commercial TV",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 39,
       "name": "operator",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -85,7 +85,7 @@
     {
       "orderNumber": 39,
       "name": "operators",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -117,7 +117,7 @@
     {
       "orderNumber": 30,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -146,7 +146,7 @@
     {
       "orderNumber": 111,
       "name": "dateModif",
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -175,7 +175,7 @@
     {
       "orderNumber": 51,
       "name": "tech",
-      "caption": "Технический охват",
+      "caption": "Technical coverage",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -204,7 +204,7 @@
     {
       "orderNumber": 52,
       "name": "numb",
-      "caption": "Количество подключенных абонентов",
+      "caption": "Number of connected subscribers",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -233,7 +233,7 @@
     {
       "orderNumber": 53,
       "name": "typeTv",
-      "caption": "Тип коммерческого ТВ",
+      "caption": "Type of commercial TV",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -263,15 +263,15 @@
           },
           {
             "key": "b",
-            "value": "Кабельное аналоговое"
+            "value": "Cable analog"
           },
           {
             "key": "c",
-            "value": "Кабельное цифровое"
+            "value": "Cable digital"
           },
           {
             "key": "d",
-            "value": "Кабельное цифровое/аналоговое"
+            "value": "Cable digital/analog"
           }
         ],
         "matrix": [],

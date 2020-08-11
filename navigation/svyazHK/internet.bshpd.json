@@ -2,7 +2,7 @@
   "code": "internet.bshpd",
   "orderNumber": 4,
   "type": 1,
-  "caption": "Беспроводной ШПД",
+  "caption": "Wireless BIA",
   "classname": "bshpd",
   "container": null,
   "collection": null,

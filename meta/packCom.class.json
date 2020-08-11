@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "packCom",
   "version": "",
-  "caption": "Пакеты оператора коммерческого ТВ",
+  "caption": "Commercial TV packages",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "tvOper",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 15,
       "name": "name",
-      "caption": "Название пакета",
+      "caption": "Package name",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 20,
       "name": "canals",
-      "caption": "Каналы",
+      "caption": "Channels",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 30,
       "name": "cost",
-      "caption": "Стоимость",
+      "caption": "Cost",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -142,7 +142,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,

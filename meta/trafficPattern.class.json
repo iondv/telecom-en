@@ -6,7 +6,7 @@
   "semantic": "ordList| : |section| |frequency",
   "name": "trafficPattern",
   "version": "",
-  "caption": "Схема движения",
+  "caption": "Movement pattern",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -28,7 +28,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -57,7 +57,7 @@
     {
       "orderNumber": 10,
       "name": "magGraf",
-      "caption": "Магистральный маршрут",
+      "caption": "Trunk route",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -86,7 +86,7 @@
     {
       "orderNumber": 15,
       "name": "vnutrGraf",
-      "caption": "Внутрикраевой маршрут",
+      "caption": "Inside-territory route",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -115,7 +115,7 @@
     {
       "orderNumber": 20,
       "name": "vnutRaion",
-      "caption": "Внутрирайонный маршрут",
+      "caption": "Inside-region route",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -144,7 +144,7 @@
     {
       "orderNumber": 30,
       "name": "ordList",
-      "caption": "Порядок",
+      "caption": "Order",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -173,7 +173,7 @@
     {
       "orderNumber": 35,
       "name": "section",
-      "caption": "Секция схемы движения",
+      "caption": "Traffic section",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -202,7 +202,7 @@
     {
       "orderNumber": 40,
       "name": "frequency",
-      "caption": "Расписание",
+      "caption": "Schedule",
       "type": 1,
       "size": null,
       "decimals": 0,

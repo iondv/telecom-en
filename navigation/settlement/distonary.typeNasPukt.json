@@ -3,7 +3,7 @@
   "orderNumber": 0,
   "type": 1,
   "title": "",
-  "caption": "Тип населенного пункта",
+  "caption": "Type of locality",
   "classname": "typeNasPunk",
   "container": null,
   "collection": null,

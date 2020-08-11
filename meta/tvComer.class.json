@@ -6,7 +6,7 @@
   "semantic": "operatortv| |operatorSky",
   "name": "tvComer",
   "version": "",
-  "caption": "ТВ Коммерческое",
+  "caption": "Commercial TV",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор паспорта",
+      "caption": "Passport ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 20,
       "name": "okato",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 85,
       "name": "operatortv",
-      "caption": "Операторы кабельного ТВ",
+      "caption": "Cable TV operators",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 110,
       "name": "tvOperCom",
-      "caption": "Кабельное ТВ [значение для формы списка]",
+      "caption": "Cable TV [value for list form]",
       "type": 0,
       "size": 50,
       "decimals": 0,
@@ -151,7 +151,7 @@
     {
       "orderNumber": 95,
       "name": "operatorSky",
-      "caption": "Операторы спутникового ТВ",
+      "caption": "Satellite tv operators",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -180,7 +180,7 @@
     {
       "orderNumber": 250,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -209,7 +209,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
