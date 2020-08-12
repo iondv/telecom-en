@@ -22,7 +22,7 @@ if (item.get('supOktmo')) {
   result.subtitle = item.property('supOktmo').evaluate() +'<br>';
 }
 if (item.get('chislennost')) {
-  result.subtitle += 'Численность '+ item.property('chislennost').evaluate() + ' чел.';
+  result.subtitle += 'Population '+ item.property('chislennost').evaluate() + ' ppl.';
 }
 
 let itemSvyaz = item.property('svyaz').evaluate();
@@ -44,17 +44,17 @@ if (itemSvyaz) {
       }
     }
     if (elem.get('stacionSvyaz') === "a") {
-      result.statsionar += ', АТС – цифровая';
+      result.statsionar += ', PBX - digital';
     }
     if (elem.get('stacionSvyaz') === "b") {
-      result.statsionar += ', АТС – аналоговая';
+      result.statsionar += ', PBX - analog';
     }
     let collType = elem.property('typeTks').evaluate();
     if (collType && collType.length) {
       result.statsionar += ", ТКС - " + collType;
     }
   } else {
-    result.statsionar = 'нет';
+    result.statsionar = 'no';
   }
 
   coll = itemSvyaz.property('internet').evaluate();
@@ -84,7 +84,7 @@ if (itemSvyaz) {
       result.internet += '<br>';
     }
   } else {
-    result.internet = 'нет';
+    result.internet = 'no';
   }
 
   coll = itemSvyaz.property('mobile').evaluate();
@@ -99,7 +99,7 @@ if (itemSvyaz) {
       prop = elem.property('mobileOperator').evaluate();
       if (prop) {
         const operUrl = prop.property('urlweb').evaluate();
-        if (operUrl && mobileTempItem != ' - нет') {
+        if (operUrl && mobileTempItem != ' - no') {
           if (operUrl.indexOf('http') === 0) {
             result.mobile += '<a href=' + operUrl + '>' + prop + '</a>' + mobileTempItem + '<br>';
           } else {
@@ -131,12 +131,12 @@ if (itemSvyaz) {
           result.bsIskra += prop;
         }
       } else {
-        result.bsIskra = 'нет';
+        result.bsIskra = 'no';
       }
       result.bsIskra += '<br>';
     }
   } else {
-    result.bsIskra = 'нет';
+    result.bsIskra = 'no';
   }
 
   let tvColl = itemSvyaz.property('tv').evaluate();
@@ -151,10 +151,10 @@ if (itemSvyaz) {
         result.digitalTV += '<br>';
       }
     } else {
-      result.digitalTV = 'нет';
+      result.digitalTV = 'no';
     }
   } else {
-    result.digitalTV = 'нет';
+    result.digitalTV = 'no';
 }
 
   coll = itemSvyaz.property('tv').evaluate();
@@ -169,10 +169,10 @@ if (itemSvyaz) {
         result.analogTV += '<br>';
       }
     } else {
-      result.analogTV = 'нет';
+      result.analogTV = 'no';
     }
   } else {
-    result.analogTV = 'нет';
+    result.analogTV = 'no';
   }
 
   coll = itemSvyaz.property('tvcom').evaluate();
@@ -187,10 +187,10 @@ if (itemSvyaz) {
         result.comerTV += '<br>';
       }
     } else {
-      result.comerTV = 'нет';
+      result.comerTV = 'no';
     }
   } else {
-    result.comerTV = 'нет';
+    result.comerTV = 'no';
   }
 
   coll = itemSvyaz.property('radio').evaluate();
@@ -202,39 +202,39 @@ if (itemSvyaz) {
         let radioTempItem = '';
         let prop = elem.property('numb').evaluate();
         if (prop && prop.length) {
-          radioTempItem += ' (' + prop + ' МГц)';
+          radioTempItem += ' (' + prop + ' MHz)';
         }
         prop = elem.property('name').evaluate();
-        if (prop && radioTempItem != ' (нет)') {
+        if (prop && radioTempItem != ' (no)') {
           radioTempColl += prop + radioTempItem + '<br>';
         }
       }
       if (radioTempColl != '') {
         result.radio += radioTempColl;
       } else {
-        result.radio += 'нет';
+        result.radio += 'no';
       }
     } else {
-      result.radio = 'нет';
+      result.radio = 'no';
     }
   } else {
-    result.radio = 'нет';
+    result.radio = 'no';
   }
 
   coll = itemSvyaz.property('other').evaluate();
   if (coll && coll.length && coll[0].property('taksofon').evaluate()) {
     coll = coll[0].property('taksofon').evaluate();
-    result.taksofon = coll.length + ' шт.';
+    result.taksofon = coll.length + ' pcs.';
   } else {
-    result.taksofon = 'нет';
+    result.taksofon = 'no';
   }
 
   coll = itemSvyaz.property('other').evaluate();
   if (coll && coll.length && coll[0].property('infomats').evaluate()) {
     coll = coll[0].property('infomats').evaluate();
-    result.infomat = coll.length + ' шт.';
+    result.infomat = coll.length + ' pcs.';
   } else {
-    result.infomat = 'нет';
+    result.infomat = 'no';
   }
 
   coll = itemSvyaz.property('ops').evaluate();
@@ -245,31 +245,31 @@ if (itemSvyaz) {
       }
       switch (elem.get('gops')) {
         case 'a':
-          result.ops += 'Тип: ГОПС. ';
+          result.ops += 'Type: Сity post office ';
           break;
         case 'b':
-          result.ops += 'Тип: СОПС. ';
+          result.ops += 'Type: Operational and post services ';
           break;
         case 'c':
-          result.ops += 'Тип: ПОПС. ';
+          result.ops += 'Type: Mobile post office ';
           break;
         case 'd':
-          result.ops += 'Тип: Почтамт. ';
+          result.ops += 'Type: Post Office ';
           break;
         case 'msc':
-          result.ops += 'Тип: МСЦ. ';
+          result.ops += 'Type: Main mail sorting center ';
           break;
       }
       if (elem.get('adress')) {
-        result.ops += 'Адрес: ' + elem.get('adress') + '. ';
+        result.ops += 'Address: ' + elem.get('adress') + '. ';
       }
       if (elem.get('tel')) {
-        result.ops += 'Телефон ОПС: ' + elem.get('tel');
+        result.ops += 'Post office telephone number: ' + elem.get('tel');
       }
       result.ops += '<br>';
     }
   } else {
-    result.ops = 'нет';
+    result.ops = 'no';
   }
 }
 
@@ -281,12 +281,12 @@ if (coll && coll.length) {
     prop = elem.get('datePlan');
     if(prop !== null) {
       prop = moment(prop).format("DD.MM.YYYY");
-      result.plan += ' Срок реализации: ' + prop;
+      result.plan += ' Execution period: ' + prop;
     }
     result.plan += '<br>';
   }
 } else {
-  result.plan = 'нет';
+  result.plan = 'no';
 }
 
 %>
@@ -321,7 +321,7 @@ if (coll && coll.length) {
     <h3 class="report-subtitle"><%- result.subtitle %></h3>
 
     <div class="report-section">
-      <h3 class="report-section-title">Администрация</h3>
+      <h3 class="report-section-title">Administration</h3>
       <div class="report-section-body">
         <div class="report-item">
           <div class="bold"><%- result.admin %></div> 
@@ -336,71 +336,71 @@ if (coll && coll.length) {
     <div class="report-content"></div>
 
       <div class="report-section">
-        <h3 class="report-section-title">Связь</h3>
+        <h3 class="report-section-title">Communication</h3>
         <div class="report-section-body">
           <div class="report-list">
 
             <div class="report-item row bg-gray">
-              <div class="col-xs-6 bold">Стационарная телефония</div>
+              <div class="col-xs-6 bold">Fixed telephones</div>
               <div class="col-xs-6"><%- result.statsionar %></div>
             </div>
             <div class="report-item row">
-              <div class="col-xs-6 bold">Мобильная связь</div>
+              <div class="col-xs-6 bold">Mobile communication</div>
               <div class="col-xs-6"><%- result.mobile %></div>
             </div>
 
             <div class="report-item">
-              <div class="report-item-title bg-gray">Доступ к Интернет</div>
+              <div class="report-item-title bg-gray">Internet access</div>
               <div class="row">
-                <div class="col-xs-6">Проводной</div>
+                <div class="col-xs-6">Wired</div>
                 <div class="col-xs-6"><%- result.internet %></div>
               </div>
               <div class="row bg-gray">
-                <div class="col-xs-6">БШПД</div>
+                <div class="col-xs-6">WBIA</div>
                 <div class="col-xs-6"><%- result.bsIskra %></div>
               </div>
             </div>
 
             <div class="report-item">
-              <div class="report-item-title">Телевидение</div>
+              <div class="report-item-title">Television</div>
               <div class="row bg-gray">
-                <div class="col-xs-6">Цифровое</div>
+                <div class="col-xs-6">Digital</div>
                 <div class="col-xs-6"><%- result.digitalTV %></div>
               </div>
               <div class="row">
-                <div class="col-xs-6">Аналоговое</div>
+                <div class="col-xs-6">Analog</div>
                 <div class="col-xs-6"><%- result.analogTV %></div>
               </div>
               <div class="row bg-gray">
-                <div class="col-xs-6">Кабельное</div>
+                <div class="col-xs-6">Cable</div>
                 <div class="col-xs-6"><%- result.comerTV %></div>
               </div>
             </div>
 
             <div class="report-item row">
-              <div class="col-xs-6 bold">Радиовещание</div>
+              <div class="col-xs-6 bold">Radio broadcasting</div>
               <div class="col-xs-6"><%- result.radio %></div>
             </div>
 
             <div class="report-item">
-              <div class="report-item-title bg-gray">Универсальные услуги связи</div>
+              <div class="report-item-title bg-gray">Universal communication services</div>
               <div class="row">
-                <div class="col-xs-6">Таксофон</div>
+                <div class="col-xs-6">Payphone</div>
                 <div class="col-xs-6"><%- result.taksofon %></div>
               </div>
               <div class="row bg-gray">
-                <div class="col-xs-6">Инфомат</div>
+                <div class="col-xs-6">Infomat</div>
                 <div class="col-xs-6"><%- result.infomat %></div>
               </div>
             </div>
 
             <div class="report-item row">
-              <div class="col-xs-6 bold">Планы развития</div>
+              <div class="col-xs-6 bold">Road maps</div>
               <div class="col-xs-6"><%- result.plan %></div>
             </div>
 
             <div class="report-item row bg-gray">
-              <div class="col-xs-6 bold">Отделение почтовой связи</div>
+              <div class="col-xs-6 bold">Post office</div>
               <div class="col-xs-6"><%- result.ops %></div>
             </div>
           </div>
@@ -410,7 +410,7 @@ if (coll && coll.length) {
     </div>
 
     <div class="report-footer">
-      <button class="btn btn-close">Закрыть</button>
+      <button class="btn btn-close">Close</button>
     </div>
   </div>
 

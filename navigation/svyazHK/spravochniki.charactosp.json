@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.charactosp",
   "type": 1,
-  "caption": "Характеристика почтовых отделений",
+  "caption": "Description of post offices",
   "classname": "charactosp",
   "container": null,
   "collection": null,

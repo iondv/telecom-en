@@ -3,7 +3,7 @@
   "orderNumber": 0,
   "type": 1,
   "title": "",
-  "caption": "Тип медицинской организации",
+  "caption": "Type of medical organization",
   "classname": "typeMedicalOrg",
   "container": null,
   "collection": null,

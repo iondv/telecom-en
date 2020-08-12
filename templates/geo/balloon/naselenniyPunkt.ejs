@@ -14,7 +14,7 @@ if (item.get('supOktmo')) {
   result.title += ', '+item.property('supOktmo').evaluate() +'<br>';
 }
 if (item.get('chislennost')) {
-  result.subtitle += 'Численность '+ item.property('chislennost').evaluate() + ' чел.';
+  result.subtitle += 'Population '+ item.property('chislennost').evaluate() + ' ppl.';
 }
 
 let itemSvyaz = item.property('svyaz').evaluate();
@@ -52,7 +52,7 @@ if (itemSvyaz) {
       <button type='button' class='btn btn-sm map-modal-link full-width'
               data-type='url'
               data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/connect'>
-        Информация о связи в населенном пункте
+      Information about the communication in locality
       </button>
     </div>
 
@@ -61,7 +61,7 @@ if (itemSvyaz) {
       <button type='button' class='btn btn-sm map-modal-link full-width'
               data-type='url'
               data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/zdrav'>
-        Информация о здравоохранении в населенном пункте
+       Information about the health care in locality
       </button>
     </div>
 

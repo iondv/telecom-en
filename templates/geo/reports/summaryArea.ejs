@@ -1,33 +1,33 @@
 <%
 let title = req.query.title;
-let regionTitle = item ? item.get('name') : 'Хабаровский край';
+let regionTitle = item ? item.get('name') : 'Australia';
 let query = {
   oktmo: req.query.oktmo,
   _hsg_: 1
 };
 let params = {
   items: [{
-    title: 'Стационарная связь',
+    title: 'Stationary communication',
     url: '/report/public/telecom-en@summaryArea/stationArea/stationArea',
     query
   }, {
-    title: 'Мобильная связь',
+    title: 'Mobile communication',
     url: '/report/public/telecom-en@summaryArea/mobileArea/mobileArea',
     query
   }, {
-    title: 'Интернет',
+    title: 'Internet',
     url: '/report/public/telecom-en@summaryArea/internetArea/internetArea',
     query
   }, {
-    title: 'Телевидение',
+    title: 'Television',
     url: '/report/public/telecom-en@summaryArea/tvArea/tvArea',
     query
   }, {
-    title: 'Радиовещание',
+    title: 'Radio broadcasting',
     url: '/report/public/telecom-en@summaryArea/radioArea/radioArea',
     query
   }, {
-    title: 'ОПС',
+    title: 'Postal services',
     url: '/report/public/telecom-en@summaryArea/opsArea/opsArea',
     query
   }]
@@ -63,13 +63,13 @@ let params = {
       }
       if (centMunRaion) {
     %>
-      <p><b>Административный центр - </b><%- centMunRaion %></p>
+      <p><b>Administrative center - </b><%- centMunRaion %></p>
     <%
       }
       var nps = item.property('oktmo_nasPunkta').evaluate();
     %>
-      <p><b>Количество населенных пунктов: </b><%- nps ? nps.length : '' %></p>
-      <p><b>Численность населения, чел.: </b><%- item.property('chislennost').evaluate() %></p>
+      <p><b>Number of localities: </b><%- nps ? nps.length : '' %></p>
+      <p><b>Population, ppl. </b><%- item.property('chislennost').evaluate() %></p>
     </div>
     <div class="report-content"></div>
   </div>

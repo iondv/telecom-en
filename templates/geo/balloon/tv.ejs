@@ -4,7 +4,7 @@ let result = {
 }
 
 if (item.get('chislennost')) {
-  result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+  result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 
 let itemSvyaz = item.property('svyaz').evaluate();
@@ -23,7 +23,7 @@ if (itemSvyaz) {
       let collAtv = elem.property('analogTV').evaluate();
     %>
     <tr>
-      <td style='vertical-align:top' class='map-modal-link'>Цифровое ТВ</td><td>
+      <td style='vertical-align:top' class='map-modal-link'>Digital TV</td><td>
       <%
     if (collDtv && collDtv.length) {
         for (let dtv of collDtv) {
@@ -33,7 +33,7 @@ if (itemSvyaz) {
     <% } } } %>
       </td></tr>
     <tr>
-      <td style='vertical-align:top' class='map-modal-link'>Аналоговое ТВ</td><td>
+      <td style='vertical-align:top' class='map-modal-link'>Analog TV</td><td>
         <%
         if (collAtv && collAtv.length) {
           for (let atv of collAtv) {

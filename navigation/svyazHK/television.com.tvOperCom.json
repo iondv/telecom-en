@@ -2,7 +2,7 @@
   "code": "television.com.tvOperCom",
   "orderNumber": 2,
   "type": 1,
-  "caption": "Операторы коммерческого ТВ",
+  "caption": "Commercial TV operators",
   "classname": "tvOperCom",
   "container": null,
   "collection": null,

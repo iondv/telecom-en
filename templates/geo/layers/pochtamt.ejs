@@ -14,7 +14,7 @@ if (coll && coll.length) {
     result.raionObslu +=  ' '+ elem.get('name') + '<br>';
   }
 } else {
-  result.raionObslu = 'нет';
+  result.raionObslu = 'no';
 }
 
 %>
@@ -45,32 +45,32 @@ if (coll && coll.length) {
 <div id="report-zone" class="report">
   <div class="report-list">
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Наименование</div>
+      <div class="col-xs-6 bold">Name</div>
       <div class="col-xs-6"><%- result.title %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Адрес</div>
+      <div class="col-xs-6 bold">Address</div>
       <div class="col-xs-6"><%- result.address %></div>
     </div>
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Районы обслуживания</div>
+      <div class="col-xs-6 bold">Service area</div>
       <div class="col-xs-6"><%- result.raionObslu %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Количество стационарных ОПС</div>
+      <div class="col-xs-6 bold">Number of stationary post offices</div>
       <div class="col-xs-6"><%- result.kolStatOps %></div>
     </div>
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Количество передвижных ОПС</div>
+      <div class="col-xs-6 bold">Number of mobile post offices</div>
       <div class="col-xs-6"><%- result.kolPerOps %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Территория обслуживания передвижными ОПС</div>
+      <div class="col-xs-6 bold">Service area of mobile post offices</div>
       <div class="col-xs-6"><%- result.terrObslu %></div>
     </div>
   </div>
   <div class="report-footer">
-    <button class="btn btn-close">Закрыть</button>
+    <button class="btn btn-close">Close</button>
   </div>
 </div>
   <script>

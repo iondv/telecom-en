@@ -2,7 +2,7 @@
   "code": "television.com.tvOperSkyItem",
   "orderNumber": 5,
   "type": 1,
-  "caption": "Спутниковый оператор",
+  "caption": "Satellite operator",
   "classname": "tvOperSkyItem",
   "container": null,
   "collection": null,

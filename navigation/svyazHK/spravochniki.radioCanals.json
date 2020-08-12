@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.radioCanals",
   "type": 1,
-  "caption": "Радиостанции",
+  "caption": "Radio stations",
   "classname": "radioCanals",
   "container": null,
   "collection": null,

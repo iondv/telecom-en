@@ -5,20 +5,20 @@ let result = {
 };
 
 if (item.get('chislennost')) {
-    result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+    result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 
 let itemZdrav = item.property('zdravNP').evaluate();
 if (itemZdrav) {
-    result.medicalOrg = 'есть';
+    result.medicalOrg = 'yes';
 } else {
-    result.medicalOrg = 'отсутствует';
+    result.medicalOrg = 'missing';
 }
 %>
 <ul class='balloon-attrlist' style='width:225px'>
     <li><b class='block mb10'><%- result.title %></b></li>
 
-    <li>Медицинская организация:
+    <li>Medical organization:
         <ul class='comma-list'>
             <li><%- result.medicalOrg %></li>
         </ul>
@@ -27,6 +27,6 @@ if (itemZdrav) {
 </ul>
 <div>
     <button type='button' class='btn btn-sm btn-primary map-modal-link' data-type='url'
-            data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/zdrav'>Подробно
+            data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/zdrav'>In detail
     </button>
 </div>

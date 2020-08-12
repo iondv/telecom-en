@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.mobileStandarts",
   "type": 1,
-  "caption": "Стандарты мобильной связи",
+  "caption": "Mobile communication standards",
   "classname": "mobileStandart",
   "container": null,
   "collection": null,

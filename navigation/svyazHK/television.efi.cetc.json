@@ -2,7 +2,7 @@
   "code": "television.efi.cetc",
   "orderNumber": 1,
   "type": 1,
-  "caption": "Цифровое эфирное ТВ",
+  "caption": "Digital Terrestrial TV",
   "classname": "cetc",
   "container": null,
   "collection": null,

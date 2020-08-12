@@ -2,7 +2,7 @@
   "code": "television.efi.tvAnalog",
   "orderNumber": 6,
   "type": 1,
-  "caption": "Паспорта эфирного аналогового ТВ",
+  "caption": "Analog TV Passports",
   "classname": "tvAnalog",
   "container": null,
   "collection": null,

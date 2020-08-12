@@ -2,7 +2,7 @@
   "code": "television.com.packCom",
   "orderNumber": 3,
   "type": 1,
-  "caption": "Пакеты коммерческого ТВ",
+  "caption": "Commercial TV packages",
   "classname": "packCom",
   "container": null,
   "collection": null,

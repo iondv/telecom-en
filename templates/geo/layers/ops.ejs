@@ -28,12 +28,12 @@ if (coll && coll.length) {
     let name = elem.property('okato').evaluate();
     let live = name.property('chislennost').evaluate();
     if (live) {
-      name += ' (' + live + ' чел.)';
+      name += ' (' + live + ' ppl.)';
     }
     result.opsTowns += ' '+ name + '<br>';
   }
 } else {
-  result.opsTowns = 'нет';
+  result.opsTowns = 'no';
 }
 
 %>
@@ -64,11 +64,11 @@ if (coll && coll.length) {
 <div id="report-zone" class="report">
   <div class="report-list">
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Наименование ОПС</div>
+      <div class="col-xs-6 bold">Post office name</div>
       <div class="col-xs-6"><%- result.title %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Индекс</div>
+      <div class="col-xs-6 bold">Postcode</div>
       <div class="col-xs-6"><%- result.index %></div>
     </div>
     <div class="report-item row bg-gray">
@@ -76,36 +76,36 @@ if (coll && coll.length) {
       <div class="col-xs-6"><%- result.opsType %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Класс ОПС</div>
+      <div class="col-xs-6 bold">Class of post offices</div>
       <div class="col-xs-6"><%- result.opsClass %></div>
     </div>
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Обслуживающий почтамт</div>
+      <div class="col-xs-6 bold">Operating post office</div>
       <div class="col-xs-6"><%- result.pochtamt %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Обслуживаемые населенные пункты</div>
+      <div class="col-xs-6 bold">Serviced localities</div>
       <div class="col-xs-6"><%- result.opsTowns %></div>
     </div>
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Адрес</div>
+      <div class="col-xs-6 bold">Address</div>
       <div class="col-xs-6"><%- result.address %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Телефон</div>
+      <div class="col-xs-6 bold">Phone number</div>
       <div class="col-xs-6"><%- result.phone %></div>
     </div>
     <div class="report-item row bg-gray">
-      <div class="col-xs-6 bold">Режим работы</div>
+      <div class="col-xs-6 bold">Working hours</div>
       <div class="col-xs-6"><%- result.work %></div>
     </div>
     <div class="report-item row">
-      <div class="col-xs-6 bold">Маршрут доставки</div>
+      <div class="col-xs-6 bold">Delivery route</div>
       <div class="col-xs-6"><%- result.graf %></div>
     </div>
   </div>
   <div class="report-footer">
-    <button class="btn btn-close">Закрыть</button>
+    <button class="btn btn-close">Close</button>
   </div>
 </div>
   <script>

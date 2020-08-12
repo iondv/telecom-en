@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населённый пункт",
+          "caption": "Locality",
           "type": 1,
           "property": "place",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Улица",
+          "caption": "Street",
           "type": 1,
           "property": "street",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Дом (корпус,строение)",
+          "caption": "House (building)",
           "type": 1,
           "property": "house",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Корпус",
+          "caption": "Building",
           "type": 1,
           "property": "building",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Квартира",
+          "caption": "Apartment",
           "type": 1,
           "property": "flat",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Адрес, при отсутствии значений в справочниках",
+          "caption": "Address, if there are no values in the catalogs",
           "type": 1,
           "property": "adressValue",
           "size": 2,
@@ -160,7 +160,7 @@
           "selSorting": []
         },
         {
-          "caption": "Адрес на карте",
+          "caption": "Address on the map",
           "type": 100,
           "property": "map",
           "size": 2,
@@ -182,14 +182,14 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$adressValue"
           ],
           "selConditions": [],
           "selSorting": []
         },
         {
-          "caption": "Регион",
+          "caption": "Region",
           "type": 1,
           "property": "region",
           "size": 2,
@@ -215,7 +215,7 @@
           "selSorting": []
         },
         {
-          "caption": "Район",
+          "caption": "District",
           "type": 1,
           "property": "area",
           "size": 2,
@@ -241,7 +241,7 @@
           "selSorting": []
         },
         {
-          "caption": "Индекс",
+          "caption": "Postcode",
           "type": 14,
           "property": "index",
           "size": 2,
@@ -280,7 +280,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -290,7 +290,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -300,7 +300,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

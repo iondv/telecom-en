@@ -11,7 +11,7 @@ if (item.get('supOktmo')) {
   result.subtitle = item.property('supOktmo').evaluate() +'<br>';
 }
 if (item.get('chislennost')) {
-  result.subtitle += 'Численность '+ item.property('chislennost').evaluate() + ' чел.';
+  result.subtitle += 'Population '+ item.property('chislennost').evaluate() + ' ppl.';
 }
 
 let itemEducation = item.property('education').evaluate();
@@ -23,17 +23,17 @@ if (itemEducation) {
         result.education += '<b class="bg-gray">' + elem.get('name') + '</b>' + '<br>';
       }
       if (elem.get('address')) {
-        result.education += 'Адрес: ' + elem.property('address').evaluate() + '<br>';
+        result.education += 'Address: ' + elem.property('address').evaluate() + '<br>';
       }
       if (elem.get('internet')) {
-        result.education += 'Интернет: ' + elem.property('internet').evaluate() + '<br>';
+        result.education += 'Internet: ' + elem.property('internet').evaluate() + '<br>';
       }
       result.education += '<br>';
     }
   }
 }
 else {
-  result.education += '<b>' + 'Отсутствует' + '</b>';
+  result.education += '<b>' + 'Missing' + '</b>';
 }
 
 %>
@@ -67,7 +67,7 @@ else {
   <h3 class="report-subtitle"><%- result.subtitle %></h3>
 
   <div class="report-section">
-      <h3 class="report-section-title">Администрация</h3>
+      <h3 class="report-section-title">Administration</h3>
       <div class="report-section-body">
         <div class="report-item">
           <div class="bold"><%- result.admin %></div> 
@@ -82,7 +82,7 @@ else {
   <div class="report-content">
 
     <div class="report-section">
-      <h3 class="report-section-title">Образование</h3>
+      <h3 class="report-section-title">Education</h3>
       <div class="report-section-body">
         <div class="report-list">
           <div><%- result.education %></div>
@@ -95,7 +95,7 @@ else {
 </div>
 
 <div class="report-footer">
-  <button class="btn btn-close">Закрыть</button>
+  <button class="btn btn-close">Close</button>
 </div>
 </div>
 

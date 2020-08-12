@@ -4,7 +4,7 @@ let result = {
 }
 
 if (item.get('chislennost')) {
-  result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+  result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 %>
 
@@ -23,7 +23,7 @@ if (item.get('chislennost')) {
     let prop = elem.get('datePlan');
   if(prop !== null) {
     prop = moment(prop).format("DD.MM.YYYY");
-      %><%- ' Срок реализации: '+prop %><% } %>
+      %><%- ' Implementation period: '+prop %><% } %>
   </a>
   </li>
   <% } } %>

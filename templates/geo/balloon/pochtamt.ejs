@@ -11,7 +11,7 @@ if (coll && coll.length) {
     result.raionObslu += ' ' + elem.get('name') + '<br>';
   }
 } else {
-  result.raionObslu = 'нет';
+  result.raionObslu = 'no';
 }
 
 %>
@@ -19,13 +19,13 @@ if (coll && coll.length) {
 <ul class='balloon-attrlist' style='width:225px'>
   <li><b class='block mb10'><%- result.title %></b></li>
 
-  <li>Адрес:
+  <li>Address:
     <ul class='comma-list'>
       <li><br><%- result.address %></li>
     </ul>
   </li>
 
-  <li>Районы обслуживания:
+  <li>Service area:
     <ul class='comma-list'>
       <li><%- result.raionObslu %></li>
     </ul>
@@ -34,6 +34,6 @@ if (coll && coll.length) {
 </ul>
 <div>
   <button type='button' class='btn btn-sm btn-primary map-modal-link' data-type='url'
-          data-url='geomap/render/telecom-en/pochtamt/0/<%- item.id %>?template=geo/layers/pochtamt'>Подробно
+          data-url='geomap/render/telecom-en/pochtamt/0/<%- item.id %>?template=geo/layers/pochtamt'>In detail
   </button>
 </div>

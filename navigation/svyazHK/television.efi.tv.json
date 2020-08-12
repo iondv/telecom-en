@@ -2,7 +2,7 @@
   "code": "television.efi.tv",
   "orderNumber": 2,
   "type": 1,
-  "caption": "Паспорт ТВ",
+  "caption": "TV passport",
   "classname": "tv",
   "container": null,
   "collection": null,
