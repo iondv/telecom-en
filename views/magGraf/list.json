@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип маршрута",
+      "caption": "Route type",
       "type": 1,
       "property": "typeGraf",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Вид транспорта",
+      "caption": "Type of transport",
       "type": 1,
       "property": "typeTran",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Порядок движения в маршруте",
+      "caption": "Traffic pattern",
       "type": 3,
       "property": "trafficPattern",
       "size": 2,
@@ -114,7 +114,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -134,7 +134,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

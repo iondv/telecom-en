@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "naselenniyPunkt",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 5,
           "property": "operator",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Фото АМС",
+          "caption": "AMC photo",
           "type": 110,
           "property": "schems",
           "size": null,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Геокоординаты",
+          "caption": "Geo-coordinates",
           "type": 100,
           "property": "geocoord",
           "size": 2,
@@ -110,7 +110,7 @@
           "selSorting": null
         },
         {
-          "caption": "Вид АМС",
+          "caption": "Type of AMC",
           "type": 5,
           "property": "type",
           "size": 2,
@@ -136,7 +136,7 @@
           "selSorting": null
         },
         {
-          "caption": "Высота, м",
+          "caption": "Height, m",
           "type": 15,
           "property": "height",
           "size": 2,
@@ -162,7 +162,7 @@
           "selSorting": null
         },
         {
-          "caption": "Адрес",
+          "caption": "Address",
           "type": 1,
           "property": "adress",
           "size": 2,
@@ -201,7 +201,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -211,7 +211,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -221,7 +221,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

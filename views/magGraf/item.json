@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Тип маршрута",
+          "caption": "Route type",
           "type": 1,
           "property": "typeGraf",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Вид транспорта",
+          "caption": "Type of transport",
           "type": 0,
           "property": null,
           "size": 2,
@@ -63,7 +63,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Вид транспорта",
+              "caption": "Type of transport",
               "type": 1,
               "property": "typeTran",
               "size": 2,
@@ -88,7 +88,7 @@
               "tags": null
             },
             {
-              "caption": "Порядок движения в маршруте",
+              "caption": "Traffic pattern",
               "type": 3,
               "property": "trafficPattern",
               "size": 2,
@@ -100,7 +100,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Порядок",
+                  "caption": "Order",
                   "type": 14,
                   "property": "ordList",
                   "size": 2,
@@ -126,7 +126,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Секция схемы движения",
+                  "caption": "Traffic section",
                   "type": 2,
                   "property": "section",
                   "size": 2,
@@ -152,7 +152,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Расписание",
+                  "caption": "Schedule",
                   "type": 7,
                   "property": "frequency",
                   "size": 2,
@@ -250,7 +250,7 @@
           "tags": null
         },
         {
-          "caption": "Геообъект",
+          "caption": "GeoObject",
           "type": 100,
           "property": "geoobject",
           "size": 2,
@@ -288,7 +288,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -298,7 +298,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -308,7 +308,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

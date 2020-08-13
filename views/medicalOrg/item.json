@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Интернет в медицинской организации",
+          "caption": "Internet in a medical organization",
           "type": 3,
           "property": "internet",
           "size": 2,
@@ -15,7 +15,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Провайдер",
+              "caption": "Provider",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -42,7 +42,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип канала связи",
+              "caption": "Type of communication channel",
               "type": 2,
               "property": "typeTKS",
               "size": 2,
@@ -69,7 +69,7 @@
             },
             {
               "sorted": true,
-              "caption": "Емкость канала, Мбит/с",
+              "caption": "Channel capacity, Mbit/s",
               "type": 15,
               "property": "volum",
               "size": 2,
@@ -96,7 +96,7 @@
             },
             {
               "sorted": true,
-              "caption": "Стоимость р/мес.",
+              "caption": "Cost AU$/month",
               "type": 15,
               "property": "price",
               "size": 2,
@@ -123,7 +123,7 @@
             },
             {
               "sorted": true,
-              "caption": "Допустимая пропускная способность, МБит/с",
+              "caption": "Allowable bandwidth, Mbit/s",
               "type": 15,
               "property": "volumPerm",
               "size": 2,
@@ -166,7 +166,7 @@
           "selSorting": []
         },
         {
-          "caption": "Общие сведения",
+          "caption": "General information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -175,7 +175,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Населенный пункт",
+              "caption": "Locality",
               "type": 2,
               "property": "okato",
               "size": 2,
@@ -201,7 +201,7 @@
               "selSorting": []
             },
             {
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -227,7 +227,7 @@
               "selSorting": []
             },
             {
-              "caption": "Должностные лица",
+              "caption": "The officials",
               "type": 3,
               "property": "managers",
               "size": 2,
@@ -238,7 +238,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Должность",
+                  "caption": "Position",
                   "type": 1,
                   "property": "pos",
                   "size": 2,
@@ -265,7 +265,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "ФИО",
+                  "caption": "Full Name",
                   "type": 1,
                   "property": "fio",
                   "size": 2,
@@ -308,7 +308,7 @@
               "selSorting": []
             },
             {
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 2,
               "property": "address",
               "size": 2,
@@ -334,7 +334,7 @@
               "selSorting": []
             },
             {
-              "caption": "Координаты",
+              "caption": "Coordinates",
               "type": 100,
               "property": "geo",
               "size": 2,
@@ -356,14 +356,14 @@
               "hint": "",
               "historyDisplayMode": 0,
               "tags": [
-                "tryfind:Хабаровский край",
+                "tryfind:Australia",
                 "tryfind:$address"
               ],
               "selConditions": [],
               "selSorting": []
             },
             {
-              "caption": "Должностные лица",
+              "caption": "The officials",
               "type": 3,
               "property": "managers",
               "size": 2,
@@ -374,7 +374,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "ФИО",
+                  "caption": "Full Name",
                   "type": 1,
                   "property": "fio",
                   "size": 2,
@@ -401,7 +401,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Должность",
+                  "caption": "Position",
                   "type": 1,
                   "property": "pos",
                   "size": 2,
@@ -444,7 +444,7 @@
               "selSorting": []
             },
             {
-              "caption": "Ссылка на сайт",
+              "caption": "Link to website",
               "type": 17,
               "property": "urlweb",
               "size": 2,
@@ -488,7 +488,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сведения о медицинской организации",
+          "caption": "Information about the medical organization",
           "type": 0,
           "property": "",
           "size": 2,
@@ -497,7 +497,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Тип медицинской организации",
+              "caption": "Type of medical organization",
               "type": 2,
               "property": "typeMedicalOrg",
               "size": 2,
@@ -523,7 +523,7 @@
               "selSorting": []
             },
             {
-              "caption": "Ведомственная принадлежность",
+              "caption": "Departmental affiliation",
               "type": 1,
               "property": "vedomstvenOwn",
               "size": 2,
@@ -580,7 +580,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -590,7 +590,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -600,7 +600,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

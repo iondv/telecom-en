@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Сведения об администрации",
+          "caption": "Information about the administration",
           "type": 0,
           "property": "",
           "size": 2,
@@ -13,7 +13,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Администрация управляет населенным пунктом",
+              "caption": "Administration manages the locality",
               "type": 3,
               "property": "adminTerritory",
               "size": 2,
@@ -24,7 +24,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Наименование",
+                  "caption": "Name",
                   "type": 1,
                   "property": "name",
                   "size": 2,
@@ -51,7 +51,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Вышестоящее мун. образ.",
+                  "caption": "Superior municipality",
                   "type": 2,
                   "property": "supOktmo",
                   "size": 2,
@@ -78,7 +78,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Административный район",
+                  "caption": "Administrative district",
                   "type": 3,
                   "property": "adminMun",
                   "size": 2,
@@ -105,7 +105,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Численность",
+                  "caption": "Population",
                   "type": 2,
                   "property": "chislennost",
                   "size": 2,
@@ -148,7 +148,7 @@
               "selSorting": []
             },
             {
-              "caption": "Администрация управляет муниципальным районом/городским округом",
+              "caption": "Administration manages the municipal district/urban district",
               "type": 3,
               "property": "linkMunRaion",
               "size": 2,
@@ -159,7 +159,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "ОКТМО",
+                  "caption": "RNCMT",
                   "type": 1,
                   "property": "oktmo",
                   "size": 2,
@@ -186,7 +186,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Наименование",
+                  "caption": "Name",
                   "type": 1,
                   "property": "name",
                   "size": 2,
@@ -213,7 +213,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Численность",
+                  "caption": "Population",
                   "type": 14,
                   "property": "chislennost",
                   "size": 2,
@@ -240,7 +240,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Администрация района",
+                  "caption": "Administrative district",
                   "type": 2,
                   "property": "admin",
                   "size": 2,
@@ -283,7 +283,7 @@
               "selSorting": []
             },
             {
-              "caption": "Дата изменения",
+              "caption": "Date of change",
               "type": 120,
               "property": "dateModified",
               "size": 2,
@@ -327,7 +327,7 @@
           "selSorting": []
         },
         {
-          "caption": "Интернет администрации",
+          "caption": "Internet of administration",
           "type": 3,
           "property": "internet",
           "size": 2,
@@ -338,7 +338,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Провайдер",
+              "caption": "Provider",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -365,7 +365,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип канала связи",
+              "caption": "Type of communication channel",
               "type": 2,
               "property": "typeTKS",
               "size": 2,
@@ -392,7 +392,7 @@
             },
             {
               "sorted": true,
-              "caption": "Емкость канала, Мбит/с",
+              "caption": "Channel capacity, Mbit/s",
               "type": 15,
               "property": "volum",
               "size": 2,
@@ -435,7 +435,7 @@
           "selSorting": []
         },
         {
-          "caption": "Общие сведения об организации",
+          "caption": "General information about organization",
           "type": 0,
           "property": "",
           "size": 2,
@@ -444,7 +444,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Тип территории",
+              "caption": "Type of territory",
               "type": 1,
               "property": "typeTerr",
               "size": 2,
@@ -470,7 +470,7 @@
               "selSorting": []
             },
             {
-              "caption": "Административный центр населенного пункта",
+              "caption": "Administrative center of the locality",
               "type": 2,
               "property": "centNasPunkt",
               "size": 2,
@@ -496,7 +496,7 @@
               "selSorting": []
             },
             {
-              "caption": "Должностные лица",
+              "caption": "The officials",
               "type": 3,
               "property": "managers",
               "size": 2,
@@ -507,7 +507,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "ФИО",
+                  "caption": "Full Name",
                   "type": 1,
                   "property": "fio",
                   "size": 2,
@@ -534,7 +534,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Должность",
+                  "caption": "Position",
                   "type": 1,
                   "property": "pos",
                   "size": 2,
@@ -577,7 +577,7 @@
               "selSorting": []
             },
             {
-              "caption": "Материалы о территории",
+              "caption": "Materials on the territory",
               "type": 110,
               "property": "schems",
               "size": 2,
@@ -603,7 +603,7 @@
               "selSorting": []
             },
             {
-              "caption": "Координаты",
+              "caption": "Coordinates",
               "type": 100,
               "property": "geo",
               "size": 2,
@@ -625,14 +625,14 @@
               "hint": "",
               "historyDisplayMode": 0,
               "tags": [
-                "tryfind:Хабаровский край",
+                "tryfind:Australia",
                 "tryfind:$address"
               ],
               "selConditions": [],
               "selSorting": []
             },
             {
-              "caption": "Ссылка на сайт",
+              "caption": "Link to web site",
               "type": 17,
               "property": "urlweb",
               "size": 2,
@@ -658,7 +658,7 @@
               "selSorting": []
             },
             {
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 2,
               "property": "address",
               "size": 2,
@@ -684,7 +684,7 @@
               "selSorting": []
             },
             {
-              "caption": "Административный центр района/городского округа",
+              "caption": "Administrative center of the region/urban district",
               "type": 2,
               "property": "centMunRaion",
               "size": 2,
@@ -741,7 +741,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -751,7 +751,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -761,7 +761,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

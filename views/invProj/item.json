@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Наименование проекта",
+          "caption": "Project name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Отрасль",
+          "caption": "Sector",
           "type": 5,
           "property": "sectorInv",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Стадия проекта",
+          "caption": "Project stage",
           "type": 5,
           "property": "stage",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Муниципальное образование",
+          "caption": "Municipality",
           "type": 5,
           "property": "mo",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Описание проекта",
+          "caption": "Project description",
           "type": 7,
           "property": "product",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": null
         },
         {
-          "caption": "Объем инвестирования, млн руб",
+          "caption": "Investment amount, AU$ million",
           "type": 15,
           "property": "inv",
           "size": 2,
@@ -160,7 +160,7 @@
           "selSorting": null
         },
         {
-          "caption": "Потребность в дополнительных инвестициях",
+          "caption": "Need for additional investment",
           "type": 1,
           "property": "additional",
           "size": 2,
@@ -186,7 +186,7 @@
           "selSorting": null
         },
         {
-          "caption": "Начало строительства",
+          "caption": "Start of construction",
           "type": 120,
           "property": "dataBuild",
           "size": 2,
@@ -212,7 +212,7 @@
           "selSorting": null
         },
         {
-          "caption": "Ввод в эксплуатацию",
+          "caption": "Commissioning",
           "type": 120,
           "property": "dataCommis",
           "size": 2,
@@ -238,7 +238,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество создаваемых рабочих мест",
+          "caption": "Number of created jobs",
           "type": 14,
           "property": "jobs",
           "size": 2,
@@ -264,7 +264,7 @@
           "selSorting": null
         },
         {
-          "caption": "Проектная мощность",
+          "caption": "Project capacity",
           "type": 1,
           "property": "projCap",
           "size": 2,
@@ -290,7 +290,7 @@
           "selSorting": null
         },
         {
-          "caption": "Web-сайт",
+          "caption": "Website",
           "type": 17,
           "property": "web",
           "size": 2,
@@ -316,7 +316,7 @@
           "selSorting": null
         },
         {
-          "caption": "Ссылка на инвестпортал",
+          "caption": "Link to investment portal",
           "type": 17,
           "property": "linkInv",
           "size": 2,
@@ -342,7 +342,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дополнительная информация",
+          "caption": "Additional Information",
           "type": 7,
           "property": "add",
           "size": 2,
@@ -368,7 +368,7 @@
           "selSorting": null
         },
         {
-          "caption": "Приложения (документы)",
+          "caption": "Attachments (documents)",
           "type": 110,
           "property": "app",
           "size": 2,
@@ -394,7 +394,7 @@
           "selSorting": null
         },
         {
-          "caption": "Фото",
+          "caption": "Photo",
           "type": 13,
           "property": "foto",
           "size": 2,
@@ -420,7 +420,7 @@
           "selSorting": null
         },
         {
-          "caption": "Гео",
+          "caption": "Geo",
           "type": 100,
           "property": "geoObj",
           "size": 2,
@@ -442,14 +442,14 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$placeImp"
           ],
           "selConditions": null,
           "selSorting": null
         },
         {
-          "caption": "Статус проекта",
+          "caption": "Project status",
           "type": 5,
           "property": "status",
           "size": 2,
@@ -475,7 +475,7 @@
           "selSorting": null
         },
         {
-          "caption": "Место реализации",
+          "caption": "Location",
           "type": 1,
           "property": "placeImp",
           "size": 2,
@@ -501,7 +501,7 @@
           "selSorting": null
         },
         {
-          "caption": "Срок окупаемости, лет",
+          "caption": "Payback period, years",
           "type": 1,
           "property": "payback",
           "size": 2,
@@ -527,7 +527,7 @@
           "selSorting": null
         },
         {
-          "caption": "Этапы реализации",
+          "caption": "Implementation stages",
           "type": 7,
           "property": "implSteps",
           "size": 2,
@@ -553,7 +553,7 @@
           "selSorting": null
         },
         {
-          "caption": "Формы государственной поддержки",
+          "caption": "Forms of state support",
           "type": 7,
           "property": "stateSupport",
           "size": 2,
@@ -579,7 +579,7 @@
           "selSorting": null
         },
         {
-          "caption": "Обеспеченность сырьем, материалами",
+          "caption": "Provision of raw materials",
           "type": 7,
           "property": "provisionMaterial",
           "size": 2,
@@ -605,7 +605,7 @@
           "selSorting": null
         },
         {
-          "caption": "Потенциальные потребители",
+          "caption": "Potential customers",
           "type": 7,
           "property": "potentialCustomer",
           "size": 2,
@@ -633,7 +633,7 @@
       ],
       "shortFields": [
         {
-          "caption": "Наименование инвестиционного проекта",
+          "caption": "Name of the investment project",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -659,7 +659,7 @@
           "selSorting": null
         },
         {
-          "caption": "Объем инвестирования, млн руб",
+          "caption": "Investment amount, million AU$",
           "type": 15,
           "property": "inv",
           "size": 2,
@@ -685,7 +685,7 @@
           "selSorting": null
         },
         {
-          "caption": "Потребность в дополнительных инвестициях",
+          "caption": "Need for additional investment",
           "type": 1,
           "property": "additional",
           "size": 2,
@@ -711,7 +711,7 @@
           "selSorting": null
         },
         {
-          "caption": "Компания инициатор",
+          "caption": "Initiator company",
           "type": 5,
           "property": "org",
           "size": 2,
@@ -737,7 +737,7 @@
           "selSorting": null
         },
         {
-          "caption": "Контакты инициатора",
+          "caption": "Initiator contacts",
           "type": 3,
           "property": "contInit",
           "size": 2,
@@ -748,7 +748,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "ФИО\\Адрес",
+              "caption": "Full Name/Address",
               "type": 1,
               "property": "fio",
               "size": 2,
@@ -775,7 +775,7 @@
             },
             {
               "sorted": true,
-              "caption": "Должность",
+              "caption": "Position",
               "type": 1,
               "property": "position",
               "size": 2,
@@ -802,7 +802,7 @@
             },
             {
               "sorted": true,
-              "caption": "Телефон\\Факс",
+              "caption": "Phone number/Fax",
               "type": 1,
               "property": "phone",
               "size": 2,
@@ -845,7 +845,7 @@
           "selSorting": null
         },
         {
-          "caption": "Документы",
+          "caption": "Documents",
           "type": 110,
           "property": "app",
           "size": 2,
@@ -871,7 +871,7 @@
           "selSorting": null
         },
         {
-          "caption": "Фотографии",
+          "caption": "Photos",
           "type": 13,
           "property": "foto",
           "size": 2,
@@ -897,7 +897,7 @@
           "selSorting": null
         },
         {
-          "caption": "Статус проекта",
+          "caption": "Project status",
           "type": 5,
           "property": "status",
           "size": 2,
@@ -923,7 +923,7 @@
           "selSorting": null
         },
         {
-          "caption": "Место реализации",
+          "caption": "Location",
           "type": 1,
           "property": "placeImp",
           "size": 2,
@@ -975,7 +975,7 @@
           "selSorting": null
         },
         {
-          "caption": "Срок окупаемости, лет",
+          "caption": "Payback period, years",
           "type": 1,
           "property": "payback",
           "size": 2,
@@ -1001,7 +1001,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дополнительная информация",
+          "caption": "Additional Information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -1010,7 +1010,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Описание",
+              "caption": "Description",
               "type": 7,
               "property": "product",
               "size": 2,
@@ -1036,7 +1036,7 @@
               "selSorting": null
             },
             {
-              "caption": "Этапы реализации",
+              "caption": "Implementation stages",
               "type": 7,
               "property": "implSteps",
               "size": 2,
@@ -1062,7 +1062,7 @@
               "selSorting": null
             },
             {
-              "caption": "Формы государственной поддержки",
+              "caption": "Forms of state support",
               "type": 7,
               "property": "stateSupport",
               "size": 2,
@@ -1088,7 +1088,7 @@
               "selSorting": null
             },
             {
-              "caption": "Проектная мощность",
+              "caption": "Project capacity",
               "type": 1,
               "property": "projCap",
               "size": 2,
@@ -1114,7 +1114,7 @@
               "selSorting": null
             },
             {
-              "caption": "Обеспеченность сырьем, материалами",
+              "caption": "Provision of raw materials",
               "type": 7,
               "property": "provisionMaterial",
               "size": 2,
@@ -1140,7 +1140,7 @@
               "selSorting": null
             },
             {
-              "caption": "Количество создаваемых рабочих мест",
+              "caption": "Number of created jobs",
               "type": 14,
               "property": "jobs",
               "size": 2,
@@ -1166,7 +1166,7 @@
               "selSorting": null
             },
             {
-              "caption": "Потенциальные потребители",
+              "caption": "Potential customers",
               "type": 7,
               "property": "potentialCustomer",
               "size": 2,
@@ -1222,7 +1222,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1232,7 +1232,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1242,7 +1242,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

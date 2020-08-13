@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Класс",
+          "caption": "Class",
           "type": 1,
           "property": "clas",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Классификация отделений почтовой связи ФГУП Почта России",
+          "caption": "Classification of post offices",
           "type": 7,
           "property": "clasific",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Режим работы",
+          "caption": "Working hours",
           "type": 7,
           "property": "rabota",
           "size": 2,
@@ -79,7 +79,7 @@
           "tags": null
         },
         {
-          "caption": "Услуги",
+          "caption": "Services",
           "type": 7,
           "property": "uslugi",
           "size": 2,
@@ -111,7 +111,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

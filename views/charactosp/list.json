@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Класс",
+      "caption": "Class",
       "type": 1,
       "property": "clas",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Классификация отделений почтовой связи ФГУП Почта России",
+      "caption": "Classification of post offices",
       "type": 7,
       "property": "clasific",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Режим работы",
+      "caption": "Working hours",
       "type": 7,
       "property": "rabota",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Услуги",
+      "caption": "Services",
       "type": 7,
       "property": "uslugi",
       "size": 2,
@@ -114,7 +114,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -134,7 +134,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

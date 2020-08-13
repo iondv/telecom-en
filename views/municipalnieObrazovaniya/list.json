@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "ОКТМО",
+      "caption": "RNCMT",
       "type": 1,
       "property": "oktmo",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Численность",
+      "caption": "Population",
       "type": 14,
       "property": "chislennost",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": null,
-      "caption": "Администрация района",
+      "caption": "Region administration",
       "type": 2,
       "property": "admin",
       "size": 2,
@@ -114,7 +114,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -134,7 +134,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

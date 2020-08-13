@@ -1,10 +1,10 @@
 {
   "tabs": [
     {
-      "caption": "Основные сведения",
+      "caption": "Basic information",
       "fullFields": [
         {
-          "caption": "Наименование",
+          "caption": "Name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Подтип",
+          "caption": "Subtype",
           "type": 5,
           "property": "type",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Статус",
+          "caption": "Status",
           "type": 5,
           "property": "state",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Описание",
+          "caption": "Description",
           "type": 7,
           "property": "about",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Фактический адрес",
+          "caption": "Actual address",
           "type": 2,
           "property": "address",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Координаты",
+          "caption": "Coordinates",
           "type": 100,
           "property": "geo",
           "size": 2,
@@ -156,14 +156,14 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$address"
           ],
           "selConditions": [],
           "selSorting": []
         },
         {
-          "caption": "Юридический адрес",
+          "caption": "Legal address",
           "type": 2,
           "property": "urAddr",
           "size": 2,
@@ -215,7 +215,7 @@
           "selSorting": []
         },
         {
-          "caption": "Количество учащихся",
+          "caption": "Number of students",
           "type": 14,
           "property": "students",
           "size": 2,
@@ -241,7 +241,7 @@
           "selSorting": []
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okato",
           "size": 2,
@@ -267,7 +267,7 @@
           "selSorting": []
         },
         {
-          "caption": "Плановая дата ввода в эксплуатацию",
+          "caption": "Planned commissioning date",
           "type": 120,
           "property": "plannedDate",
           "size": 2,
@@ -291,7 +291,7 @@
           "tags": null
         },
         {
-          "caption": "Дата ввода в эксплуатацию",
+          "caption": "Commissioning date",
           "type": 120,
           "property": "dateExploitation",
           "size": 2,
@@ -315,7 +315,7 @@
           "tags": null
         },
         {
-          "caption": "Вывод из эксплуатации",
+          "caption": "Decommissioning",
           "type": 120,
           "property": "dateRemoval",
           "size": 2,
@@ -339,7 +339,7 @@
           "tags": null
         },
         {
-          "caption": "Подключен",
+          "caption": "Connected",
           "type": 4,
           "property": "connected",
           "size": 2,
@@ -365,7 +365,7 @@
           "selSorting": null
         },
         {
-          "caption": "Ближайшая РТРС",
+          "caption": "The closest RTRN",
           "type": 5,
           "property": "rtrs",
           "size": 2,
@@ -391,7 +391,7 @@
           "selSorting": []
         },
         {
-          "caption": "Расстояние до ближайшего РТРС (км)",
+          "caption": "Distance to the nearest RTRN (km)",
           "type": 15,
           "property": "distanceToRtrs",
           "size": 2,
@@ -420,10 +420,10 @@
       "shortFields": []
     },
     {
-      "caption": "Дополнительные сведения",
+      "caption": "Additional Information",
       "fullFields": [
         {
-          "caption": "Материалы об организации",
+          "caption": "Materials on the organization",
           "type": 110,
           "property": "schems",
           "size": 2,
@@ -449,7 +449,7 @@
           "selSorting": []
         },
         {
-          "caption": "Должностные лица",
+          "caption": "The officials",
           "type": 3,
           "property": "managers",
           "size": 2,
@@ -460,7 +460,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "ФИО",
+              "caption": "Full Name",
               "type": 1,
               "property": "fio",
               "size": 2,
@@ -487,7 +487,7 @@
             },
             {
               "sorted": true,
-              "caption": "Должность",
+              "caption": "Position",
               "type": 1,
               "property": "pos",
               "size": 2,
@@ -530,7 +530,7 @@
           "selSorting": []
         },
         {
-          "caption": "Ссылка на сайт",
+          "caption": "Link to website",
           "type": 17,
           "property": "urlweb",
           "size": 2,
@@ -556,7 +556,7 @@
           "selSorting": []
         },
         {
-          "caption": "Интернет в образовательной организации",
+          "caption": "Internet in educational organization",
           "type": 3,
           "property": "internet",
           "size": 2,
@@ -567,7 +567,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Провайдер",
+              "caption": "Provider",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -594,7 +594,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип канала связи",
+              "caption": "Type of communication channel",
               "type": 2,
               "property": "typeTKS",
               "size": 2,
@@ -621,7 +621,7 @@
             },
             {
               "sorted": true,
-              "caption": "Емкость канала, Мбит/с",
+              "caption": "Channel capacity, Mbit/s",
               "type": 15,
               "property": "volum",
               "size": 2,
@@ -648,7 +648,7 @@
             },
             {
               "sorted": true,
-              "caption": "Стоимость р/мес.",
+              "caption": "Cost AU$/month",
               "type": 15,
               "property": "price",
               "size": 2,
@@ -675,7 +675,7 @@
             },
             {
               "sorted": true,
-              "caption": "Допустимая пропускная способность, МБит/с",
+              "caption": "Allowable bandwidth, Mbit/s",
               "type": 15,
               "property": "volumPerm",
               "size": 2,
@@ -705,7 +705,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": "",
               "enableCondition": "",
               "needSelectedItem": false,
@@ -715,7 +715,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": "",
               "enableCondition": "",
               "needSelectedItem": true,
@@ -725,7 +725,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -762,7 +762,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -772,7 +772,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

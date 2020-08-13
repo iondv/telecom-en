@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Должностное лицо",
+          "caption": "The official",
           "type": 0,
           "property": "",
           "size": 2,
@@ -13,7 +13,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "ФИО",
+              "caption": "Full Name",
               "type": 1,
               "property": "fio",
               "size": 2,
@@ -39,7 +39,7 @@
               "selSorting": null
             },
             {
-              "caption": "Должность",
+              "caption": "Position",
               "type": 1,
               "property": "pos",
               "size": 2,
@@ -65,7 +65,7 @@
               "selSorting": null
             },
             {
-              "caption": "Организация",
+              "caption": "Organization",
               "type": 5,
               "property": "organizations",
               "size": 2,
@@ -109,7 +109,7 @@
           "selSorting": null
         },
         {
-          "caption": "Контакты",
+          "caption": "Contacts",
           "type": 0,
           "property": "",
           "size": 2,
@@ -118,7 +118,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Рабочий телефон",
+              "caption": "Office phone number",
               "type": 1,
               "property": "tel",
               "size": 2,
@@ -144,7 +144,7 @@
               "selSorting": null
             },
             {
-              "caption": "Мобильный телефон",
+              "caption": "Mobile phone number",
               "type": 1,
               "property": "telMobile",
               "size": 2,
@@ -196,7 +196,7 @@
               "selSorting": null
             },
             {
-              "caption": "Факс",
+              "caption": "Fax",
               "type": 1,
               "property": "fax",
               "size": 2,
@@ -253,7 +253,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -263,7 +263,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

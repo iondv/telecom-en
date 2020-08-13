@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Провайдер",
+      "caption": "Provider",
       "type": 2,
       "property": "operator",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип канала связи",
+      "caption": "Type of communication channel",
       "type": 2,
       "property": "typeTKS",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Емкость канала, Мбит/с",
+      "caption": "Channel capacity, Mbit/s",
       "type": 15,
       "property": "volum",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModified",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Стоимость р/мес.",
+      "caption": "Cost AU$/month",
       "type": 15,
       "property": "price",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Допустимая пропускная способность, МБит/с",
+      "caption": "Allowable bandwidth, Mbit/s",
       "type": 15,
       "property": "volumPerm",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Организация",
+      "caption": "Organization",
       "type": 2,
       "property": "admin",
       "size": 2,
@@ -199,7 +199,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -219,7 +219,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
