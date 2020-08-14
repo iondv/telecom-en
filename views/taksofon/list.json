@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 2,
       "property": "operator",
       "size": 2,

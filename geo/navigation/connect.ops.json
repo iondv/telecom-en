@@ -3,8 +3,8 @@
   "order": 50,
   "code": "connect.ops",
   "parent": "connect",
-  "caption": "Почта",
-  "hint": "Услуги почтовой связи в Хабаровском крае",
+  "caption": "Post",
+  "hint": "Postal services in Australia",
   "layers": [
     "ops",
     "pochtamt",
@@ -12,10 +12,10 @@
   ],
   "filter": [
     {
-      "caption": "Тип ОПС",
+      "caption": "Type of operational and post services",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "ops@telecom-en",
@@ -23,33 +23,33 @@
           "values": [
             {
               "value": "a",
-              "label": "ГОПС"
+              "label": "Сity post office"
             },
             {
               "value": "b",
-              "label": "СОПС"
+              "label": "Operational and post services"
             },
             {
               "value": "c",
-              "label": "ПОПС"
+              "label": "Mobile post office"
             },
             {
               "value": "d",
-              "label": "Почтамт"
+              "label": "Post Office"
             },
             {
               "value": "msc",
-              "label": "МСЦ"
+              "label": "Main mail sorting center"
             }
           ]
         }
       ]
     },
     {
-      "caption": "Класс ОПС",
+      "caption": "Class of post offices",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",
@@ -66,10 +66,10 @@
       ]
     },
     {
-      "caption": "Почтамт",
+      "caption": "Post Office",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",

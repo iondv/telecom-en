@@ -3,17 +3,17 @@
   "order": 10,
   "code": "connect.internet.internet",
   "parent": "connect.internet",
-  "caption": "Проводной ШПД",
-  "hint": "Услуги Проводного ШПД в Хабаровском крае",
+  "caption": "Wired BIA",
+  "hint": "Wired BIA services in Australia",
   "layers": [
     "internet"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

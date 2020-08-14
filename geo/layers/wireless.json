@@ -1,8 +1,8 @@
 {
   "code": "wireless",
   "order": 1,
-  "caption": "Беспроводной ШПД",
-  "hint": "Беспроводной ШПД",
+  "caption": "Wireless BIA",
+  "hint": "Wireless BIA",
   "data": [
     {
       "type": "Point",

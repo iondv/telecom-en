@@ -56,19 +56,15 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Отсутствует
+            expr: Missing
   - name: mobiles
     caption: Provision of mobile communications in locality
     load:
       - className: mobile
         filter:
           and:
-          - in:
-            - $mobileOperator.id
-            -
-              - f60cd3c70114e4f4251bbd19
-              - c252955203d622ba41f6c596
-              - 295b279e010fc01f336ba937
+          - nempty:
+            - $mobileOperator
           - contains:
             - $mobileStandart
             - in:
@@ -77,8 +73,6 @@ sources:
                 - 2G
                 - 3G
                 - 4G
-                - partially
-                - femto
         results:
           - field: okato
             expr: $okato.okato.okato
@@ -278,7 +272,7 @@ sources:
               - $analogTV
               - eq:
                 - $name.name
-                - Губерния
+                - Optus TV
         results:
           - field: city
             expr: $okato.name
@@ -336,26 +330,6 @@ sources:
             expr: Radio broadcasting is on
       - className: svyaz
         filter:
-          contains:
-            - $radio
-            - contains:
-              - $radioCanals
-              - like:
-                - $name.name
-                - Восток Рос
-        results:
-          - field: city
-            expr: $okato.name
-          - field: oktmo
-            expr: $okato.supOktmo.oktmo
-          - field: area
-            expr: $okato.supOktmo.name
-          - field: population
-            expr: $okato.chislennost.chislennost
-          - field: service
-            expr: Восток России
-      - className: svyaz
-        filter:
           not:
             - contains:
               - $radio
@@ -371,9 +345,9 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
           - field: service
-            expr: Отсутствует
+            expr: Missing
   - name: ops
-    caption: Почтовая связь
+    caption: Post communication
     load:
       - className: svyaz
         filter:
@@ -390,7 +364,7 @@ sources:
           - field: area
             expr: $okato.supOktmo.name
           - field: service
-            expr: Городские
+            expr: Urban
       - className: svyaz
         filter:
           contains:
@@ -406,9 +380,9 @@ sources:
           - field: area
             expr: $okato.supOktmo.name
           - field: service
-            expr: Сельские
+            expr: Rural
   - name: population
-    caption: Население
+    caption: Population
     load:
       - className: svyaz
         results:
@@ -421,7 +395,7 @@ sources:
           - field: population
             expr: $okato.chislennost.chislennost
   - name: serviceGrid
-    caption: Сетка сервисов по н.п.
+    caption: Grid of services by settlements
     load:
       - className: svyaz
         results:
@@ -445,20 +419,16 @@ sources:
               sum:
                 - if:
                   - and:
-                      - in:
-                        - $mobile.mobileOperator.id
-                        -
-                          - f60cd3c70114e4f4251bbd19
-                          - c252955203d622ba41f6c596
-                          - 295b279e010fc01f336ba937
+                      - contains:
+                        - $mobile
+                        - nempty:
+                          - $mobileOperator
                       - in:
                         - $mobile.mobileStandart.standart
                         -
                           - 2G
                           - 3G
                           - 4G
-                          - частично
-                          - фемто
                   - 1
                   - 0
           - field: line
@@ -527,10 +497,10 @@ sources:
                   - 0
 reports:
   - name: pivotArea
-    caption: Сводный по краю
+    caption: Cumulated by region
     sheets:
       - name: stationArea
-        caption: Стационарная связь по краю
+        caption: Stationary communication by region
         type: aggregation
         source: station
         fetch:
@@ -544,20 +514,20 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           service: asc
         columns:
           - field: service
-            caption: Стационарная связь
+            caption: Stationary communication
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           totals:
@@ -573,7 +543,7 @@ reports:
                     sum:
                       - $population
             - name: areaStationAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -592,7 +562,7 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
       - name: mobileArea
-        caption: Мобильная связь по краю
+        caption: Mobile communication by region
         type: aggregation
         source: mobile
         fetch:
@@ -606,20 +576,20 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           service: asc
         columns:
           - field: service
-            caption: Мобильная связь
+            caption: Mobile communication
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           totals:
@@ -635,7 +605,7 @@ reports:
                     sum:
                       - $population
             - name: areaMobileAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -654,7 +624,7 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
       - name: internetArea
-        caption: Доступ к интернет по краю
+        caption: Internet access by region
         type: aggregation
         source: internet
         fetch:
@@ -668,25 +638,25 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           service: desc
         columns:
           - field: service
-            caption: Интернет
+            caption: Internet
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           totals:
             - name: areaInternet
-              caption: Всего
+              caption: Total
               query:
                 source: serviceGrid
                 filter:
@@ -719,7 +689,7 @@ reports:
                     sum:
                       - $population
             - name: areaInternetAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -745,7 +715,7 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
       - name: tvArea
-        caption: Телевидение по краю
+        caption: Television by region
         type: aggregation
         source: television
         fetch:
@@ -759,20 +729,20 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           service: desc
         columns:
           - field: service
-            caption: Телевидение
+            caption: Television
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           totals:
@@ -788,7 +758,7 @@ reports:
                     sum:
                       - $population
             - name: areaTelevisionAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -811,7 +781,7 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
       - name: radioArea
-        caption: Радиовещание по краю
+        caption: Radio broadcasting by region
         type: aggregation
         source: radio
         fetch:
@@ -825,20 +795,20 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           service: asc
         columns:
           - field: service
-            caption: Радиовещание
+            caption: Radio broadcasting
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           totals:
@@ -854,7 +824,7 @@ reports:
                     sum:
                       - $population
             - name: areaRadioAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -873,7 +843,7 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
       - name: opsArea
-        caption: Почтовая связь по краю
+        caption: Post communication by region
         type: aggregation
         source: ops
         fetch:
@@ -885,14 +855,14 @@ reports:
           service: desc
         columns:
           - field: service
-            caption: ОПС
+            caption: Post offices
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
         groups:
           totals:
             - name: areaOps
-              caption: Всего
+              caption: Total
               query:
                 source: serviceGrid
                 filter:
@@ -908,10 +878,10 @@ reports:
                     count:
                       - 1
   - name: stationArea
-    caption: Стационарная связь
+    caption: Stationary communication
     sheets:
       - name: stationArea
-        caption: Стационарная связь по районам
+        caption: Stationary communication by region
         type: aggregation
         source: station
         fetch:
@@ -927,24 +897,24 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           area: asc
           service: asc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: Стационарная связь
+            caption: Stationary communication
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           fields:
@@ -964,7 +934,7 @@ reports:
                     sum:
                       - $population
             - name: areaStationAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -985,10 +955,10 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
   - name: mobileArea
-    caption: Мобильная связь
+    caption: Mobile communication
     sheets:
       - name: mobileArea
-        caption: Мобильная связь по районам
+        caption: Mobile communication by region
         type: aggregation
         source: mobile
         fetch:
@@ -1004,24 +974,24 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           area: asc
           service: asc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: Мобильная связь
+            caption: Mobile communication
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           fields:
@@ -1041,7 +1011,7 @@ reports:
                     sum:
                       - $population
             - name: areaMobileAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -1062,10 +1032,10 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
   - name: internetArea
-    caption: Доступ к Интернет
+    caption: Internet access
     sheets:
       - name: internetArea
-        caption: Доступ к интернет по районам
+        caption: Internet access by districts
         type: aggregation
         source: internet
         fetch:
@@ -1081,32 +1051,32 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           area: asc
           service: desc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: Интернет
+            caption: Internet
             filter: true
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           fields:
             - area
           totals:
             - name: areaInternet
-              caption: Всего
+              caption: Total
               query:
                 source: serviceGrid
                 filter:
@@ -1143,7 +1113,7 @@ reports:
                     sum:
                       - $population
             - name: areaInternetAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -1171,10 +1141,10 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
   - name: tvArea
-    caption: Телевидение
+    caption: Television
     sheets:
       - name: tvArea
-        caption: Телевидение по районам
+        caption: Television by districts
         type: aggregation
         source: television
         fetch:
@@ -1190,25 +1160,25 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           area: asc
           service: desc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: Телевидение
+            caption: Television
             filter: true
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           fields:
@@ -1228,7 +1198,7 @@ reports:
                     sum:
                       - $population
             - name: areaTelevisionAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -1253,10 +1223,10 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
   - name: radioArea
-    caption: Радиовещание
+    caption: Radio broadcasting
     sheets:
       - name: radioArea
-        caption: Радиовещание по районам
+        caption: Radio broadcasting by districts
         type: aggregation
         source: radio
         fetch:
@@ -1272,25 +1242,25 @@ reports:
         filter:
           ne:
             - $service
-            - Отсутствует
+            - Missing
         sort:
           area: asc
           service: asc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: Радиовещание
+            caption: Radio broadcasting
             filter: true
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
           - field: population
-            caption: Проживает чел.
+            caption: Lives ppl.
             format: number
           - field: fraction
-            caption: Проживает %
+            caption: Lives %
             format: number
         groups:
           fields:
@@ -1310,7 +1280,7 @@ reports:
                     sum:
                       - $population
             - name: areaRadioAbsent
-              caption: Отсутствует
+              caption: Missing
               alarm: true
               query:
                 source: serviceGrid
@@ -1331,10 +1301,10 @@ reports:
           fraction: >-
             concat(round(mul(div($population, $areaPopulation.population), 100), 2), %)
   - name: opsArea
-    caption: Почтовая связь
+    caption: Post communication
     sheets:
       - name: opsArea
-        caption: Почтовая связь по районам
+        caption: Post communication by region
         type: aggregation
         source: ops
         fetch:
@@ -1349,20 +1319,20 @@ reports:
           service: desc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: service
-            caption: ОПС
+            caption: Operational and post services
             filter: true
           - field: cities
-            caption: Количество н.п.
+            caption: Number of settlements
             format: number
         groups:
           fields:
             - area
           totals:
             - name: areaOps
-              caption: Всего
+              caption: Total
               query:
                 source: serviceGrid
                 filter:
@@ -1380,10 +1350,10 @@ reports:
                     count:
                       - 1
   - name: internetInAdministartions
-    caption: Интернет в администрациях
+    caption: Internet in administrations
     sheets:
       - name: internetInAdministartions
-        caption: Наличие доступа к интернету в администрациях
+        caption: Availability of Internet access in administrations
         type: aggregation
         source: internetInAdministartion
         fetch:
@@ -1396,17 +1366,17 @@ reports:
           area: asc
         columns:
           - field: area
-            caption: Район
+            caption: District
             filter: true
           - field: locality
-            caption: Администрация
+            caption: Administration
           - field: operator
-            caption: Оператор
+            caption: Operator
             filter: true
           - field: channelLink
-            caption: Тип канала связи
+            caption: Type of communication channel
           - field: capacity
-            caption: Ёмкость
+            caption: Capacity
             format: number
         groups:
           fields:

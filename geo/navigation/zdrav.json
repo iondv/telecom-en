@@ -2,17 +2,17 @@
   "type": "data",
   "order": 5,
   "code": "zdrav",
-  "caption": "Здравоохранение",
-  "hint": "Здравоохранение",
+  "caption": "Health care",
+  "hint": "Health care",
   "layers": [
     "zdrav"
   ],
   "filter": [
     {
-      "caption": "Медицинская организация",
+      "caption": "Medical organization",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "zdrav@telecom-en",

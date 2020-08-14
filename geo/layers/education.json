@@ -1,8 +1,8 @@
 {
   "code": "education",
   "order": 0,
-  "caption": "Образование",
-  "hint": "Образование",
+  "caption": "Education",
+  "hint": "Education",
   "data": [
     {
       "type": "Point",

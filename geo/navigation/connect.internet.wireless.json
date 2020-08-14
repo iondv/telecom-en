@@ -3,17 +3,17 @@
   "order": 20,
   "code": "connect.internet.wireless",
   "parent": "connect.internet",
-  "caption": "Беспроводной ШПД",
-  "hint": "Услуги Беспроводного ШПД в Хабаровском крае",
+  "caption": "Wireless BIA",
+  "hint": "Wireless BIA services in Australia",
   "layers": [
     "wireless"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

@@ -3,17 +3,17 @@
   "order": 70,
   "code": "connect.canals",
   "parent": "connect",
-  "caption": "Каналы связи",
-  "hint": "Каналы связи",
+  "caption": "Channels of connection",
+  "hint": "Channels of connection",
   "layers": [
     "canal"
   ],
   "filter" : [
     {
-      "caption" : "Тип ТКС",
+      "caption" : "TCC type",
       "fields" : [
         {
-          "caption" : "Список параметров для фильтра",
+          "caption" : "List of parameters for the filter",
           "type" : "select",
           "multiple" : false,
           "filteredClass" : "canals@telecom-en",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "caption" : "Операторы",
+      "caption" : "Operators",
       "fields" : [
         {
-          "caption" : "Список параметров для фильтра",
+          "caption" : "List of parameters for the filter",
           "type" : "select",
           "multiple" : true,
           "filteredClass" : "canals@telecom-en",

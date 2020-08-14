@@ -2,7 +2,7 @@
   "type": "url",
   "code": "registry",
   "order": 180,
-  "caption": "Модуль Registry",
-  "hint": "Мета",
+  "caption": "Registry module",
+  "hint": "Meta",
   "url": "/registry"
 }

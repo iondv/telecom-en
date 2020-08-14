@@ -1,8 +1,8 @@
 {
   "code": "radio",
   "order": 0,
-  "caption": "Радиостанции",
-  "hint": "Радиостанции",
+  "caption": "Radio station name",
+  "hint": "Radio station name",
   "data": [
     {
       "type": "Point",

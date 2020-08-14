@@ -3,17 +3,17 @@
   "order": 20,
   "code": "connect.uniKray.infomat",
   "parent": "connect.uniKray",
-  "caption": "Инфомат",
-  "hint": "Инфомат",
+  "caption": "Infomat",
+  "hint": "Infomat",
   "layers": [
     "infomat"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "infomat@telecom-en",

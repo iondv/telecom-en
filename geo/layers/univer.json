@@ -1,8 +1,8 @@
 {
   "code": "univer",
   "order": 0,
-  "caption": "Универсальные услуги связи",
-  "hint": "Универсальные услуги связи",
+  "caption": "Universal communication services",
+  "hint": "Universal communication services",
   "data": [
     {
       "type": "Point",

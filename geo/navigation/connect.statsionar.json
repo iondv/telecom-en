@@ -3,17 +3,17 @@
   "order": 10,
   "code": "connect.statsionar",
   "parent": "connect",
-  "caption": "Стационарная связь",
-  "hint": "Стационарная связь в Хабаровском крае",
+  "caption": "Stationary communication",
+  "hint": "Stationary communication in Australia",
   "layers": [
     "statsionar"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "caption": "Тип АТС",
+      "caption": "PBX type",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "naselenniyPunkt@telecom-en",
@@ -41,11 +41,11 @@
           "values": [
             {
               "value": "a",
-              "label": "Цифра"
+              "label": "Digital"
             },
             {
               "value": "b",
-              "label": "Аналог"
+              "label": "Analog"
             }
           ]
         }

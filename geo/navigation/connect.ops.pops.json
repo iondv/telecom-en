@@ -3,17 +3,17 @@
   "order": 30,
   "code": "connect.ops.pops",
   "parent": "connect.ops",
-  "caption": "ПОПС",
-  "hint": "ПОПС в Хабаровском крае",
+  "caption": "Mobile post office",
+  "hint": "Mobile post office in Australia",
   "layers": [
     "pops"
   ],
   "filter": [
     {
-      "caption": "Класс ОПС",
+      "caption": "Class of post offices",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "caption": "Почтамт",
+      "caption": "Post Office",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",

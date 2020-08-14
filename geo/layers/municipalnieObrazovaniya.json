@@ -1,8 +1,8 @@
 {
   "code": "municipalnieObrazovaniya",
   "order": 0,
-  "caption": "Муниципальные образования",
-  "hint": "Муниципальные образования",
+  "caption": "Municipalities",
+  "hint": "Municipalities",
   "data": [
     {
       "type": "Point",

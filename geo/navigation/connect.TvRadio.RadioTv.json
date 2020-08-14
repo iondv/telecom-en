@@ -3,7 +3,7 @@
   "order": 10,
   "code": "connect.TvRadio.RadioTv",
   "parent": "connect.TvRadio",
-  "caption": "Эфирное ТВ",
-  "hint": "Эфирное ТВ в Хабаровском крае",
+  "caption": "Terrestrial TV",
+  "hint": "Terrestrial TV in Australia",
   "layers": ["cetc","tvAnalog"]
 }

@@ -3,17 +3,17 @@
   "order": 80,
   "code": "education.educationOrg",
   "parent": "education",
-  "caption": "Образовательная организация",
-  "hint": "Образовательная организация",
+  "caption": "Educational establishment",
+  "hint": "Educational establishment",
   "layers": [
     "educationOrg"
   ],
   "filter" : [
     {
-      "caption" : "Образовательная организация",
+      "caption" : "Educational establishment",
       "fields" : [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "educationOrg@telecom-en",

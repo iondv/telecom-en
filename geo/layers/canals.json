@@ -1,8 +1,8 @@
 {
   "code": "canals",
   "order": 0,
-  "caption": "Каналы связи",
-  "hint": "Каналы связи",
+  "caption": "Channels of connection",
+  "hint": "Channels of connection",
   "data": [
     {
       "type": "FeatureCollection",

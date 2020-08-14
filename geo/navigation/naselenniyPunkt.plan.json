@@ -3,7 +3,7 @@
   "order": 5,
   "code": "naselenniyPunkt.plan",
   "parent": "naselenniyPunkt",
-  "caption": "Планы развития",
-  "hint": "Планы развития",
+  "caption": "Road maps",
+  "hint": "Road maps",
   "layers": ["plan"]
 }

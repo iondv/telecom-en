@@ -3,15 +3,15 @@
   "order": 30,
   "code": "connect.TvRadio.radio",
   "parent": "connect.TvRadio",
-  "caption": "Радиостанции",
-  "hint": "Радиостанции в Хабаровском крае",
+  "caption": "Radio stations",
+  "hint": "Radio stations in Australia",
   "layers": ["radio"],
   "filter" : [
     {
-      "caption" : "Радиостанции",
+      "caption" : "Radio stations",
       "fields" : [
         {
-          "caption" : "Список параметров для фильтра",
+          "caption" : "List of parameters for the filter",
           "type" : "select",
           "multiple" : true,
           "filteredClass" : "naselenniyPunkt@telecom-en",

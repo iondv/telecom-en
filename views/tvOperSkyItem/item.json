@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 2,
           "property": "operator",
           "size": null,

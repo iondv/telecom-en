@@ -1,8 +1,8 @@
 {
   "code": "taksofon",
   "order": 1,
-  "caption": "Таксофон",
-  "hint": "Таксофон",
+  "caption": "Payphone",
+  "hint": "Payphone",
   "data": [
     {
       "type": "Point",

@@ -3,17 +3,17 @@
   "order": 30,
   "code": "connect.uniKray.wifi",
   "parent": "connect.uniKray",
-  "caption": "Точки доступа Wi-Fi",
-  "hint": "Точки доступа Wi-Fi",
+  "caption": "Wi-Fi hotspots",
+  "hint": "Wi-Fi hotspots",
   "layers": [
     "wifi"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "wifi@telecom-en",

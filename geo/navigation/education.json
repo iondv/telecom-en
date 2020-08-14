@@ -2,17 +2,17 @@
   "type": "data",
   "order": 5,
   "code": "education",
-  "caption": "Образование",
-  "hint": "Образование",
+  "caption": "Education",
+  "hint": "Education",
   "layers": [
     "education"
   ],
   "filter": [
     {
-      "caption": "Образовательная организация",
+      "caption": "Educational establishment",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "education@telecom-en",

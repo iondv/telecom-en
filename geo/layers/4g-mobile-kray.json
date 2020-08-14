@@ -2,7 +2,7 @@
   "code": "4gMobileKray",
   "order": 2,
   "caption": "4G",
-  "hint": "Наличие мобильной связи 4G в населенных пунктах Хабаровского края",
+  "hint": "Availability of 4G mobile communication in the settlements of Australia",
   "data": [
     {
       "type": "Point",

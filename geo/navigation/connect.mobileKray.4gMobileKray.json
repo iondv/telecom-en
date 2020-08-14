@@ -4,16 +4,16 @@
   "code": "connect.mobileKray.4gMobileKray",
   "parent": "connect.mobileKray",
   "caption": "4G",
-  "hint": "Наличие мобильной связи 4G в населенных пунктах Хабаровского края",
+  "hint": "Availability of 4G mobile communication in the settlements of Australia",
   "layers": [
     "4gMobileKray"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

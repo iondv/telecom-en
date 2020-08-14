@@ -1,8 +1,8 @@
 {
   "code": "ams",
   "order": 0,
-  "caption": "АМС",
-  "hint": "Антенно-мачтовые сооружения",
+  "caption": "AMS",
+  "hint": "Antenna Mast Structures",
   "data": [
     {
       "type": "Point",

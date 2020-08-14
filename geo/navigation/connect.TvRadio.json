@@ -3,7 +3,7 @@
   "order": 40,
   "code": "connect.TvRadio",
   "parent": "connect",
-  "caption": "Теле и Радиовещание",
-  "hint": "Теле и Радиовещание в Хабаровском крае",
+  "caption": "TV and Radio Broadcasting",
+  "hint": "TV and Radio Broadcasting in Australia",
   "layers": ["cetc","tvAnalog","ComTv","radio"]
 }

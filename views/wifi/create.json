@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 5,
           "property": "operator",
           "size": null,

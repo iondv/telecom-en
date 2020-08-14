@@ -3,8 +3,8 @@
   "order": 20,
   "code": "connect.mobileKray",
   "parent": "connect",
-  "caption": "Мобильная связь",
-  "hint": "Услуги мобильной связи в Хабаровском крае",
+  "caption": "Mobile communication",
+  "hint": "Mobile communication services in Australia",
   "layers": [
     "allMobileKray"
   ],

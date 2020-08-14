@@ -2,7 +2,7 @@
   "code": "3gMobileKray",
   "order": 1,
   "caption": "3G",
-  "hint": "Наличие мобильной связи 3G в населенных пунктах Хабаровского края",
+  "hint": "Availability of 3G mobile communication in the settlements of Australia",
   "data": [
     {
       "type": "Point",

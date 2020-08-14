@@ -1,8 +1,8 @@
 {
   "code": "tvAnalog",
   "order": 0,
-  "caption": "Эфирное аналоговое",
-  "hint": "Эфирное аналоговое",
+  "caption": "Terrestrial analog",
+  "hint": "Terrestrial analog",
   "data": [
     {
       "type": "Point",

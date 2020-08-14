@@ -3,17 +3,17 @@
   "order": 80,
   "code": "connect.ams",
   "parent": "connect",
-  "caption": "АМС",
-  "hint": "Антенно-мачтовые сооружения",
+  "caption": "AMS",
+  "hint": "Antenna Mast Structures",
   "layers": [
     "ams"
   ],
   "filter" : [
     {
-      "caption" : "Операторы АМС",
+      "caption" : "AMC operators",
       "fields" : [
         {
-          "caption" : "Список параметров для фильтра",
+          "caption" : "List of parameters for the filter",
           "type" : "select",
           "multiple" : false,
           "filteredClass" : "ams@telecom-en",
