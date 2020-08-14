@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okato",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество каналов",
+          "caption": "Number of channels",
           "type": 14,
           "property": "radio",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Радиостанции",
+          "caption": "Radio stations",
           "type": 3,
           "property": "radioCanals",
           "size": 2,
@@ -93,7 +93,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование радиостанции",
+              "caption": "Radio station name",
               "type": 2,
               "property": "name",
               "size": 2,
@@ -120,7 +120,7 @@
             },
             {
               "sorted": true,
-              "caption": "Частота вещания, МГц",
+              "caption": "Broadcast frequency, MHz",
               "type": 1,
               "property": "numb",
               "size": 2,
@@ -147,7 +147,7 @@
             },
             {
               "sorted": true,
-              "caption": "Место вещания",
+              "caption": "Broadcast location",
               "type": 2,
               "property": "place",
               "size": 2,
@@ -174,7 +174,7 @@
             },
             {
               "sorted": true,
-              "caption": "Мощность, кВт",
+              "caption": "Power, kW",
               "type": 15,
               "property": "power",
               "size": 2,
@@ -271,7 +271,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -281,7 +281,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

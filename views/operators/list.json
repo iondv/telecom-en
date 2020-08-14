@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Полное наименование предприятия связи",
+      "caption": "Full name of the enterprise of communication",
       "type": 7,
       "property": "fullName",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Юридический адрес организации",
+      "caption": "Legal address of the organization",
       "type": 2,
       "property": "urAddr",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Адрес почтовый организации",
+      "caption": "Postal address of the organization",
       "type": 2,
       "property": "postAddr",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Сотрудник организации",
+      "caption": "Organization emloyee",
       "type": 3,
       "property": "managers",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Филиал предприятия связи в Хабаровском крае",
+      "caption": "Branch of a communications company in Australia",
       "type": 7,
       "property": "orgBranch",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Юридический адрес филиала",
+      "caption": "Legal address of the branch",
       "type": 2,
       "property": "urAddrBranch",
       "size": 2,
@@ -191,7 +191,7 @@
     },
     {
       "sorted": true,
-      "caption": "Сотрудник филиала",
+      "caption": "Branch employee",
       "type": 3,
       "property": "liderBranch",
       "size": 2,
@@ -218,7 +218,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 120,
       "property": "dateModif",
       "size": 2,
@@ -253,7 +253,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -263,7 +263,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -273,7 +273,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

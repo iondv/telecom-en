@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Наименование",
+          "caption": "Name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Должностные лица",
+          "caption": "The officials",
           "type": 3,
           "property": "managers",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Адрес",
+          "caption": "Address",
           "type": 2,
           "property": "address",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Координаты",
+          "caption": "Coordinates",
           "type": 100,
           "property": "geo",
           "size": 2,
@@ -130,14 +130,14 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$address"
           ],
           "selConditions": [],
           "selSorting": []
         },
         {
-          "caption": "Материалы об организации",
+          "caption": "Materials on the organization",
           "type": 110,
           "property": "schems",
           "size": 2,
@@ -163,7 +163,7 @@
           "selSorting": []
         },
         {
-          "caption": "Ссылка на web сайт",
+          "caption": "Link to website",
           "type": 17,
           "property": "urlweb",
           "size": 2,
@@ -202,7 +202,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -212,7 +212,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

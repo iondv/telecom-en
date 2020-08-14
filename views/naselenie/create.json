@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Численность",
+          "caption": "Population",
           "type": 14,
           "property": "chislennost",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okatoNasPunkta",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Численность - дети",
+          "caption": "Population - children",
           "type": 15,
           "property": "chislennostChild",
           "size": 2,
@@ -121,7 +121,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -131,7 +131,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

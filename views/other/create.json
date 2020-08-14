@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okato",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Точки доступа Wi-Fi",
+          "caption": "WiFi hotspots",
           "type": 3,
           "property": "wifi",
           "size": 2,
@@ -42,7 +42,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Оператор",
+              "caption": "Operator",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -68,7 +68,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 7,
               "property": "adress",
               "size": 2,
@@ -149,7 +149,7 @@
           "tags": null
         },
         {
-          "caption": "Инфоматы",
+          "caption": "Infomats",
           "type": 3,
           "property": "infomats",
           "size": 2,
@@ -160,7 +160,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Оператор",
+              "caption": "Operator",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -187,7 +187,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 7,
               "property": "adress",
               "size": 2,
@@ -271,7 +271,7 @@
           "selSorting": null
         },
         {
-          "caption": "БШПД",
+          "caption": "WBIA",
           "type": 3,
           "property": "bsIskra",
           "size": 2,
@@ -282,7 +282,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Оператор БШПД",
+              "caption": "WBIA operator",
               "type": 2,
               "property": "operator",
               "size": 2,
@@ -309,7 +309,7 @@
             },
             {
               "sorted": true,
-              "caption": "Количество абонентов",
+              "caption": "Number of subscribers",
               "type": 14,
               "property": "clients",
               "size": 2,
@@ -393,7 +393,7 @@
           "selSorting": null
         },
         {
-          "caption": "Таксофоны",
+          "caption": "Payphones",
           "type": 3,
           "property": "taksofon",
           "size": 2,
@@ -404,7 +404,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Номер таксофона",
+              "caption": "Payphone number",
               "type": 1,
               "property": "nomer",
               "size": 2,
@@ -431,7 +431,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 7,
               "property": "adress",
               "size": 2,
@@ -515,7 +515,7 @@
           "selSorting": null
         },
         {
-          "caption": "Спутниковые телефоны",
+          "caption": "Satellite phones",
           "type": 1,
           "property": "sputnikTel",
           "size": 2,
@@ -541,7 +541,7 @@
           "selSorting": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -580,7 +580,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -590,7 +590,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

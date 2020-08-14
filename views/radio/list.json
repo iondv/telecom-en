@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "okato",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModified",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Количество каналов",
+      "caption": "Number of channels",
       "type": 14,
       "property": "radio",
       "size": 2,
@@ -106,7 +106,7 @@
     },
     {
       "sorted": true,
-      "caption": "Радиостанции",
+      "caption": "Radio stations",
       "type": 3,
       "property": "radioCanals",
       "size": 2,
@@ -140,7 +140,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -160,7 +160,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

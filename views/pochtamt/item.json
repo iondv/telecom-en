@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Наименование структурных подразделений",
+          "caption": "Structural units name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Фото почтового отделения",
+          "caption": "Post office photo",
           "type": 110,
           "property": "schems",
           "size": null,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Районы обслуживания",
+          "caption": "Service area",
           "type": 3,
           "property": "raionObslu",
           "size": 2,
@@ -67,7 +67,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -97,7 +97,7 @@
           "commands": [
             {
               "id": "EDIT",
-              "caption": "Изменить",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -121,7 +121,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество стационарных ОПС",
+          "caption": "Number of stationary post offices",
           "type": 14,
           "property": "kolStatOps",
           "size": 2,
@@ -147,7 +147,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество передвижных ОПС",
+          "caption": "Number of mobile post offices",
           "type": 14,
           "property": "kolPerOps",
           "size": 2,
@@ -173,7 +173,7 @@
           "selSorting": null
         },
         {
-          "caption": "Территория обслуживания передвижными ОПС",
+          "caption": "Service area of mobile post offices",
           "type": 7,
           "property": "terrObslu",
           "size": 2,
@@ -199,7 +199,7 @@
           "selSorting": null
         },
         {
-          "caption": "Адрес",
+          "caption": "Address",
           "type": 1,
           "property": "address",
           "size": 2,
@@ -225,7 +225,7 @@
           "selSorting": []
         },
         {
-          "caption": "Геокоординаты",
+          "caption": "Geo-coordinates",
           "type": 100,
           "property": "geo",
           "size": 2,
@@ -247,7 +247,7 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$address"
           ],
           "selConditions": [],
@@ -267,7 +267,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -277,7 +277,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -287,7 +287,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Численность",
+      "caption": "Population",
       "type": 2,
       "property": "chislennost",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Вышестоящее мун. образ.",
+      "caption": "Superior municipality",
       "type": 2,
       "property": "supOktmo",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип населенного пункта",
+      "caption": "Type of locality",
       "type": 3,
       "property": "type",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Администрация населенного пункта",
+      "caption": "Locality administration",
       "type": 2,
       "property": "adminNasPunkt",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Метки",
+      "caption": "Tags",
       "type": 3,
       "property": "labels",
       "size": 2,
@@ -172,7 +172,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -182,7 +182,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -192,7 +192,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

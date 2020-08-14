@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Индекс",
+          "caption": "Postcode",
           "type": 14,
           "property": "postIndex",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип",
+          "caption": "Type",
           "type": 1,
           "property": "gops",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Класс ОПС",
+          "caption": "Class of post offices",
           "type": 5,
           "property": "class",
           "size": 2,
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "caption": "Штатная численность",
+          "caption": "Number of staff",
           "type": 1,
           "property": "personal",
           "size": 2,
@@ -113,7 +113,7 @@
           "selSorting": null
         },
         {
-          "caption": "Наименование ОПС",
+          "caption": "Post office name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -139,7 +139,7 @@
           "selSorting": null
         },
         {
-          "caption": "Почтамт",
+          "caption": "Post Office",
           "type": 5,
           "property": "pochtamp",
           "size": 2,
@@ -165,7 +165,7 @@
           "selSorting": null
         },
         {
-          "caption": "Фото почтового отделения",
+          "caption": "Post office photo",
           "type": 110,
           "property": "schems",
           "size": null,
@@ -191,7 +191,7 @@
           "selSorting": null
         },
         {
-          "caption": "Телефон",
+          "caption": "Phone number",
           "type": 1,
           "property": "tel",
           "size": 2,
@@ -217,7 +217,7 @@
           "selSorting": null
         },
         {
-          "caption": "Адрес",
+          "caption": "Address",
           "type": 1,
           "property": "adress",
           "size": 2,
@@ -243,7 +243,7 @@
           "selSorting": null
         },
         {
-          "caption": "Геокоординаты",
+          "caption": "Geo-coordinates",
           "type": 100,
           "property": "geocoord",
           "size": 2,
@@ -265,14 +265,14 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$adress"
           ],
           "selConditions": null,
           "selSorting": null
         },
         {
-          "caption": "Режим работы",
+          "caption": "Working hours",
           "type": 210,
           "property": "rezhim",
           "size": null,
@@ -298,7 +298,7 @@
           "selSorting": null
         },
         {
-          "caption": "Временный режим",
+          "caption": "Temporary mode",
           "type": 4,
           "property": "logVremRezhim",
           "size": null,
@@ -324,7 +324,7 @@
           "selSorting": null
         },
         {
-          "caption": "Временный режим",
+          "caption": "Temporary mode",
           "type": 210,
           "property": "vremRezhim",
           "size": null,
@@ -350,7 +350,7 @@
           "selSorting": null
         },
         {
-          "caption": "Примечание к режиму",
+          "caption": "Note to mode",
           "type": 7,
           "property": "primeWork",
           "size": 2,
@@ -376,7 +376,7 @@
           "selSorting": null
         },
         {
-          "caption": "Маршруты доставки",
+          "caption": "Delivery routes",
           "type": 5,
           "property": "inOps",
           "size": 2,
@@ -402,7 +402,7 @@
           "selSorting": null
         },
         {
-          "caption": "Примечание",
+          "caption": "Note",
           "type": 7,
           "property": "primechanie",
           "size": 2,
@@ -428,7 +428,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateModif",
           "size": 2,
@@ -467,7 +467,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -477,7 +477,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

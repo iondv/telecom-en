@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 2,
           "property": "tvOper",
           "size": null,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Название пакета",
+          "caption": "Package name",
           "type": 1,
           "property": "name",
           "size": null,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Каналы",
+          "caption": "Channels",
           "type": 3,
           "property": "canals",
           "size": null,
@@ -66,7 +66,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Название",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -127,7 +127,7 @@
           "tags": null
         },
         {
-          "caption": "Стоимость",
+          "caption": "Cost",
           "type": 1,
           "property": "cost",
           "size": null,
@@ -165,7 +165,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -175,7 +175,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -185,7 +185,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
