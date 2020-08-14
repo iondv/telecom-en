@@ -2,7 +2,7 @@
   "code": "other.wifi",
   "orderNumber": 3,
   "type": 1,
-  "caption": "Точки доступа Wi-Fi",
+  "caption": "Wi-Fi hotspots",
   "classname": "wifi",
   "container": null,
   "collection": null,

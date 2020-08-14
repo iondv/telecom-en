@@ -2,8 +2,8 @@
   "type": "data",
   "order": 4,
   "code": "connect",
-  "caption": "Связь по населенным пунктам",
-  "hint": "Связь по населенным пунктам",
+  "caption": "Communication distributed by localities",
+  "hint": "Communication distributed by localities",
   "layers": [
     "connect"
   ],
@@ -16,10 +16,10 @@
   },
   "filter": [
     {
-      "caption": "Тип населенного пункта",
+      "caption": "Type of locality",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

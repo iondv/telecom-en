@@ -6,7 +6,7 @@
   "semantic": "vnutRaion| |ops",
   "name": "vidTransOPS",
   "version": "",
-  "caption": "Доставка до ОПС",
+  "caption": "Delivery to PO",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateModif",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 15,
       "name": "ops",
-      "caption": "ОПС",
+      "caption": "Post Office",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -58,7 +58,7 @@
       "indexed": true,
       "unique": false,
       "autoassigned": false,
-      "hint": "Заполянется из ОПС в маршрутах доставки",
+      "hint": "Filled in PO in delivery routes",
       "defaultValue": null,
       "refClass": null,
       "itemsClass": "ops",
@@ -76,7 +76,7 @@
     {
       "orderNumber": 20,
       "name": "magGraf",
-      "caption": "Магистральные маршруты",
+      "caption": "Trunk routes",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 25,
       "name": "vnutrGraf",
-      "caption": "Внутрикраевые маршруты",
+      "caption": "Inside-territory routes",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 25,
       "name": "vnutRaion",
-      "caption": "Внутрирайонные маршруты",
+      "caption": "Inside-region routes",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 161,
       "name": "dateModif",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

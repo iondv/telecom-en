@@ -2,7 +2,7 @@
   "code": "television.radioLink",
   "orderNumber": 3,
   "type": 1,
-  "caption": "Радиовещание",
+  "caption": "Radio broadcasting",
   "classname": "radioLink",
   "container": null,
   "collection": null,

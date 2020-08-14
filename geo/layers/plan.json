@@ -1,8 +1,8 @@
 {
   "code": "plan",
   "order": 0,
-  "caption": "Планы развития",
-  "hint": "Планы развития",
+  "caption": "Road maps",
+  "hint": "Road maps",
   "data": [
     {
       "type": "Point",

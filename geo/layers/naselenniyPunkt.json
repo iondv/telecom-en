@@ -1,8 +1,8 @@
 {
   "code": "naselenniyPunkt",
   "order": 1,
-  "caption": "Населенные пункты",
-  "hint": "Населенные пункты",
+  "caption": "Localities",
+  "hint": "Localities",
   "data": [
     {
       "type": "Point",

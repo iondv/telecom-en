@@ -166,7 +166,7 @@
   "commands": [
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -176,7 +176,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

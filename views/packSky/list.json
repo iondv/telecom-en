@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 2,
       "property": "tvOper",
       "size": null,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Название пакета",
+      "caption": "Package name",
       "type": 1,
       "property": "name",
       "size": null,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Каналы",
+      "caption": "Channels",
       "type": 3,
       "property": "canals",
       "size": null,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Стоимость",
+      "caption": "Cost",
       "type": 1,
       "property": "cost",
       "size": null,
@@ -114,7 +114,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -134,7 +134,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

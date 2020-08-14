@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.trafficSection",
   "type": 1,
-  "caption": "Секции схемы движения",
+  "caption": "Traffic sections",
   "classname": "trafficSection",
   "container": null,
   "collection": null,

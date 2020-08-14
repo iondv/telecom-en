@@ -2,7 +2,7 @@
   "code": "2gMobileKray",
   "order": 0,
   "caption": "2G",
-  "hint": "Наличие мобильной связи 2G в населенных пунктах Хабаровского края",
+  "hint": "Availability of 2G mobile communication in the settlements of Australia",
   "data": [
     {
       "type": "Point",

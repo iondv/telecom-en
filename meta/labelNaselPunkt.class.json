@@ -6,7 +6,7 @@
   "semantic": "label",
   "name": "labelNaselPunkt",
   "version": "",
-  "caption": "Связь метки и населенных пунктов",
+  "caption": "Link tags and locations",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 30,
       "name": "label",
-      "caption": "Метка",
+      "caption": "Tag",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 15,
       "name": "okatoNasPunkta",
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 13,
       "size": null,
       "decimals": 0,

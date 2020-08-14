@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Индекс",
+      "caption": "Postcode",
       "type": 14,
       "property": "postIndex",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Наименование ОПС",
+      "caption": "Name of Post Office",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 1,
       "property": "adress",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Класс ОПС",
+      "caption": "Class of post offices",
       "type": 2,
       "property": "class",
       "size": 2,
@@ -106,7 +106,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип",
+      "caption": "Type",
       "type": 1,
       "property": "gops",
       "size": 2,
@@ -132,7 +132,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModif",
       "size": 2,
@@ -166,7 +166,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -176,7 +176,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -186,7 +186,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

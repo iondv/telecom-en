@@ -2,7 +2,7 @@
   "code": "operators.ams",
   "orderNumber": 2,
   "type": 1,
-  "caption": "Антенно-Мачтовые сооружения",
+  "caption": "Antenna Mast Structures",
   "classname": "ams",
   "container": null,
   "collection": null,

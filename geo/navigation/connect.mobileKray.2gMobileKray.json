@@ -4,16 +4,16 @@
   "code": "connect.mobileKray.2gMobileKray",
   "parent": "connect.mobileKray",
   "caption": "2G",
-  "hint": "Наличие мобильной связи 2G в населенных пунктах Хабаровского края",
+  "hint": "Availability of 2G mobile communication in the settlements of Australia",
   "layers": [
     "2gMobileKray"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

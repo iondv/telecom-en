@@ -6,7 +6,7 @@
   "semantic": "naselenniyPunkt| |operator| |type",
   "name": "ams",
   "version": "",
-  "caption": "Антенно-мачтовые сооружения",
+  "caption": "Antenna Mast Structures",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -31,7 +31,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -60,7 +60,7 @@
     {
       "orderNumber": 20,
       "name": "naselenniyPunkt",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -89,7 +89,7 @@
     {
       "orderNumber": 30,
       "name": "operator",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -118,7 +118,7 @@
     {
       "orderNumber": 35,
       "name": "schems",
-      "caption": "Фото АМС",
+      "caption": "AMC photo",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -147,7 +147,7 @@
     {
       "orderNumber": 40,
       "name": "geocoord",
-      "caption": "Геокоординаты",
+      "caption": "Geo-coordinates",
       "type": 100,
       "size": null,
       "decimals": 0,
@@ -176,7 +176,7 @@
     {
       "orderNumber": 50,
       "name": "type",
-      "caption": "Вид АМС",
+      "caption": "Type of AMC",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -205,7 +205,7 @@
     {
       "orderNumber": 55,
       "name": "height",
-      "caption": "Высота, м",
+      "caption": "Height, m",
       "type": 8,
       "size": null,
       "decimals": 0,
@@ -234,7 +234,7 @@
     {
       "orderNumber": 65,
       "name": "adress",
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 0,
       "size": 128,
       "decimals": 0,

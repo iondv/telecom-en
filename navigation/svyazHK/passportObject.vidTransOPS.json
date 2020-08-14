@@ -2,7 +2,7 @@
   "code": "passportObject.vidTransOPS",
   "orderNumber": 16,
   "type": 1,
-  "caption": "Доставки до почтовых отделений",
+  "caption": "Deliveries to post offices",
   "classname": "vidTransOPS",
   "container": null,
   "collection": null,

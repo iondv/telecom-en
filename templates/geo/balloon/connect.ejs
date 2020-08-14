@@ -14,7 +14,7 @@ if (item.get('supOktmo')) {
   result.title += ', ' + item.property('supOktmo').evaluate() + '<br>';
 }
 if (item.get('chislennost')) {
-  result.subtitle += 'Численность ' + item.property('chislennost').evaluate() + ' чел.';
+  result.subtitle += 'Population ' + item.property('chislennost').evaluate() + ' ppl.';
 }
 
 let itemSvyaz = item.property('svyaz').evaluate();
@@ -27,7 +27,7 @@ if (itemSvyaz) {
       result.statsionar = coll;
     }
   } else {
-    result.statsionar = 'нет';
+    result.statsionar = 'no';
   }
 
   coll = itemSvyaz.property('mobile').evaluate();
@@ -37,17 +37,17 @@ if (itemSvyaz) {
       let propOperator = elem.property('mobileOperator').evaluate();
       if (propOperator) {
         let propStandart = elem.property('mobileStandart').evaluate();
-        if (propStandart && propStandart.length && propStandart[0].get('standart') !== 'нет') {
+        if (propStandart && propStandart.length && propStandart[0].get('standart') !== 'no') {
           mobileNoNull++;
           result.mobile += ' ' + propOperator;
         }
       }
     }
     if (!mobileNoNull) {
-      result.mobile = 'нет';
+      result.mobile = 'no';
     }
   } else {
-    result.mobile = 'нет';
+    result.mobile = 'no';
   }
 
   coll = itemSvyaz.property('mobile').evaluate();
@@ -57,40 +57,40 @@ if (itemSvyaz) {
       let propOperator = elem.property('mobileOperator').evaluate();
       if (propOperator) {
         let propStandart = elem.property('mobileStandart').evaluate();
-        if (propStandart && propStandart.length && propStandart[0].get('standart') !== 'нет') {
+        if (propStandart && propStandart.length && propStandart[0].get('standart') !== 'no') {
           mobileNoNull++;
         }
       }
     }
     coll = itemSvyaz.property('internet').evaluate();
     if (mobileNoNull || (coll && coll.length)) {
-      result.internet = 'есть';
+      result.internet = 'yes';
     } else {
-      result.internet = 'нет';
+      result.internet = 'no';
     }
   } else {
-    result.internet = 'нет';
+    result.internet = 'no';
   }
 
   coll = itemSvyaz.property('tv').evaluate();
   if (coll && coll.length) {
-    result.tv = 'есть';
+    result.tv = 'yes';
   } else {
-    result.tv = 'нет';
+    result.tv = 'no';
   }
 
   coll = itemSvyaz.property('radio').evaluate();
   if (coll && coll.length) {
     result.radio = 'есть';
   } else {
-    result.radio = 'нет';
+    result.radio = 'no';
   }
 
   coll = itemSvyaz.property('ops').evaluate();
   if (coll && coll.length) {
-    result.ops = 'есть';
+    result.ops = 'yes';
   } else {
-    result.ops = 'нет';
+    result.ops = 'no';
   }
 }
 %>
@@ -99,33 +99,33 @@ if (itemSvyaz) {
   <li><b class='block mb10'><%- result.title %></b></li>
   <li><%- result.subtitle %></li>
 
-  <li>Стационарная связь:
+  <li>Stationary communication:
     <ul class='comma-list'>
       <li><%- result.statsionar %></li>
     </ul>
   </li>
 
-  <li>Мобильная связь:
+  <li>Mobile communication:
     <ul class='comma-list'>
       <li><%- result.mobile %></li>
     </ul>
   </li>
 
-  <li>Интернет:
+  <li>Internet:
     <ul class='comma-list'>
       <li><%- result.internet %></li>
     </ul>
   </li>
 
-  <li>Телевидение: <%- result.tv %></li>
+  <li>Television: <%- result.tv %></li>
 
-  <li>Радио: <%- result.radio %></li>
+  <li>Radio: <%- result.radio %></li>
 
-  <li>Отделение почтовой связи: <%- result.ops %></li>
+  <li>Post Office: <%- result.ops %></li>
 
 </ul>
 <div>
   <button type='button' class='btn btn-sm btn-primary map-modal-link' data-type='url'
-          data-url='geomap/render/telecom-en/connect/0/<%- item.id %>?template=geo/layers/connect'>Подробно
+          data-url='geomap/render/telecom-en/connect/0/<%- item.id %>?template=geo/layers/connect'>In detail
   </button>
 </div>

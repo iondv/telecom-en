@@ -6,7 +6,7 @@
   "semantic": "",
   "name": "medicalOrg",
   "version": "",
-  "caption": "Медицинская организация",
+  "caption": "Medical organization",
   "ancestor": "organization",
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 20,
       "name": "vedomstvenOwn",
-      "caption": "Ведомственная принадлежность",
+      "caption": "Departmental affiliation",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 30,
       "name": "typeMedicalOrg",
-      "caption": "Тип мед. организации",
+      "caption": "Type of medical organization",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 11,
       "name": "okato",
-      "caption": "ОКАТО",
+      "caption": "ARCPS",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

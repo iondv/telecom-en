@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "tvlink",
           "size": null,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дата включения",
+          "caption": "Date of activation",
           "type": 120,
           "property": "dateOn",
           "size": null,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Номер ТВК",
+          "caption": "TVC number",
           "type": 15,
           "property": "tvk",
           "size": null,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Примечание",
+          "caption": "Note",
           "type": 7,
           "property": "comment",
           "size": null,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Место вещания",
+          "caption": "Broadcast location",
           "type": 5,
           "property": "place",
           "size": null,
@@ -134,7 +134,7 @@
           "selSorting": null
         },
         {
-          "caption": "Мощность передатчика, кВт",
+          "caption": "Transmitter power, kW",
           "type": 15,
           "property": "power",
           "size": null,
@@ -160,7 +160,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateEdit",
           "size": null,
@@ -186,7 +186,7 @@
           "selSorting": null
         },
         {
-          "caption": "Мультиплекс",
+          "caption": "Multiplex",
           "type": 5,
           "property": "multipl",
           "size": null,
@@ -225,7 +225,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -235,7 +235,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -245,7 +245,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

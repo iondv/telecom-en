@@ -1,8 +1,8 @@
 {
   "code": "pops",
   "order": 0,
-  "caption": "ПОПС",
-  "hint": "ПОПС",
+  "caption": "Mobile post office",
+  "hint": "Mobile post office",
   "data": [
     {
       "type": "Point",

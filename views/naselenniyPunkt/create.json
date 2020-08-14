@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Основные сведения",
+          "caption": "Basic information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -39,7 +39,7 @@
               "selSorting": null
             },
             {
-              "caption": "ОКТМО",
+              "caption": "RNCMT",
               "type": 1,
               "property": "oktmo",
               "size": 2,
@@ -65,7 +65,7 @@
               "selSorting": null
             },
             {
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -91,7 +91,7 @@
               "selSorting": null
             },
             {
-              "caption": "Вышестоящее мун. образ.",
+              "caption": "Superior municipality",
               "type": 5,
               "property": "supOktmo",
               "size": 2,
@@ -117,7 +117,7 @@
               "selSorting": null
             },
             {
-              "caption": "Тип населенного пункта",
+              "caption": "Type of locality",
               "type": 3,
               "property": "type",
               "size": 2,
@@ -128,7 +128,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Тип населенного пункта",
+                  "caption": "Type of locality",
                   "type": 1,
                   "property": "type",
                   "size": 2,
@@ -171,7 +171,7 @@
               "selSorting": null
             },
             {
-              "caption": "Является районным центром края",
+              "caption": "Is the regional center of the Territory",
               "type": 4,
               "property": "rainCentr",
               "size": 2,
@@ -215,7 +215,7 @@
           "selSorting": null
         },
         {
-          "caption": "Контактная информация и местоположение",
+          "caption": "Contact information and location",
           "type": 0,
           "property": "",
           "size": 2,
@@ -224,7 +224,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Материалы о населенного пункта",
+              "caption": "Materials on the settlement",
               "type": 110,
               "property": "schems",
               "size": null,
@@ -250,7 +250,7 @@
               "selSorting": null
             },
             {
-              "caption": "Координаты",
+              "caption": "Coordinates",
               "type": 100,
               "property": "geocoord",
               "size": 2,
@@ -272,14 +272,14 @@
               "hint": null,
               "historyDisplayMode": 0,
               "tags": [
-                "tryfind:Хабаровский край",
+                "tryfind:Australia",
                 "tryfind:$name"
               ],
               "selConditions": null,
               "selSorting": null
             },
             {
-              "caption": "Администрация населенного пункта",
+              "caption": "Locality administration",
               "type": 5,
               "property": "adminNasPunkt",
               "size": 2,
@@ -305,7 +305,7 @@
               "selSorting": null
             },
             {
-              "caption": "Примечание",
+              "caption": "Note",
               "type": 7,
               "property": "primechanie",
               "size": 2,
@@ -349,7 +349,7 @@
           "selSorting": null
         },
         {
-          "caption": "Связь в населенном пункте",
+          "caption": "Communication in the locality",
           "type": 2,
           "property": "svyaz",
           "size": 2,
@@ -375,7 +375,7 @@
           "selSorting": []
         },
         {
-          "caption": "Здравоохранение в населенном пункте",
+          "caption": "Health care in the locality",
           "type": 2,
           "property": "zdravNP",
           "size": 2,
@@ -401,7 +401,7 @@
           "selSorting": []
         },
         {
-          "caption": "Образование в населенном пункте",
+          "caption": "Education in the locality",
           "type": 2,
           "property": "education",
           "size": 2,
@@ -440,7 +440,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -450,7 +450,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

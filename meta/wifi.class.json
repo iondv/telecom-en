@@ -6,7 +6,7 @@
   "semantic": "operator| (|adress|)",
   "name": "wifi",
   "version": "",
-  "caption": "Точки доступа Wi-Fi",
+  "caption": "Wi-Fi hotspots",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 20,
       "name": "other",
-      "caption": "Прочие услуги",
+      "caption": "Other services",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -86,7 +86,7 @@
     {
       "orderNumber": 25,
       "name": "operator",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -115,7 +115,7 @@
     {
       "orderNumber": 75,
       "name": "adress",
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -144,7 +144,7 @@
     {
       "orderNumber": 78,
       "name": "geo",
-      "caption": "Координаты",
+      "caption": "GeoObject",
       "type": 100,
       "size": null,
       "decimals": 0,
@@ -173,7 +173,7 @@
     {
       "orderNumber": 351,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -202,7 +202,7 @@
     {
       "orderNumber": 352,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

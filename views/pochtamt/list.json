@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Наименование структурных подразделений",
+      "caption": "Structural units name",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Районы обслуживания",
+      "caption": "Service area",
       "type": 3,
       "property": "raionObslu",
       "size": 2,
@@ -42,7 +42,7 @@
       "commands": [
         {
           "id": "EDIT",
-          "caption": "Изменить",
+          "caption": "Edit",
           "visibilityCondition": null,
           "enableCondition": null,
           "needSelectedItem": true,
@@ -67,7 +67,7 @@
     },
     {
       "sorted": true,
-      "caption": "Количество стационарных ОПС",
+      "caption": "Number of stationary post offices",
       "type": 14,
       "property": "kolStatOps",
       "size": 2,
@@ -94,7 +94,7 @@
     },
     {
       "sorted": true,
-      "caption": "Количество передвижных ОПС",
+      "caption": "Number of mobile post offices",
       "type": 14,
       "property": "kolPerOps",
       "size": 2,
@@ -121,7 +121,7 @@
     },
     {
       "sorted": true,
-      "caption": "Территория обслуживания передвижными ОПС",
+      "caption": "Service area of mobile post offices",
       "type": 7,
       "property": "terrObslu",
       "size": 2,
@@ -148,7 +148,7 @@
     },
     {
       "sorted": true,
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 1,
       "property": "address",
       "size": 2,
@@ -183,7 +183,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -193,7 +193,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -203,7 +203,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

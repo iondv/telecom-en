@@ -6,7 +6,7 @@
   "semantic": "name| |canal",
   "name": "mult",
   "version": "",
-  "caption": "Мультиплекс",
+  "caption": "Multiplex",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Мультиплекс",
+      "caption": "Multiplex",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "canal",
-      "caption": "Каналы",
+      "caption": "Сhannels",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 30,
       "name": "canals",
-      "caption": "Количество каналов [расчетное для ПФ]",
+      "caption": "Number of channels",
       "type": 6,
       "size": null,
       "decimals": 0,

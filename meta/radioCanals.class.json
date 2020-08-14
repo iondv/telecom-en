@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "radioCanals",
   "version": "",
-  "caption": "Радиостанции",
+  "caption": "Radio stations",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Название",
+      "caption": "Name",
       "type": 0,
       "size": 50,
       "decimals": 0,

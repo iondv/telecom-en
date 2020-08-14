@@ -2,7 +2,7 @@
   "code": "allMobileKray",
   "order": 0,
   "caption": "Мобильная связь",
-  "hint": "Наличие мобильной связи в населенных пунктах Хабаровского края",
+  "hint": "Availability of mobile communication in the settlements of Australia",
   "data": [
     {
       "type": "Point",

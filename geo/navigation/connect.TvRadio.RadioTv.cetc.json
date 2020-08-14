@@ -3,17 +3,17 @@
   "order": 10,
   "code": "connect.TvRadio.RadioTv.cetc",
   "parent": "connect.TvRadio.RadioTv",
-  "caption": "Цифровое эфирное ТВ",
-  "hint": "Цифровое эфирное ТВ в Хабаровском крае",
+  "caption": "Digital terrestrial TV",
+  "hint": "Digital terrestrial TV in Australia",
   "layers": [
     "cetc"
   ],
   "filter": [
     {
-      "caption": "Мультиплекс",
+      "caption": "Multiplex",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "naselenniyPunkt@telecom-en",
@@ -21,11 +21,11 @@
           "values": [
             {
               "value": "a",
-              "label": "1 мультиплекс"
+              "label": "1 multiplex"
             },
             {
               "value": "b",
-              "label": "2 мультиплекс"
+              "label": "2 multiplex"
             }
           ],
           "eagerLoading": [

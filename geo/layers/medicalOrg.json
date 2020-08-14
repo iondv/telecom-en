@@ -1,8 +1,8 @@
 {
   "code": "medicalOrg",
   "order": 0,
-  "caption": "Медицинская организация",
-  "hint": "Медицинская организация",
+  "caption": "Medical organization",
+  "hint": "Medical organization",
   "data": [
     {
       "type": "Point",

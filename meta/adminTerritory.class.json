@@ -3,10 +3,10 @@
   "key": [
     "id"
   ],
-  "semantic": "Администрация территории: |typeTerr|, |centNasPunkt| |centMunRaion",
+  "semantic": "Administration of the territory: |typeTerr|, |centNasPunkt| |centMunRaion",
   "name": "adminTerritory",
   "version": "",
-  "caption": "Администрация территории",
+  "caption": "Administration of the territory",
   "ancestor": "organization",
   "container": null,
   "creationTracker": "dateCreate",
@@ -28,7 +28,7 @@
     {
       "orderNumber": 15,
       "name": "typeTerr",
-      "caption": "Тип территории",
+      "caption": "Type of territory",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,15 +54,15 @@
         "list": [
           {
             "key": "nas",
-            "value": "Населенный пункт"
+            "value": "Locality"
           },
           {
             "key": "raion",
-            "value": "Муниципальный район"
+            "value": "Municipal district"
           },
           {
             "key": "gorod",
-            "value": "Городской округ"
+            "value": "City District"
           }
         ],
         "matrix": [],
@@ -76,7 +76,7 @@
     {
       "orderNumber": 15,
       "name": "adminTerrFormula",
-      "caption": "Администрация территории [вычислимое]",
+      "caption": "Administration of the territory [computable]",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -110,7 +110,7 @@
                   "nas"
                 ]
               },
-              "Населенного пункта: ",
+              "Locality: ",
               {
                 "if": [
                   {
@@ -119,8 +119,8 @@
                       "raion"
                     ]
                   },
-                  "Муниципального района: ",
-                  "Городского округа: "
+                  "Municipal district: ",
+                  "Urban District: "
                 ]
               }
             ]
@@ -128,7 +128,7 @@
           "$centNasPunkt.name",
           ". ",
           "\n",
-          "Адрес: ",
+          "Address: ",
           "$address.adressFormula",
           ". "
         ]
@@ -138,7 +138,7 @@
     {
       "orderNumber": 11,
       "name": "centNasPunkt",
-      "caption": "Административный центр населенного пункта",
+      "caption": "Administrative center of the locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -167,7 +167,7 @@
     {
       "orderNumber": 25,
       "name": "centMunRaion",
-      "caption": "Административный центр района/городского округа",
+      "caption": "Administrative center of the region/urban district",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -196,7 +196,7 @@
     {
       "orderNumber": 90,
       "name": "adminTerritory",
-      "caption": "Администрация управляет населенным пунктом",
+      "caption": "Administration manages the locality",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -225,7 +225,7 @@
     {
       "orderNumber": 100,
       "name": "linkMunRaion",
-      "caption": "Администрация управляет муниципальным районом/городским округом",
+      "caption": "Administration manages the municipal/urban district",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -254,7 +254,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

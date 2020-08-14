@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okato",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Образовательные организации",
+          "caption": "Educational establishments",
           "type": 3,
           "property": "educationOrg",
           "size": 2,
@@ -41,7 +41,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -68,7 +68,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 2,
               "property": "address",
               "size": 2,
@@ -94,7 +94,7 @@
               "selSorting": []
             },
             {
-              "caption": "Подтип",
+              "caption": "Subtype",
               "type": 2,
               "property": "type",
               "size": 2,
@@ -120,7 +120,7 @@
               "selSorting": []
             },
             {
-              "caption": "Статус",
+              "caption": "Status",
               "type": 2,
               "property": "state",
               "size": 2,
@@ -147,7 +147,7 @@
             },
             {
               "sorted": true,
-              "caption": "Интернет в образовательной организации",
+              "caption": "Internet in educational organization",
               "type": 3,
               "property": "internet",
               "size": 2,
@@ -177,7 +177,7 @@
           "commands": [
             {
               "id": "ADD",
-              "caption": "Добавить",
+              "caption": "Add",
               "visibilityCondition": "",
               "enableCondition": "",
               "needSelectedItem": false,
@@ -187,7 +187,7 @@
             },
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": "",
               "enableCondition": "",
               "needSelectedItem": false,
@@ -197,7 +197,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": "",
               "enableCondition": "",
               "needSelectedItem": true,
@@ -207,7 +207,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -244,7 +244,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -254,7 +254,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Создать и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

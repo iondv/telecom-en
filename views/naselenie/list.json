@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Численность",
+      "caption": "Population",
       "type": 14,
       "property": "chislennost",
       "size": 2,
@@ -33,7 +33,7 @@
     },
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "okatoNasPunkta",
       "size": 2,
@@ -60,7 +60,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,
@@ -87,7 +87,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModified",
       "size": 2,
@@ -114,7 +114,7 @@
     },
     {
       "sorted": true,
-      "caption": "Численность - дети",
+      "caption": "Population - children",
       "type": 15,
       "property": "chislennostChild",
       "size": 2,
@@ -149,7 +149,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -169,7 +169,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

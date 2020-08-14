@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Основные сведения",
+          "caption": "Basic information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -13,7 +13,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "ОКАТО",
+              "caption": "ARCPS",
               "type": 1,
               "property": "okato",
               "size": 2,
@@ -39,7 +39,7 @@
               "selSorting": null
             },
             {
-              "caption": "ОКТМО",
+              "caption": "RNCMT",
               "type": 1,
               "property": "oktmo",
               "size": 2,
@@ -65,7 +65,7 @@
               "selSorting": null
             },
             {
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -91,7 +91,7 @@
               "selSorting": null
             },
             {
-              "caption": "Вышестоящее мун. образ.",
+              "caption": "Superior municipality",
               "type": 5,
               "property": "supOktmo",
               "size": 2,
@@ -117,7 +117,7 @@
               "selSorting": null
             },
             {
-              "caption": "Административный район",
+              "caption": "Administrative district",
               "type": 3,
               "property": "adminMun",
               "size": 2,
@@ -128,7 +128,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Администрация управляет муниципальным районом/городским округом",
+                  "caption": "Administration manages the municipal district/urban district",
                   "type": 3,
                   "property": "linkMunRaion",
                   "size": 2,
@@ -182,7 +182,7 @@
               "selSorting": null
             },
             {
-              "caption": "Тип населенного пункта",
+              "caption": "Type of locality",
               "type": 3,
               "property": "type",
               "size": 2,
@@ -193,7 +193,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Тип населенного пункта",
+                  "caption": "Type of locality",
                   "type": 1,
                   "property": "type",
                   "size": 2,
@@ -257,7 +257,7 @@
               "selSorting": null
             },
             {
-              "caption": "Численность",
+              "caption": "Population",
               "type": 2,
               "property": "chislennost",
               "size": 2,
@@ -283,7 +283,7 @@
               "selSorting": null
             },
             {
-              "caption": "Количество Домохозяйств",
+              "caption": "Number of households",
               "type": 1,
               "property": "numberDmh",
               "size": 2,
@@ -309,7 +309,7 @@
               "selSorting": null
             },
             {
-              "caption": "Является районным центром края",
+              "caption": "Is the regional center of the Territory",
               "type": 4,
               "property": "rainCentr",
               "size": 2,
@@ -335,7 +335,7 @@
               "selSorting": null
             },
             {
-              "caption": "Метки",
+              "caption": "Tags",
               "type": 3,
               "property": "labels",
               "size": null,
@@ -346,7 +346,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Метка",
+                  "caption": "Tags",
                   "type": 2,
                   "property": "label",
                   "size": 2,
@@ -448,7 +448,7 @@
           "selSorting": null
         },
         {
-          "caption": "Потребность и план развития",
+          "caption": "Need for development and forward plan",
           "type": 0,
           "property": "",
           "size": 2,
@@ -457,7 +457,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Потребность в развитии",
+              "caption": "Need for development",
               "type": 7,
               "property": "need",
               "size": 2,
@@ -483,7 +483,7 @@
               "selSorting": null
             },
             {
-              "caption": "План развития",
+              "caption": "Road map",
               "type": 3,
               "property": "plan",
               "size": 2,
@@ -494,7 +494,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "План развития",
+                  "caption": "Road map",
                   "type": 7,
                   "property": "comment",
                   "size": 2,
@@ -521,7 +521,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Планируемый срок реализации",
+                  "caption": "Planned execution period",
                   "type": 120,
                   "property": "datePlan",
                   "size": 2,
@@ -548,7 +548,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Проект",
+                  "caption": "Project",
                   "type": 2,
                   "property": "invProj",
                   "size": 2,
@@ -650,7 +650,7 @@
           "selSorting": null
         },
         {
-          "caption": "Контактная информация и местоположение",
+          "caption": "Contact information and location",
           "type": 0,
           "property": "",
           "size": 2,
@@ -659,7 +659,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Материалы населенного пункта",
+              "caption": "Materials of the settlement",
               "type": 110,
               "property": "schems",
               "size": null,
@@ -685,7 +685,7 @@
               "selSorting": null
             },
             {
-              "caption": "Координаты",
+              "caption": "Coordinates",
               "type": 100,
               "property": "geocoord",
               "size": 2,
@@ -707,14 +707,14 @@
               "hint": null,
               "historyDisplayMode": 0,
               "tags": [
-                "tryfind:Хабаровский край",
+                "tryfind:Australia",
                 "tryfind:$name"
               ],
               "selConditions": null,
               "selSorting": null
             },
             {
-              "caption": "Администрация населенного пункта",
+              "caption": "Locality administration",
               "type": 5,
               "property": "adminNasPunkt",
               "size": 2,
@@ -781,7 +781,7 @@
               "selSorting": null
             },
             {
-              "caption": "Примечание",
+              "caption": "Note",
               "type": 7,
               "property": "primechanie",
               "size": 2,
@@ -825,7 +825,7 @@
           "selSorting": null
         },
         {
-          "caption": "Связь в населенном пункте",
+          "caption": "Communication in the locality",
           "type": 2,
           "property": "svyaz",
           "size": 2,
@@ -851,7 +851,7 @@
           "selSorting": []
         },
         {
-          "caption": "Здравоохранение в населенном пункте",
+          "caption": "Health care in the locality",
           "type": 2,
           "property": "zdravNP",
           "size": 2,
@@ -877,7 +877,7 @@
           "selSorting": []
         },
         {
-          "caption": "Образование в населенном пункте",
+          "caption": "Education in the locality",
           "type": 2,
           "property": "education",
           "size": 2,
@@ -905,7 +905,7 @@
       ],
       "shortFields": [
         {
-          "caption": "Основные сведения",
+          "caption": "Basic information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -914,7 +914,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "ОКАТО",
+              "caption": "ARCPS",
               "type": 1,
               "property": "okato",
               "size": 2,
@@ -940,7 +940,7 @@
               "selSorting": null
             },
             {
-              "caption": "ОКТМО",
+              "caption": "RNCMT",
               "type": 1,
               "property": "oktmo",
               "size": 2,
@@ -966,7 +966,7 @@
               "selSorting": null
             },
             {
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -992,7 +992,7 @@
               "selSorting": null
             },
             {
-              "caption": "Вышестоящее мун. образ.",
+              "caption": "Superior municipality",
               "type": 2,
               "property": "supOktmo",
               "size": 2,
@@ -1018,7 +1018,7 @@
               "selSorting": null
             },
             {
-              "caption": "Административный район",
+              "caption": "Administrative district",
               "type": 3,
               "property": "adminMun",
               "size": 2,
@@ -1029,7 +1029,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Администрация управляет муниципальным районом/городским округом",
+                  "caption": "Administration manages the municipal district/urban district",
                   "type": 3,
                   "property": "linkMunRaion",
                   "size": 2,
@@ -1083,7 +1083,7 @@
               "selSorting": null
             },
             {
-              "caption": "Тип населенного пункта",
+              "caption": "Type of locality",
               "type": 3,
               "property": "type",
               "size": 2,
@@ -1094,7 +1094,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Тип населенного пункта",
+                  "caption": "Type of locality",
                   "type": 1,
                   "property": "type",
                   "size": 2,
@@ -1158,7 +1158,7 @@
               "selSorting": null
             },
             {
-              "caption": "Численность",
+              "caption": "Population",
               "type": 2,
               "property": "chislennost",
               "size": 2,
@@ -1184,7 +1184,7 @@
               "selSorting": null
             },
             {
-              "caption": "Является районным центром края",
+              "caption": "Is the regional center of the Territory",
               "type": 4,
               "property": "rainCentr",
               "size": 2,
@@ -1210,7 +1210,7 @@
               "selSorting": null
             },
             {
-              "caption": "Метки",
+              "caption": "Tags",
               "type": 3,
               "property": "labels",
               "size": null,
@@ -1221,7 +1221,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Метка",
+                  "caption": "Tags",
                   "type": 2,
                   "property": "label",
                   "size": 2,
@@ -1335,7 +1335,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1345,7 +1345,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1355,7 +1355,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

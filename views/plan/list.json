@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": null,
-      "caption": "План развития",
+      "caption": "Road map",
       "type": 7,
       "property": "comment",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "nasPunkt",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Планируемый срок реализации",
+      "caption": "Planned execution period",
       "type": 120,
       "property": "datePlan",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Проект",
+      "caption": "Project",
       "type": 2,
       "property": "invProj",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "В архив",
+      "caption": "In the archive",
       "type": 4,
       "property": "archive",
       "size": 2,
@@ -145,7 +145,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -155,7 +155,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -165,7 +165,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

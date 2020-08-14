@@ -5,7 +5,7 @@ let result = {
 };
 
 if (item.get('chislennost')) {
-  result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+  result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 
 let itemZdrav = item.property('zdravNP').evaluate();
@@ -17,14 +17,14 @@ if (itemZdrav) {
         result.medicalOrg += '<br>' + elem.get('name') + '<br>';
       }
       if (elem.get('address')) {
-        result.medicalOrg += ' (Адрес: ' + elem.property('address').evaluate() + ')' + '<br>';
+        result.medicalOrg += ' (Address: ' + elem.property('address').evaluate() + ')' + '<br>';
       }
       result.medicalOrg += '<br>';
     }
   }
 }
 else {
-  result.medicalOrg += '(' + 'Отсутствует' + ')';
+  result.medicalOrg += '(' + 'Missing' + ')';
 }
 %>
 <ul class='balloon-attrlist' style='width:225px'>
@@ -36,7 +36,7 @@ else {
     .report-list .report-item { margin-top:10px; }
   </style>
 
-  <li>Медицинская организация:
+  <li>Medical organization:
     <ul class='comma-list'>
       <li><%- result.medicalOrg %></li>
     </ul>

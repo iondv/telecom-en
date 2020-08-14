@@ -6,7 +6,7 @@
   "semantic": "clas",
   "name": "charactosp",
   "version": "",
-  "caption": "Характеристика почтовых отделений",
+  "caption": "Characteristics of post offices",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "clas",
-      "caption": "Класс",
+      "caption": "Class",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "clasific",
-      "caption": "Классификация отделений почтовой связи ФГУП Почта России",
+      "caption": "Classification of post offices",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "rabota",
-      "caption": "Режим работы",
+      "caption": "Working hours",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "uslugi",
-      "caption": "Услуги",
+      "caption": "Services",
       "type": 1,
       "size": null,
       "decimals": 0,

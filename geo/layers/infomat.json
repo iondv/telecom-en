@@ -1,8 +1,8 @@
 {
   "code": "infomat",
   "order": 0,
-  "caption": "Инфомат",
-  "hint": "Инфомат",
+  "caption": "Infomat",
+  "hint": "Infomat",
   "data": [
     {
       "type": "Point",

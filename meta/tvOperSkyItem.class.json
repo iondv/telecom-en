@@ -6,7 +6,7 @@
   "semantic": "operator| (|pack|)",
   "name": "tvOperSkyItem",
   "version": "",
-  "caption": "Спутниковый оператор",
+  "caption": "Satellite operator",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateModif",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 35,
       "name": "name",
-      "caption": "Спутниковое ТВ",
+      "caption": "Satellite TV",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 39,
       "name": "operator",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 41,
       "name": "pack",
-      "caption": "Пакет оператора спутниковой связи",
+      "caption": "Package of satellite operator",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 52,
       "name": "numb",
-      "caption": "Количество подключенных абонентов",
+      "caption": "Number of connected subscribers",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -142,7 +142,7 @@
     {
       "orderNumber": 30,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -171,7 +171,7 @@
     {
       "orderNumber": 111,
       "name": "dateModif",
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 9,
       "size": null,
       "decimals": 0,

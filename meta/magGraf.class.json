@@ -6,7 +6,7 @@
   "semantic": "nomer| |typeGraf| |typeTran",
   "name": "magGraf",
   "version": "",
-  "caption": "Магистральные маршруты",
+  "caption": "Trunk routes",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -83,7 +83,7 @@
     {
       "orderNumber": 15,
       "name": "typeGraf",
-      "caption": "Тип маршрута",
+      "caption": "Route type",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -109,11 +109,11 @@
         "list": [
           {
             "key": "base",
-            "value": "Основной"
+            "value": "Basic"
           },
           {
             "key": "reserv",
-            "value": "Резервный"
+            "value": "Backup"
           }
         ],
         "matrix": [],
@@ -127,7 +127,7 @@
     {
       "orderNumber": 20,
       "name": "typeTran",
-      "caption": "Вид транспорта",
+      "caption": "Type of transport",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -153,19 +153,19 @@
         "list": [
           {
             "key": "avia",
-            "value": "Авиа"
+            "value": "Aero"
           },
           {
             "key": "gd",
-            "value": "Ж/д"
+            "value": "Rail road"
           },
           {
             "key": "auto",
-            "value": "Авто"
+            "value": "Auto"
           },
           {
             "key": "other",
-            "value": "Иные"
+            "value": "Other"
           }
         ],
         "matrix": [],
@@ -179,7 +179,7 @@
     {
       "orderNumber": 40,
       "name": "trafficPattern",
-      "caption": "Порядок движения в маршруте",
+      "caption": "Traffic pattern",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -213,7 +213,7 @@
     {
       "orderNumber": 65,
       "name": "geoobject",
-      "caption": "Геообъект",
+      "caption": "GeoObject",
       "type": 100,
       "size": null,
       "decimals": 0,

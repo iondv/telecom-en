@@ -6,7 +6,7 @@
   "semantic": "okato",
   "name": "svyaz",
   "version": "",
-  "caption": "Связь",
+  "caption": "Communication",
   "ancestor": null,
   "container": "",
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "okato",
-      "caption": "ОКАТО",
+      "caption": "ARCPS",
       "type": 13,
       "size": 11,
       "decimals": 0,
@@ -48,7 +48,7 @@
     {
       "orderNumber": 100,
       "name": "internet",
-      "caption": "ШПД",
+      "caption": "WBIA",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -77,7 +77,7 @@
     {
       "orderNumber": 110,
       "name": "mobile",
-      "caption": "Сотовая связь",
+      "caption": "Cellular communication",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -106,7 +106,7 @@
     {
       "orderNumber": 110,
       "name": "mobileBeeline",
-      "caption": "Сотовая связь",
+      "caption": "Cellular communication",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -144,7 +144,7 @@
     {
       "orderNumber": 110,
       "name": "mobileMegafon",
-      "caption": "Сотовая связь",
+      "caption": "Cellular communication",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -182,7 +182,7 @@
     {
       "orderNumber": 110,
       "name": "mobileMTS",
-      "caption": "Сотовая связь",
+      "caption": "Cellular communication",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -220,7 +220,7 @@
     {
       "orderNumber": 110,
       "name": "mobile2G",
-      "caption": "Сотовая связь 2G",
+      "caption": "2G Cellular",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -265,7 +265,7 @@
     {
       "orderNumber": 110,
       "name": "mobile3G",
-      "caption": "Сотовая связь 3G",
+      "caption": "3G Cellular",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -310,7 +310,7 @@
     {
       "orderNumber": 110,
       "name": "mobile4G",
-      "caption": "Сотовая связь 4G",
+      "caption": "4G Cellular",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -355,7 +355,7 @@
     {
       "orderNumber": 120,
       "name": "tv",
-      "caption": "Эфирное телевидение",
+      "caption": "Terrestrial television",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -384,7 +384,7 @@
     {
       "orderNumber": 130,
       "name": "radio",
-      "caption": "Радио",
+      "caption": "Radio",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -413,7 +413,7 @@
     {
       "orderNumber": 140,
       "name": "statsionar",
-      "caption": "Стационарная связь",
+      "caption": "Stationary communication",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -442,7 +442,7 @@
     {
       "orderNumber": 150,
       "name": "other",
-      "caption": "Прочие виды связи",
+      "caption": "Other types of communication",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -471,7 +471,7 @@
     {
       "orderNumber": 160,
       "name": "ams",
-      "caption": "Антенно-мачтовые сооружения",
+      "caption": "Antenna Mast Structures",
       "type": 14,
       "size": 24,
       "decimals": 0,
@@ -500,7 +500,7 @@
     {
       "orderNumber": 155,
       "name": "ops",
-      "caption": "Отделения почтовой связи",
+      "caption": "Post offices",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -529,7 +529,7 @@
     {
       "orderNumber": 124,
       "name": "tvcom",
-      "caption": "Коммерческое телевидение",
+      "caption": "Commercial TV",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -558,7 +558,7 @@
     {
       "orderNumber": 124,
       "name": "supOktmo",
-      "caption": "Муниципальный район [значение для формы списка]",
+      "caption": "Municipal district [value for list form]",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -590,7 +590,7 @@
     {
       "orderNumber": 124,
       "name": "chislennost",
-      "caption": "Численность [значение для формы списка]",
+      "caption": "Population [value for list form]",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -622,7 +622,7 @@
     {
       "orderNumber": 110,
       "name": "cetc",
-      "caption": "Цифровое ТВ [значение для формы списка]",
+      "caption": "Digital TV [value for list form]",
       "type": 0,
       "size": 50,
       "decimals": 0,
@@ -660,7 +660,7 @@
     {
       "orderNumber": 110,
       "name": "tvOperCom",
-      "caption": "Кабельное ТВ [значение для формы списка]",
+      "caption": "Cable TV [value for list form]",
       "type": 0,
       "size": 50,
       "decimals": 0,
@@ -698,7 +698,7 @@
     {
       "orderNumber": 110,
       "name": "tvAnalog",
-      "caption": "Аналоговое ТВ [значение для формы списка]",
+      "caption": "Analog TV [value for list form]",
       "type": 0,
       "size": 50,
       "decimals": 0,

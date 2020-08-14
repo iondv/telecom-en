@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 5,
           "property": "tvOper",
           "size": null,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Название пакета",
+          "caption": "Package name",
           "type": 1,
           "property": "name",
           "size": null,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Каналы",
+          "caption": "Channels",
           "type": 3,
           "property": "canals",
           "size": null,
@@ -67,7 +67,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Название",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -131,7 +131,7 @@
           "selSorting": null
         },
         {
-          "caption": "Стоимость",
+          "caption": "Cost",
           "type": 1,
           "property": "cost",
           "size": null,
@@ -170,7 +170,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -180,7 +180,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

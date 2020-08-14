@@ -5,20 +5,20 @@ let result = {
 };
 
 if (item.get('chislennost')) {
-    result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+    result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 
 let itemEducation = item.property('education').evaluate();
 if (itemEducation) {
-    result.educationOrg = 'есть';
+    result.educationOrg = 'yes';
 } else {
-    result.educationOrg = 'отсутствует';
+    result.educationOrg = 'missing';
 }
 %>
 <ul class='balloon-attrlist' style='width:225px'>
     <li><b class='block mb10'><%- result.title %></b></li>
 
-    <li>Образовательная организация:
+    <li>Educational establishment:
         <ul class='comma-list'>
             <li><%- result.educationOrg %></li>
         </ul>
@@ -27,6 +27,6 @@ if (itemEducation) {
 </ul>
 <div>
     <button type='button' class='btn btn-sm btn-primary map-modal-link' data-type='url'
-            data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/education'>Подробно
+            data-url='geomap/render/telecom-en/naselenniyPunkt/0/<%- item.id %>?template=geo/layers/education'>In detail
     </button>
 </div>

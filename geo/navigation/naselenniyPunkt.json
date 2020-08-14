@@ -2,17 +2,17 @@
   "type": "data",
   "order": 1,
   "code": "naselenniyPunkt",
-  "caption": "Населенные пункты",
-  "hint": "Населенные пункты",
+  "caption": "Localities",
+  "hint": "Localities",
   "layers": [
     "naselenniyPunkt"
   ],
   "filter" : [
     {
-      "caption" : "Тип населенного пункта",
+      "caption" : "Type of locality",
       "fields" : [
         {
-          "caption" : "Список параметров для фильтра",
+          "caption" : "List of parameters for the filter",
           "type" : "select",
           "multiple" : true,
           "filteredClass" : "naselenniyPunkt@telecom-en",

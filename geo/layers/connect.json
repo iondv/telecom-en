@@ -1,8 +1,8 @@
 {
   "code": "connect",
   "order": 0,
-  "caption": "Связь по населенным пунктам",
-  "hint": "Связь по населенным пунктам",
+  "caption": "Communication distributed by localities",
+  "hint": "Communication distributed by localities",
   "data": [
     {
       "type": "Point",

@@ -6,7 +6,7 @@
   "semantic": "nasPunkt| |comment| Срок реализации: |datePlan",
   "name": "plan",
   "version": "",
-  "caption": "План развития",
+  "caption": "Road map",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 14,
       "name": "nasPunkt",
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -85,7 +85,7 @@
     {
       "orderNumber": 22,
       "name": "comment",
-      "caption": "План развития",
+      "caption": "Road map",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -114,7 +114,7 @@
     {
       "orderNumber": 50,
       "name": "invProj",
-      "caption": "Проект",
+      "caption": "Project",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -143,7 +143,7 @@
     {
       "orderNumber": 60,
       "name": "datePlan",
-      "caption": "Планируемый срок реализации",
+      "caption": "Planned execution period",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -172,7 +172,7 @@
     {
       "orderNumber": 261,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -201,7 +201,7 @@
     {
       "orderNumber": 270,
       "name": "archive",
-      "caption": "В архив",
+      "caption": "In the archive",
       "type": 10,
       "size": null,
       "decimals": 0,

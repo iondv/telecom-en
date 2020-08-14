@@ -6,7 +6,7 @@
   "semantic": "type",
   "name": "typeMedicalOrg",
   "version": "",
-  "caption": "Тип медицинской организации",
+  "caption": "Type of medical organization",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "type",
-      "caption": "Тип",
+      "caption": "Type",
       "type": 0,
       "size": null,
       "decimals": 0,

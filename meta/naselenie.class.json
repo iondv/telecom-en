@@ -6,7 +6,7 @@
   "semantic": "chislennost",
   "name": "naselenie",
   "version": "",
-  "caption": "Численность населения",
+  "caption": "Population",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 30,
       "name": "chislennost",
-      "caption": "Численность",
+      "caption": "Population",
       "type": 6,
       "size": 8,
       "decimals": 0,
@@ -83,7 +83,7 @@
     {
       "orderNumber": 15,
       "name": "okatoNasPunkta",
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -112,7 +112,7 @@
     {
       "orderNumber": 250,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -141,7 +141,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -170,7 +170,7 @@
     {
       "orderNumber": 31,
       "name": "chislennostChild",
-      "caption": "Численность - дети",
+      "caption": "Population - children",
       "type": 7,
       "size": null,
       "decimals": 0,

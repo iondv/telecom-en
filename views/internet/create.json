@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Основные сведения",
+          "caption": "Basic information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -13,7 +13,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Населенный пункт",
+              "caption": "Locality",
               "type": 5,
               "property": "okato",
               "size": null,
@@ -39,7 +39,7 @@
               "selSorting": null
             },
             {
-              "caption": "Оператор",
+              "caption": "Operator",
               "type": 5,
               "property": "operatorwww",
               "size": null,
@@ -83,7 +83,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип ТКС",
+          "caption": "TCC type",
           "type": 3,
           "property": "typeTKS",
           "size": null,
@@ -94,7 +94,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Тип",
+              "caption": "Type",
               "type": 1,
               "property": "type",
               "size": 2,
@@ -124,7 +124,7 @@
           "commands": [
             {
               "id": "ADD",
-              "caption": "Добавить",
+              "caption": "Add",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -134,7 +134,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -158,7 +158,7 @@
           "selSorting": null
         },
         {
-          "caption": "Технический охват",
+          "caption": "Technical coverage",
           "type": 15,
           "property": "tech",
           "size": 2,
@@ -184,7 +184,7 @@
           "selSorting": []
         },
         {
-          "caption": "Тип услуги",
+          "caption": "Type of service",
           "type": 3,
           "property": "typeShpd",
           "size": null,
@@ -195,7 +195,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Тип",
+              "caption": "Type",
               "type": 1,
               "property": "type",
               "size": 2,
@@ -222,7 +222,7 @@
             },
             {
               "sorted": true,
-              "caption": "Количество абонентов",
+              "caption": "Number of subscribers",
               "type": 14,
               "property": "numbSubShpd",
               "size": 2,
@@ -252,7 +252,7 @@
           "commands": [
             {
               "id": "ADD",
-              "caption": "Добавить",
+              "caption": "Add",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -272,7 +272,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -296,7 +296,7 @@
           "selSorting": null
         },
         {
-          "caption": "Наличие магистральных каналов",
+          "caption": "Availability of the main channels",
           "type": 4,
           "property": "magistral",
           "size": null,
@@ -322,7 +322,7 @@
           "selSorting": null
         },
         {
-          "caption": "Емкость магистрального канала",
+          "caption": "Trunk channel capacity",
           "type": 1,
           "property": "emk",
           "size": null,
@@ -348,7 +348,7 @@
           "selSorting": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": null,
@@ -387,7 +387,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -397,7 +397,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

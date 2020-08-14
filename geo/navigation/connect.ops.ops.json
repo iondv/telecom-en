@@ -3,17 +3,17 @@
   "order": 20,
   "code": "connect.ops.ops",
   "parent": "connect.ops",
-  "caption": "ГОПС/СОПС",
-  "hint": "ГОПС/СОПС в Хабаровском крае",
+  "caption": "Сity post office/Operational and post services",
+  "hint": "Сity post office/Operational and post services in Australia",
   "layers": [
     "ops"
   ],
   "filter": [
     {
-      "caption": "Тип ОПС",
+      "caption": "Type of operational and post services",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "ops@telecom-en",
@@ -21,21 +21,21 @@
           "values": [
             {
               "value": "a",
-              "label": "ГОПС"
+              "label": "Сity post office"
             },
             {
               "value": "b",
-              "label": "СОПС"
+              "label": "Operational and post services"
             }
           ]
         }
       ]
     },
     {
-      "caption": "Класс ОПС",
+      "caption": "Class of post offices",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",
@@ -52,10 +52,10 @@
       ]
     },
     {
-      "caption": "Почтамт",
+      "caption": "Post Office",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "ops@telecom-en",

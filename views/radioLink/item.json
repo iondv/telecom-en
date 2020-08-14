@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "rlink",
           "size": null,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Наименование радиостанции",
+          "caption": "Radio station name",
           "type": 5,
           "property": "name",
           "size": null,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Частота вещания, МГц",
+          "caption": "Broadcast frequency, MHz",
           "type": 1,
           "property": "numb",
           "size": null,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Место вещания",
+          "caption": "Broadcast location",
           "type": 5,
           "property": "place",
           "size": null,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Мощность, кВт",
+          "caption": "Power, kW",
           "type": 15,
           "property": "power",
           "size": null,
@@ -134,7 +134,7 @@
           "selSorting": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateEdit",
           "size": null,
@@ -173,7 +173,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -183,7 +183,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -193,7 +193,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

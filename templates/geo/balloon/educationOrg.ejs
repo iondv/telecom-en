@@ -5,7 +5,7 @@ let result = {
 };
 
 if (item.get('chislennost')) {
-  result.title += ' (' + item.property('chislennost').evaluate() + ' чел.)';
+  result.title += ' (' + item.property('chislennost').evaluate() + ' ppl.)';
 }
 
 let itemEducation = item.property('education').evaluate();
@@ -17,14 +17,14 @@ if (itemEducation) {
         result.educationOrg += '<br>' + elem.get('name') + '<br>';
       }
       if (elem.get('address')) {
-        result.educationOrg += ' (Адрес: ' + elem.property('address').evaluate() + ')' + '<br>';
+        result.educationOrg += ' (Address: ' + elem.property('address').evaluate() + ')' + '<br>';
       }
       result.educationOrg += '<br>';
     }
   }
 }
 else {
-  result.educationOrg += '(' + 'Отсутствует' + ')';
+  result.educationOrg += '(' + 'Missing' + ')';
 }
 %>
 <ul class='balloon-attrlist' style='width:225px'>
@@ -36,7 +36,7 @@ else {
     .report-list .report-item { margin-top:10px; }
   </style>
 
-  <li>Образовательная организация:
+  <li>Educational establishment:
     <ul class='comma-list'>
       <li><%- result.educationOrg %></li>
     </ul>

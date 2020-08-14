@@ -6,7 +6,7 @@
   "semantic": "okato",
   "name": "other",
   "version": "",
-  "caption": "Прочие",
+  "caption": "Others",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор паспорта",
+      "caption": "Passport ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 20,
       "name": "okato",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -83,7 +83,7 @@
     {
       "orderNumber": 150,
       "name": "wifi",
-      "caption": "Точки доступа Wi-Fi",
+      "caption": "Wi-Fi hotspots",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -112,7 +112,7 @@
     {
       "orderNumber": 160,
       "name": "infomats",
-      "caption": "Инфоматы",
+      "caption": "Infomats",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -141,7 +141,7 @@
     {
       "orderNumber": 170,
       "name": "bsIskra",
-      "caption": "БШПД",
+      "caption": "WBIA",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -170,7 +170,7 @@
     {
       "orderNumber": 180,
       "name": "taksofon",
-      "caption": "Таксофоны",
+      "caption": "Payphones",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -199,7 +199,7 @@
     {
       "orderNumber": 190,
       "name": "sputnikTel",
-      "caption": "Спутниковые телефоны",
+      "caption": "Satellite phones",
       "type": 0,
       "size": 50,
       "decimals": 0,
@@ -228,7 +228,7 @@
     {
       "orderNumber": 250,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -257,7 +257,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -286,7 +286,7 @@
     {
       "orderNumber": 270,
       "name": "numTaksofon",
-      "caption": "Количество таксофонов",
+      "caption": "Number of payphones",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -315,7 +315,7 @@
     {
       "orderNumber": 20,
       "name": "supOkato",
-      "caption": "Муниципальный район",
+      "caption": "Municipal district",
       "type": 1,
       "size": null,
       "decimals": 0,

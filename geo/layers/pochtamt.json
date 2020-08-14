@@ -1,8 +1,8 @@
 {
   "code": "pochtamt",
   "order": 0,
-  "caption": "Почтамты",
-  "hint": "Почтамты",
+  "caption": "Post Offices",
+  "hint": "Post Offices",
   "data": [
     {
       "type": "Point",

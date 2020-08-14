@@ -6,7 +6,7 @@
   "semantic": "okato",
   "name": "zdrav",
   "version": "",
-  "caption": "Здравоохранение",
+  "caption": "Health care",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "okato",
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "medicalOrg",
-      "caption": "Медицинская организация",
+      "caption": "Medical organization",
       "type": 14,
       "size": null,
       "decimals": 0,

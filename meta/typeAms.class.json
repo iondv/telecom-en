@@ -6,7 +6,7 @@
   "semantic": "type",
   "name": "typeAms",
   "version": "",
-  "caption": "Виды АМС",
+  "caption": "Types of AMC",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 20,
       "name": "type",
-      "caption": "Вид АМС",
+      "caption": "Type of AMC",
       "type": 0,
       "size": 32,
       "decimals": 0,

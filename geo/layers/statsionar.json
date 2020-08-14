@@ -1,8 +1,8 @@
 {
   "code": "statsionar",
   "order": 0,
-  "caption": "Стационарная связь",
-  "hint": "Стационарная связь",
+  "caption": "Stationary communication",
+  "hint": "Stationary communication",
   "data": [
     {
       "type": "Point",

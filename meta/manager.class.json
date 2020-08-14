@@ -6,7 +6,7 @@
   "semantic": "fio| |pos| |tel| |telMobile| |email",
   "name": "manager",
   "version": "",
-  "caption": "Должностные лица",
+  "caption": "The officials",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -27,7 +27,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -56,7 +56,7 @@
     {
       "orderNumber": 30,
       "name": "fio",
-      "caption": "ФИО",
+      "caption": "Full Name",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -85,7 +85,7 @@
     {
       "orderNumber": 40,
       "name": "pos",
-      "caption": "Должность",
+      "caption": "Position",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -114,7 +114,7 @@
     {
       "orderNumber": 50,
       "name": "tel",
-      "caption": "Рабочий телефон",
+      "caption": "Office number",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -143,7 +143,7 @@
     {
       "orderNumber": 30,
       "name": "fioPosTel",
-      "caption": "ФИО, Должность, Телефон [вычислимое]",
+      "caption": "Full Name, Position, Phone [computable]",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -180,7 +180,7 @@
     {
       "orderNumber": 52,
       "name": "telMobile",
-      "caption": "Мобильный телефон",
+      "caption": "Mobile number",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -238,7 +238,7 @@
     {
       "orderNumber": 58,
       "name": "fax",
-      "caption": "Факс",
+      "caption": "Fax",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -267,7 +267,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -296,7 +296,7 @@
     {
       "orderNumber": 41,
       "name": "organizations",
-      "caption": "Организация",
+      "caption": "Organization",
       "type": 13,
       "size": null,
       "decimals": 0,

@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.punkPosSort",
   "type": 1,
-  "caption": "Пункты почтовой сортировки",
+  "caption": "Mail sorting office",
   "classname": "punkPosSort",
   "container": null,
   "collection": null,

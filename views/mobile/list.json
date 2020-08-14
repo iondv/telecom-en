@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Муниципальный район",
+      "caption": "Municipal district",
       "type": 1,
       "property": "supOktmoMobile",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "okato",
       "size": 2,
@@ -55,7 +55,7 @@
     },
     {
       "sorted": true,
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 2,
       "property": "mobileOperator",
       "size": 2,
@@ -81,7 +81,7 @@
     },
     {
       "sorted": true,
-      "caption": "Стандарт связи",
+      "caption": "Communication standard",
       "type": 3,
       "property": "mobileStandart",
       "size": 2,
@@ -107,7 +107,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип канала связи",
+      "caption": "Type of communication standard",
       "type": 3,
       "property": "typeTks",
       "size": 2,
@@ -133,7 +133,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,
@@ -159,7 +159,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата обновления",
+      "caption": "Update date",
       "type": 120,
       "property": "dateModified",
       "size": 2,
@@ -193,7 +193,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -203,7 +203,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,
@@ -213,7 +213,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": true,

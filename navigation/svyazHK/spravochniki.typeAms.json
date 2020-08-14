@@ -1,7 +1,7 @@
 {
   "code": "spravochniki.typeAms",
   "type": 1,
-  "caption": "Виды АМС",
+  "caption": "Types of AMC",
   "classname": "typeAms",
   "container": null,
   "collection": null,

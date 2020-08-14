@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "invProj",
   "version": "",
-  "caption": "Проект",
+  "caption": "Project",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "guid",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Наименование проекта",
+      "caption": "Project name",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "sectorInv",
-      "caption": "Отрасль",
+      "caption": "Sector",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "stage",
-      "caption": "Стадия проекта",
+      "caption": "Project stage",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -131,15 +131,15 @@
         "list": [
           {
             "key": "investProp",
-            "value": "Инвестиционные предложения"
+            "value": "Investment offers"
           },
           {
             "key": "goingProj",
-            "value": "Реализуемые проекты"
+            "value": "Projects in progress"
           },
           {
             "key": "succesProj",
-            "value": "Успешные проекты"
+            "value": "Successful projects"
           }
         ],
         "matrix": [],
@@ -153,7 +153,7 @@
     {
       "orderNumber": 45,
       "name": "status",
-      "caption": "Статус проекта",
+      "caption": "Project status",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -182,7 +182,7 @@
     {
       "orderNumber": 53,
       "name": "mo",
-      "caption": "Муниципальное образование",
+      "caption": "Municipalities",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -211,7 +211,7 @@
     {
       "orderNumber": 60,
       "name": "product",
-      "caption": "Описание проекта",
+      "caption": "Project description",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -240,7 +240,7 @@
     {
       "orderNumber": 72,
       "name": "inv",
-      "caption": "Объем инвестирования, млн руб",
+      "caption": "Investment amount, million AU$",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -269,7 +269,7 @@
     {
       "orderNumber": 80,
       "name": "additional",
-      "caption": "Потребность в дополнительных инвестициях",
+      "caption": "Need for additional investment",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -298,7 +298,7 @@
     {
       "orderNumber": 90,
       "name": "dataBuild",
-      "caption": "Начало строительства",
+      "caption": "Start of construction",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -327,7 +327,7 @@
     {
       "orderNumber": 100,
       "name": "dataCommis",
-      "caption": "Ввод в эксплуатацию",
+      "caption": "Commissioning",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -356,7 +356,7 @@
     {
       "orderNumber": 110,
       "name": "jobs",
-      "caption": "Количество создаваемых рабочих мест",
+      "caption": "Number of created jobs",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -385,7 +385,7 @@
     {
       "orderNumber": 120,
       "name": "projCap",
-      "caption": "Проектная мощность",
+      "caption": "Project capacity",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -414,7 +414,7 @@
     {
       "orderNumber": 150,
       "name": "web",
-      "caption": "Web-сайт",
+      "caption": "Website",
       "type": 3,
       "size": null,
       "decimals": 0,
@@ -443,7 +443,7 @@
     {
       "orderNumber": 160,
       "name": "linkInv",
-      "caption": "Ссылка на инвестпортал",
+      "caption": "Link to investment portal",
       "type": 3,
       "size": null,
       "decimals": 0,
@@ -472,7 +472,7 @@
     {
       "orderNumber": 170,
       "name": "add",
-      "caption": "Дополнительная информация",
+      "caption": "Additional Information",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -501,7 +501,7 @@
     {
       "orderNumber": 180,
       "name": "app",
-      "caption": "Приложения (документы)",
+      "caption": "Attachments (documents)",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -530,7 +530,7 @@
     {
       "orderNumber": 190,
       "name": "foto",
-      "caption": "Фото",
+      "caption": "Photo",
       "type": 4,
       "size": null,
       "decimals": 0,
@@ -559,7 +559,7 @@
     {
       "orderNumber": 200,
       "name": "geoObj",
-      "caption": "Гео",
+      "caption": "Geo",
       "type": 100,
       "size": null,
       "decimals": 0,
@@ -588,7 +588,7 @@
     {
       "orderNumber": 50,
       "name": "placeImp",
-      "caption": "Место реализации",
+      "caption": "Location",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -617,7 +617,7 @@
     {
       "orderNumber": 52,
       "name": "payback",
-      "caption": "Срок окупаемости, лет",
+      "caption": "Payback period, years",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -646,7 +646,7 @@
     {
       "orderNumber": 61,
       "name": "implSteps",
-      "caption": "Этапы реализации",
+      "caption": "Implementation stage",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -675,7 +675,7 @@
     {
       "orderNumber": 62,
       "name": "stateSupport",
-      "caption": "Формы государственной поддержки",
+      "caption": "Forms of state support",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -704,7 +704,7 @@
     {
       "orderNumber": 70,
       "name": "provisionMaterial",
-      "caption": "Обеспеченность сырьем, материалами",
+      "caption": "Provision of raw materials",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -733,7 +733,7 @@
     {
       "orderNumber": 71,
       "name": "potentialCustomer",
-      "caption": "Потенциальные потребители",
+      "caption": "Potential customers",
       "type": 1,
       "size": null,
       "decimals": 0,

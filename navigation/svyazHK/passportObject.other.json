@@ -2,7 +2,7 @@
   "code": "passportObject.other",
   "orderNumber": 17,
   "type": 1,
-  "caption": "Прочие паспорта",
+  "caption": "Other passports",
   "classname": "other",
   "container": null,
   "collection": null,

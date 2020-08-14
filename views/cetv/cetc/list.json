@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "tvlink",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Мультиплекс",
+      "caption": "Multiplex",
       "type": 2,
       "property": "multipl",
       "size": 2,
@@ -64,7 +64,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -84,7 +84,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,

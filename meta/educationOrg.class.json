@@ -6,7 +6,7 @@
   "semantic": "",
   "name": "educationOrg",
   "version": "",
-  "caption": "Образовательная организация",
+  "caption": "Educational establishment",
   "ancestor": "organization",
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 30,
       "name": "type",
-      "caption": "Подтип",
+      "caption": "Subtype",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 30,
       "name": "state",
-      "caption": "Статус",
+      "caption": "Status",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 11,
       "name": "okato",
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 50,
       "name": "urAddr",
-      "caption": "Юридический адрес организации",
+      "caption": "Legal address of the organization",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 20,
       "name": "fias",
-      "caption": "ФИАС",
+      "caption": "FIAS",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 50,
       "name": "students",
-      "caption": "Учащихся",
+      "caption": "Students",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 260,
       "name": "plannedDate",
-      "caption": "Плановая дата ввода в эксплуатацию",
+      "caption": "Planned commissioning date",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 260,
       "name": "dateExploitation",
-      "caption": "Дата ввода в эксплуатацию",
+      "caption": "Commissioning date",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 260,
       "name": "dateRemoval",
-      "caption": "Вывод из эксплуатации",
+      "caption": "Decommissioning",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -279,7 +279,7 @@
     {
       "orderNumber": 351,
       "name": "connected",
-      "caption": "Подключен",
+      "caption": "Connected",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -308,7 +308,7 @@
     {
       "orderNumber": 50,
       "name": "rtrs",
-      "caption": "Ближайшая РТРС",
+      "caption": "The closest RTRN",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -337,7 +337,7 @@
     {
       "orderNumber": 50,
       "name": "distanceToRtrs",
-      "caption": "Расстояние до ближайшего РТРС",
+      "caption": "Distance to the nearest RTRN (km)",
       "type": 7,
       "size": null,
       "decimals": 0,
@@ -366,7 +366,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,

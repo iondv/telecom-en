@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Тип АТС",
+          "caption": "PBX type",
           "type": 1,
           "property": "stacionSvyaz",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Тип ТКС",
+          "caption": "PBX type",
           "type": 3,
           "property": "typeTks",
           "size": 2,
@@ -66,7 +66,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Тип",
+              "caption": "Type",
               "type": 1,
               "property": "type",
               "size": 2,
@@ -127,7 +127,7 @@
           "tags": null
         },
         {
-          "caption": "Монтированная емкость",
+          "caption": "Installed capacity",
           "type": 1,
           "property": "buildVol",
           "size": 2,
@@ -152,7 +152,7 @@
           "tags": null
         },
         {
-          "caption": "Количество абонентов",
+          "caption": "Number of subscribers",
           "type": 14,
           "property": "clients",
           "size": 2,
@@ -177,7 +177,7 @@
           "tags": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -202,7 +202,7 @@
           "tags": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateModified",
           "size": 2,
@@ -227,7 +227,7 @@
           "tags": null
         },
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 5,
           "property": "operator",
           "size": 2,
@@ -265,7 +265,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Sacve and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -275,7 +275,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "SAve",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -285,7 +285,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

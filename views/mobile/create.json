@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип ТКС",
+          "caption": "TCC type",
           "type": 3,
           "property": "typeTks",
           "size": 2,
@@ -41,7 +41,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Тип",
+              "caption": "Type",
               "type": 1,
               "property": "type",
               "size": 2,
@@ -105,7 +105,7 @@
           "selSorting": null
         },
         {
-          "caption": "Услуга связи не предоставляется данным оператором",
+          "caption": "Communication service is not provided by this operator",
           "type": 4,
           "property": "mobileSvyaz",
           "size": 2,
@@ -130,7 +130,7 @@
           "tags": null
         },
         {
-          "caption": "Стандарт мобильной связи",
+          "caption": "Mobile standard",
           "type": 3,
           "property": "mobileStandart",
           "size": 2,
@@ -141,7 +141,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Стандарт",
+              "caption": "Standard",
               "type": 1,
               "property": "standart",
               "size": 2,
@@ -205,7 +205,7 @@
           "selSorting": null
         },
         {
-          "caption": "Основные сведения",
+          "caption": "Basic information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -214,7 +214,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Населенный пункт",
+              "caption": "Locality",
               "type": 5,
               "property": "okato",
               "size": 2,
@@ -240,7 +240,7 @@
               "selSorting": null
             },
             {
-              "caption": "Оператор сотовой связи",
+              "caption": "Mobile operator",
               "type": 5,
               "property": "mobileOperator",
               "size": 2,
@@ -297,7 +297,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -307,7 +307,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

@@ -2,7 +2,7 @@
   "code": "television.radio",
   "orderNumber": 4,
   "type": 1,
-  "caption": "Паспорта радио",
+  "caption": "Radio passports",
   "classname": "radio",
   "container": null,
   "collection": null,

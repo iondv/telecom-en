@@ -1,8 +1,8 @@
 {
   "code": "zdrav",
   "order": 0,
-  "caption": "Здравоохранение",
-  "hint": "Здравоохранение",
+  "caption": "Health care",
+  "hint": "Health care",
   "data": [
     {
       "type": "Point",

@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Организация",
+          "caption": "Organization",
           "type": 2,
           "property": "admin",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Провайдер",
+          "caption": "Provider",
           "type": 5,
           "property": "operator",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип канала связи",
+          "caption": "Type of communication channel",
           "type": 5,
           "property": "typeTKS",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Емкость канала, Мбит/с",
+          "caption": "Channel capacity, Mbit/s",
           "type": 15,
           "property": "volum",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Допустимая пропускная способность, МБит/с",
+          "caption": "Allowable bandwidth, Mbit/s",
           "type": 15,
           "property": "volumPerm",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Стоимость р/мес.",
+          "caption": "Cost AU$/month",
           "type": 15,
           "property": "price",
           "size": 2,
@@ -173,7 +173,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -183,7 +183,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

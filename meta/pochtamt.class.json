@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "pochtamt",
   "version": "",
-  "caption": "Почтамты",
+  "caption": "Post Offices",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -25,7 +25,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -54,7 +54,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Наименование структурных подразделений",
+      "caption": "Structural units name",
       "type": 0,
       "size": 32,
       "decimals": 0,
@@ -83,7 +83,7 @@
     {
       "orderNumber": 25,
       "name": "schems",
-      "caption": "Фото почтового отделения",
+      "caption": "Post office photo",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -112,7 +112,7 @@
     {
       "orderNumber": 30,
       "name": "raionObslu",
-      "caption": "Районы обслуживания",
+      "caption": "Service area",
       "type": 14,
       "size": 20,
       "decimals": 0,
@@ -141,7 +141,7 @@
     {
       "orderNumber": 60,
       "name": "terrObslu",
-      "caption": "Территория обслуживания передвижными ОПС",
+      "caption": "Service area of mobile post offices",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -171,7 +171,7 @@
     {
       "orderNumber": 40,
       "name": "kolStatOps",
-      "caption": "Количество стационарных ОПС",
+      "caption": "Number of stationary post offices",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -201,7 +201,7 @@
     {
       "orderNumber": 50,
       "name": "kolPerOps",
-      "caption": "Количество передвижных ОПС",
+      "caption": "Number of mobile post offices",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -231,7 +231,7 @@
     {
       "orderNumber": 70,
       "name": "address",
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -260,7 +260,7 @@
     {
       "orderNumber": 80,
       "name": "geo",
-      "caption": "Геокоординаты",
+      "caption": "Geo-coordinates",
       "type": 100,
       "size": null,
       "decimals": 0,

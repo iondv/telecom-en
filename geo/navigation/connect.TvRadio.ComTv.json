@@ -3,17 +3,17 @@
   "order": 20,
   "code": "connect.TvRadio.ComTv",
   "parent": "connect.TvRadio",
-  "caption": "Коммерческое ТВ",
-  "hint": "Коммерческое ТВ в Хабаровском крае",
+  "caption": "Commercial TV",
+  "hint": "Commercial TV in Australia",
   "layers": [
     "ComTv"
   ],
   "filter": [
     {
-      "caption": "Тип коммерческого ТВ",
+      "caption": "Type of commercial TV",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": false,
           "filteredClass": "naselenniyPunkt@telecom-en",
@@ -25,15 +25,15 @@
             },
             {
               "value": "b",
-              "label": "Кабельное аналоговое"
+              "label": "Cable analog"
             },
             {
               "value": "c",
-              "label": "Кабельное цифровое"
+              "label": "Cable digital"
             },
             {
               "value": "d",
-              "label": "Кабельное цифровое/аналоговое"
+              "label": "Cable digital/analog"
             }
           ],
           "eagerLoading": [
@@ -43,10 +43,10 @@
       ]
     },
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

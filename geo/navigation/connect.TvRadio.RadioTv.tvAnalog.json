@@ -3,17 +3,17 @@
   "order": 20,
   "code": "connect.TvRadio.RadioTv.tvAnalog",
   "parent": "connect.TvRadio.RadioTv",
-  "caption": "Аналоговое ТВ",
-  "hint": "Аналоговое ТВ в Хабаровском крае",
+  "caption": "Analog TV",
+  "hint": "Analog TV in Australia",
   "layers": [
     "tvAnalog"
   ],
   "filter": [
     {
-      "caption": "Каналы аналогового ТВ",
+      "caption": "Analog TV channels",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "naselenniyPunkt@telecom-en",

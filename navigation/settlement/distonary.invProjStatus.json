@@ -3,7 +3,7 @@
   "orderNumber": 0,
   "type": 1,
   "title": "",
-  "caption": "Статус проекта",
+  "caption": "Project status",
   "classname": "invProjStatus",
   "container": null,
   "collection": null,

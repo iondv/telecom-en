@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Операторы",
+          "caption": "Operators",
           "type": 3,
           "property": "operator",
           "size": 2,
@@ -15,7 +15,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -58,7 +58,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип ТКС",
+          "caption": "TCC type",
           "type": 5,
           "property": "typeTKS",
           "size": null,
@@ -84,7 +84,7 @@
           "selSorting": null
         },
         {
-          "caption": "Зональность",
+          "caption": "Zonality",
           "type": 1,
           "property": "zonalnost",
           "size": 2,
@@ -110,7 +110,7 @@
           "selSorting": null
         },
         {
-          "caption": "Емкость кабеля",
+          "caption": "Cable capacity",
           "type": 7,
           "property": "volum",
           "size": 2,
@@ -136,7 +136,7 @@
           "selSorting": null
         },
         {
-          "caption": "Пропускная способность Гбит/сек",
+          "caption": "Bandwidth, Gbit/s",
           "type": 15,
           "property": "propusk",
           "size": 2,
@@ -162,7 +162,7 @@
           "selSorting": null
         },
         {
-          "caption": "Геообъект",
+          "caption": "GeoObject",
           "type": 100,
           "property": "geoobject",
           "size": 2,
@@ -201,7 +201,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -211,7 +211,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

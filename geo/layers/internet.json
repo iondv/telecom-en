@@ -1,8 +1,8 @@
 {
   "code": "internet",
   "order": 1,
-  "caption": "Проводной ШПД",
-  "hint": "Проводной ШПД",
+  "caption": "Wired BIA",
+  "hint": "Wired BIA",
   "data": [
     {
       "type": "Point",

@@ -3,17 +3,17 @@
   "order": 10,
   "code": "connect.uniKray.taksofon",
   "parent": "connect.uniKray",
-  "caption": "Таксофон",
-  "hint": "Таксофон",
+  "caption": "Payphone",
+  "hint": "Payphone",
   "layers": [
     "taksofon"
   ],
   "filter": [
     {
-      "caption": "Оператор",
+      "caption": "Operator",
       "fields": [
         {
-          "caption": "Список параметров для фильтра",
+          "caption": "List of parameters for the filter",
           "type": "select",
           "multiple": true,
           "filteredClass": "taksofon@telecom-en",

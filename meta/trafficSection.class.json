@@ -6,7 +6,7 @@
   "semantic": "inPoint| - |inPointSyn| |dist|км",
   "name": "trafficSection",
   "version": "",
-  "caption": "Секция схемы движения",
+  "caption": "Traffic section",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 30,
       "name": "inPoint",
-      "caption": "Начало",
+      "caption": "Start",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 40,
       "name": "inPointSyn",
-      "caption": "Конец",
+      "caption": "End",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 50,
       "name": "dist",
-      "caption": "Расстояние (км)",
+      "caption": "Distance (km)",
       "type": 8,
       "size": null,
       "decimals": 0,

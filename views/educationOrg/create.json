@@ -1,10 +1,10 @@
 {
   "tabs": [
     {
-      "caption": "Основные сведения",
+      "caption": "Basic information",
       "fullFields": [
         {
-          "caption": "Наименование",
+          "caption": "Name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Подтип",
+          "caption": "Subtype",
           "type": 5,
           "property": "type",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Статус",
+          "caption": "Status",
           "type": 5,
           "property": "state",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Описание",
+          "caption": "Description",
           "type": 7,
           "property": "about",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Фактический адрес",
+          "caption": "Actual address",
           "type": 2,
           "property": "address",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Юридический адрес",
+          "caption": "Legal address",
           "type": 2,
           "property": "urAddr",
           "size": 2,
@@ -186,7 +186,7 @@
           "selSorting": []
         },
         {
-          "caption": "Количество учащихся",
+          "caption": "Number of students",
           "type": 14,
           "property": "students",
           "size": 2,
@@ -212,7 +212,7 @@
           "selSorting": []
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 5,
           "property": "okato",
           "size": 2,
@@ -238,7 +238,7 @@
           "selSorting": []
         },
         {
-          "caption": "Плановая дата ввода в эксплуатацию",
+          "caption": "Planned commissioning date",
           "type": 120,
           "property": "plannedDate",
           "size": 2,
@@ -262,7 +262,7 @@
           "tags": null
         },
         {
-          "caption": "Дата ввода в эксплуатацию",
+          "caption": "Commissioning date",
           "type": 120,
           "property": "dateExploitation",
           "size": 2,
@@ -286,7 +286,7 @@
           "tags": null
         },
         {
-          "caption": "Вывод из эксплуатации",
+          "caption": "Decommissioning",
           "type": 120,
           "property": "dateRemoval",
           "size": 2,
@@ -310,7 +310,7 @@
           "tags": null
         },
         {
-          "caption": "Подключен",
+          "caption": "Connected",
           "type": 4,
           "property": "connected",
           "size": 2,
@@ -336,7 +336,7 @@
           "selSorting": null
         },
         {
-          "caption": "Ближайшая РТРС",
+          "caption": "The closest RTRN",
           "type": 5,
           "property": "rtrs",
           "size": 2,
@@ -362,7 +362,7 @@
           "selSorting": []
         },
         {
-          "caption": "Расстояние до ближайшего РТРС (км)",
+          "caption": "Distance to the nearest RTRN (km)",
           "type": 15,
           "property": "distanceToRtrs",
           "size": 2,
@@ -401,7 +401,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Создать и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -411,7 +411,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

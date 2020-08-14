@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "ОКТМО",
+          "caption": "RNCMT",
           "type": 1,
           "property": "oktmo",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Наименование",
+          "caption": "Name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "ОКТМО населенных пунктов",
+          "caption": "RNCMT of localities",
           "type": 3,
           "property": "oktmo_nasPunkta",
           "size": 2,
@@ -66,7 +66,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -106,7 +106,7 @@
           "tags": null
         },
         {
-          "caption": "Почтампт",
+          "caption": "Post Office",
           "type": 3,
           "property": "pochtamt",
           "size": 2,
@@ -118,7 +118,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование структурных подразделений",
+              "caption": "Structural units name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -158,7 +158,7 @@
           "tags": null
         },
         {
-          "caption": "Численность",
+          "caption": "Population",
           "type": 14,
           "property": "chislennost",
           "size": 2,
@@ -196,7 +196,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -206,7 +206,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

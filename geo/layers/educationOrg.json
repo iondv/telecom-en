@@ -1,8 +1,8 @@
 {
   "code": "educationOrg",
   "order": 0,
-  "caption": "Медицинская организация",
-  "hint": "Медицинская организация",
+  "caption": "Educational organization",
+  "hint": "Educational organization",
   "data": [
     {
       "type": "Point",

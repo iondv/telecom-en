@@ -1,8 +1,8 @@
 {
   "code": "wifi",
   "order": 0,
-  "caption": "Точка доступа Wi-Fi",
-  "hint": "Точка доступа Wi-Fi",
+  "caption": "Wi-Fi hotspot",
+  "hint": "Wi-Fi hotspot",
   "data": [
     {
       "type": "Point",

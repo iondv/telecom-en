@@ -1,8 +1,8 @@
 {
   "code": "ComTv",
   "order": 0,
-  "caption": "Коммерческое ТВ",
-  "hint": "Коммерческое ТВ",
+  "caption": "Commercial TV",
+  "hint": "Commercial TV",
   "data": [
     {
       "type": "Point",

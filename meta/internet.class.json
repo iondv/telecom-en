@@ -6,7 +6,7 @@
   "semantic": "okato| |operatorwww",
   "name": "internet",
   "version": "",
-  "caption": "ШПД",
+  "caption": "WBIA",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -26,7 +26,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор паспорта Интернет",
+      "caption": "Internet Passport ID",
       "type": 0,
       "size": 24,
       "decimals": 0,
@@ -55,7 +55,7 @@
     {
       "orderNumber": 20,
       "name": "okato",
-      "caption": "Связь",
+      "caption": "Communication",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -84,7 +84,7 @@
     {
       "orderNumber": 40,
       "name": "typeShpd",
-      "caption": "Тип услуги",
+      "caption": "Type of service",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -113,7 +113,7 @@
     {
       "orderNumber": 60,
       "name": "typeTKS",
-      "caption": "Тип ТКС",
+      "caption": "TCC type",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -142,7 +142,7 @@
     {
       "orderNumber": 75,
       "name": "clients",
-      "caption": "Количество абонентов",
+      "caption": "Number of subscribers",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -176,7 +176,7 @@
     {
       "orderNumber": 71,
       "name": "digitNer",
-      "caption": "Цифровое неравенство",
+      "caption": "Digital inequality",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -202,15 +202,15 @@
         "list": [
           {
             "key": "a",
-            "value": "Не входит"
+            "value": "Excluded"
           },
           {
             "key": "b",
-            "value": "В проекте"
+            "value": "In the project"
           },
           {
             "key": "c",
-            "value": "Реализовано"
+            "value": "Implemented"
           }
         ],
         "matrix": [],
@@ -224,7 +224,7 @@
     {
       "orderNumber": 80,
       "name": "tech",
-      "caption": "Технический охват",
+      "caption": "Technical coverage",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -253,7 +253,7 @@
     {
       "orderNumber": 100,
       "name": "magistral",
-      "caption": "Наличие магистральных каналов",
+      "caption": "Availability of the main channels",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -282,7 +282,7 @@
     {
       "orderNumber": 110,
       "name": "emk",
-      "caption": "Емкость магистрального канала",
+      "caption": "Trunk channel capacity",
       "type": 0,
       "size": 500,
       "decimals": 0,
@@ -311,7 +311,7 @@
     {
       "orderNumber": 250,
       "name": "verified",
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -340,7 +340,7 @@
     {
       "orderNumber": 260,
       "name": "dateModified",
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -369,7 +369,7 @@
     {
       "orderNumber": 21,
       "name": "operatorwww",
-      "caption": "Оператор",
+      "caption": "Operator",
       "type": 13,
       "size": null,
       "decimals": 0,

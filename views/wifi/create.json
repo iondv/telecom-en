@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Оператор",
+          "caption": "Operator",
           "type": 5,
           "property": "operator",
           "size": null,
@@ -130,7 +130,7 @@
           "hint": "",
           "historyDisplayMode": 0,
           "tags": [
-            "tryfind:Хабаровский край",
+            "tryfind:Australia",
             "tryfind:$adress"
           ],
           "selConditions": null,
@@ -150,7 +150,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

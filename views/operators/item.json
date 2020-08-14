@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Дата модификации",
+          "caption": "Modification date",
           "type": 120,
           "property": "dateModif",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Общие сведения",
+          "caption": "General information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -39,7 +39,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -48,7 +48,7 @@
               "mode": 0,
               "fields": [
                 {
-                  "caption": "Наименование",
+                  "caption": "Name",
                   "type": 1,
                   "property": "name",
                   "size": 2,
@@ -92,7 +92,7 @@
               "selSorting": []
             },
             {
-              "caption": "Адрес почтовый организации",
+              "caption": "Postal address of the organization",
               "type": 2,
               "property": "postAddr",
               "size": 2,
@@ -118,7 +118,7 @@
               "selSorting": []
             },
             {
-              "caption": "Сотрудники организации",
+              "caption": "Organisation employee",
               "type": 3,
               "property": "managers",
               "size": 2,
@@ -129,7 +129,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "ФИО",
+                  "caption": "Full Name",
                   "type": 1,
                   "property": "fio",
                   "size": 2,
@@ -156,7 +156,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Должность",
+                  "caption": "Position",
                   "type": 1,
                   "property": "pos",
                   "size": 2,
@@ -199,7 +199,7 @@
               "selSorting": []
             },
             {
-              "caption": "Материалы об организации",
+              "caption": "Materials on the organization",
               "type": null,
               "property": "schems",
               "size": 2,
@@ -225,7 +225,7 @@
               "selSorting": []
             },
             {
-              "caption": "Координаты",
+              "caption": "Coordinates",
               "type": 100,
               "property": "geo",
               "size": 2,
@@ -247,7 +247,7 @@
               "hint": "",
               "historyDisplayMode": 0,
               "tags": [
-                "tryfind:Хабаровский край",
+                "tryfind:Australia",
                 "tryfind:$postAddr"
               ],
               "selConditions": [],
@@ -272,7 +272,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сведения о операторе связи",
+          "caption": "Information about the telecom operator",
           "type": 0,
           "property": "",
           "size": 2,
@@ -281,7 +281,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Полное наименование предприятия связи",
+              "caption": "Full name of the enterprise of communication",
               "type": 7,
               "property": "fullName",
               "size": 2,
@@ -307,7 +307,7 @@
               "selSorting": []
             },
             {
-              "caption": "Юридический адрес организации",
+              "caption": "Legal address of the organization",
               "type": 2,
               "property": "urAddr",
               "size": 2,
@@ -333,7 +333,7 @@
               "selSorting": null
             },
             {
-              "caption": "Филиал предприятия связи в Хабаровском крае",
+              "caption": "Branch of a communications company in Australia",
               "type": 7,
               "property": "orgBranch",
               "size": 2,
@@ -359,7 +359,7 @@
               "selSorting": null
             },
             {
-              "caption": "Юридический адрес филиала",
+              "caption": "Legal address of the branch",
               "type": 2,
               "property": "urAddrBranch",
               "size": 2,
@@ -385,7 +385,7 @@
               "selSorting": null
             },
             {
-              "caption": "Сотрудник филиала",
+              "caption": "Organization employees",
               "type": 3,
               "property": "liderBranch",
               "size": 2,
@@ -396,7 +396,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "ФИО",
+                  "caption": "Full Name",
                   "type": 1,
                   "property": "fio",
                   "size": 2,
@@ -423,7 +423,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Должность",
+                  "caption": "Position",
                   "type": 1,
                   "property": "pos",
                   "size": 2,
@@ -450,7 +450,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Рабочий телефон",
+                  "caption": "Office phone number",
                   "type": 1,
                   "property": "tel",
                   "size": 2,
@@ -477,7 +477,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Факс",
+                  "caption": "Fax",
                   "type": 1,
                   "property": "fax",
                   "size": 2,
@@ -578,7 +578,7 @@
   "commands": [
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -588,7 +588,7 @@
     },
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -598,7 +598,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
