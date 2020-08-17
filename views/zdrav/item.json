@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -41,7 +41,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -122,7 +122,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип медицинской организации",
+              "caption": "Type of medical organization",
               "type": 2,
               "property": "typeMedicalOrg",
               "size": 2,

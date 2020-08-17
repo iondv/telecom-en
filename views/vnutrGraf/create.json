@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип маршрута",
+          "caption": "Route type",
           "type": 1,
           "property": "typeGraf",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Вид транспорта",
+          "caption": "Type of transport",
           "type": 0,
           "property": null,
           "size": 2,
@@ -65,7 +65,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Вид транспорта",
+              "caption": "Type of transport",
               "type": 1,
               "property": "typeTran",
               "size": 2,
@@ -91,7 +91,7 @@
               "selSorting": null
             },
             {
-              "caption": "Порядок движения в маршруте",
+              "caption": "Traffic pattern",
               "type": 3,
               "property": "trafficPattern",
               "size": 2,

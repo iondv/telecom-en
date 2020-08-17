@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Муниципальный район",
+      "caption": "Municipal district",
       "type": 1,
       "property": "supOktmo",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "okato",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Численность",
+      "caption": "Population",
       "type": 1,
       "property": "chislennost",
       "size": 2,
@@ -82,7 +82,7 @@
       "selSorting": []
     },
     {
-      "caption": "ШПД",
+      "caption": "WBIA",
       "type": 3,
       "property": "internet",
       "size": 2,
@@ -109,7 +109,7 @@
     },
     {
       "sorted": true,
-      "caption": "Мобильная связь [Билайн]",
+      "caption": "Mobile communication [Operator1]",
       "type": 1,
       "property": "mobileBeeline",
       "size": 2,
@@ -136,7 +136,7 @@
     },
     {
       "sorted": true,
-      "caption": "Мобильная связь [Мегафон]",
+      "caption": "Mobile communication [Operator2]",
       "type": 1,
       "property": "mobileMegafon",
       "size": 2,
@@ -163,7 +163,7 @@
     },
     {
       "sorted": true,
-      "caption": "Мобильная связь [МТС]",
+      "caption": "Mobile communication [Operator3]",
       "type": 1,
       "property": "mobileMTS",
       "size": 2,
@@ -190,7 +190,7 @@
     },
     {
       "sorted": true,
-      "caption": "Цифровое ТВ",
+      "caption": "Digital TV",
       "type": 1,
       "property": "cetc",
       "size": 2,
@@ -217,7 +217,7 @@
     },
     {
       "sorted": true,
-      "caption": "Кабельное ТВ",
+      "caption": "Cable TV",
       "type": 1,
       "property": "tvOperCom",
       "size": 2,
@@ -244,7 +244,7 @@
     },
     {
       "sorted": true,
-      "caption": "Аналоговое ТВ",
+      "caption": "Analog TV",
       "type": 1,
       "property": "tvAnalog",
       "size": 2,

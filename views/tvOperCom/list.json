@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "name",
       "size": null,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 120,
       "property": "dateModif",
       "size": null,

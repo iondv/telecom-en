@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Начало",
+          "caption": "Start",
           "type": 5,
           "property": "inPoint",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Конец",
+          "caption": "End",
           "type": 5,
           "property": "inPointSyn",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Расстояние (км)",
+          "caption": "Distance (km)",
           "type": 15,
           "property": "dist",
           "size": 2,

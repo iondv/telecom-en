@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "tvlink",
       "size": null,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateEdit",
       "size": null,

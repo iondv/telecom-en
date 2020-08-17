@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -355,7 +355,7 @@
           "tags": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateModified",
           "size": 2,

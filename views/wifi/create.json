@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "other",
           "size": 2,

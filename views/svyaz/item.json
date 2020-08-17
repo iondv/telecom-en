@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Антенно-мачтовые сооружения",
+          "caption": "Antenna Mast Structures",
           "type": 0,
           "property": "",
           "size": 2,
@@ -13,7 +13,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Антенно-мачтовые сооружения",
+              "caption": "Antenna Mast Structures",
               "type": 3,
               "property": "ams",
               "size": 2,
@@ -51,7 +51,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Вид АМС",
+                  "caption": "Type of AMC",
                   "type": 2,
                   "property": "type",
                   "size": 2,
@@ -78,7 +78,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Высота, м",
+                  "caption": "Height, m",
                   "type": 15,
                   "property": "height",
                   "size": 2,
@@ -139,7 +139,7 @@
           "selSorting": null
         },
         {
-          "caption": "Телевидение и радиовещание в населенном пункте",
+          "caption": "TV and radio broadcasting in locality",
           "type": 0,
           "property": "",
           "size": 2,
@@ -148,7 +148,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Эфирное телевидение",
+              "caption": "Terrestrial television",
               "type": 3,
               "property": "tv",
               "size": 2,
@@ -159,7 +159,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Мультиплекс",
+                  "caption": "Multiplex",
                   "type": 3,
                   "property": "digitalTV",
                   "size": 2,
@@ -186,7 +186,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Качество вещания эфирного ЦТВ",
+                  "caption": "Broadcast quality of digital TV",
                   "type": 1,
                   "property": "kachestvoCTB",
                   "size": 2,
@@ -213,7 +213,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Наименование ТВ канала",
+                  "caption": "TV channel name",
                   "type": 3,
                   "property": "analogTV",
                   "size": 2,
@@ -240,7 +240,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Качество вещания эфирного аналогового ТВ",
+                  "caption": "Broadcast quality of analog TV",
                   "type": 1,
                   "property": "kachestvoAnal",
                   "size": 2,
@@ -283,7 +283,7 @@
               "selSorting": null
             },
             {
-              "caption": "Радио",
+              "caption": "Radio",
               "type": 3,
               "property": "radio",
               "size": 2,
@@ -294,7 +294,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Количество каналов",
+                  "caption": "Number of channels",
                   "type": 14,
                   "property": "radio",
                   "size": 2,
@@ -321,7 +321,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Наименование радиостанции",
+                  "caption": "Radio station name",
                   "type": 3,
                   "property": "radioCanals",
                   "size": 2,
@@ -364,7 +364,7 @@
               "selSorting": null
             },
             {
-              "caption": "Коммерческое телевидение",
+              "caption": "Commercial television",
               "type": 3,
               "property": "tvcom",
               "size": 2,
@@ -375,7 +375,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Операторы кабельного ТВ",
+                  "caption": "Cable TV operators",
                   "type": 3,
                   "property": "operatortv",
                   "size": 2,
@@ -402,7 +402,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Операторы спутникового ТВ",
+                  "caption": "Satellite TV operators",
                   "type": 3,
                   "property": "operatorSky",
                   "size": 2,
@@ -463,7 +463,7 @@
           "selSorting": null
         },
         {
-          "caption": "Информация о связи",
+          "caption": "Communication Information",
           "type": 0,
           "property": "",
           "size": 2,
@@ -472,7 +472,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Стационарная телефонная связь",
+              "caption": "Fixed telephones",
               "type": 3,
               "property": "statsionar",
               "size": 2,
@@ -510,7 +510,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип ТКС",
+                  "caption": "TCC type",
                   "type": 3,
                   "property": "typeTks",
                   "size": 2,
@@ -537,7 +537,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип АТС",
+                  "caption": "PBX type",
                   "type": 5,
                   "property": "stacionSvyaz",
                   "size": 2,
@@ -564,7 +564,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Количество абонентов",
+                  "caption": "Number of subscribers",
                   "type": 14,
                   "property": "clients",
                   "size": 2,
@@ -607,7 +607,7 @@
               "selSorting": null
             },
             {
-              "caption": "ШПД",
+              "caption": "WBIA",
               "type": 3,
               "property": "internet",
               "size": 2,
@@ -645,7 +645,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип услуги",
+                  "caption": "Type of service",
                   "type": 3,
                   "property": "typeShpd",
                   "size": 2,
@@ -672,7 +672,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип ТКС",
+                  "caption": "TCC type",
                   "type": 3,
                   "property": "typeTKS",
                   "size": 2,
@@ -699,7 +699,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Интерфейсы",
+                  "caption": "Interfaces",
                   "type": 1,
                   "property": "interface",
                   "size": 2,
@@ -726,7 +726,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Количество абонентов",
+                  "caption": "Number of subscribers",
                   "type": 14,
                   "property": "clients",
                   "size": 2,
@@ -810,7 +810,7 @@
               "selSorting": null
             },
             {
-              "caption": "Сотовая связь",
+              "caption": "Cellular communication",
               "type": 3,
               "property": "mobile",
               "size": 2,
@@ -821,7 +821,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Оператор сотовой связи",
+                  "caption": "Mobile operator",
                   "type": 2,
                   "property": "mobileOperator",
                   "size": 2,
@@ -848,7 +848,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Стандарт мобильной связи",
+                  "caption": "Mobile standard",
                   "type": 3,
                   "property": "mobileStandart",
                   "size": 2,
@@ -875,7 +875,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип ТКС",
+                  "caption": "TCC type",
                   "type": 3,
                   "property": "typeTks",
                   "size": 2,
@@ -959,7 +959,7 @@
               "selSorting": null
             },
             {
-              "caption": "Прочие виды связи",
+              "caption": "Other types of communication",
               "type": 3,
               "property": "other",
               "size": 2,
@@ -970,7 +970,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Точки доступа Wi-Fi",
+                  "caption": "WiFi Hotspots",
                   "type": 3,
                   "property": "wifi",
                   "size": 2,
@@ -997,7 +997,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Инфоматы",
+                  "caption": "Infomats",
                   "type": 3,
                   "property": "infomats",
                   "size": 2,
@@ -1024,7 +1024,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "БШПД",
+                  "caption": "WBIA",
                   "type": 3,
                   "property": "bsIskra",
                   "size": 2,
@@ -1051,7 +1051,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Количество таксофонов",
+                  "caption": "Number of payphones",
                   "type": 1,
                   "property": "numTaksofon",
                   "size": 2,
@@ -1094,7 +1094,7 @@
               "selSorting": null
             },
             {
-              "caption": "Почтовая связь",
+              "caption": "Postal communication",
               "type": 3,
               "property": "ops",
               "size": 2,
@@ -1105,7 +1105,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Наименование ОПС",
+                  "caption": "Post office name",
                   "type": 1,
                   "property": "name",
                   "size": 2,
@@ -1132,7 +1132,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Адрес",
+                  "caption": "Address",
                   "type": 1,
                   "property": "adress",
                   "size": 2,
@@ -1159,7 +1159,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Телефон",
+                  "caption": "Phone",
                   "type": 1,
                   "property": "tel",
                   "size": 2,
@@ -1220,7 +1220,7 @@
           "selSorting": null
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
