@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Технический охват",
+          "caption": "Technical coverage",
           "type": 1,
           "property": "tech",
           "size": null,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество подключенных абонентов",
+          "caption": "Number of connected subscribers",
           "type": 1,
           "property": "numb",
           "size": null,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип коммерческого ТВ",
+          "caption": "Type of commercial TV",
           "type": 1,
           "property": "typeTv",
           "size": null,

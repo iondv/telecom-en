@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Наименование ТВ канала",
+          "caption": "TV channel name",
           "type": 5,
           "property": "name",
           "size": null,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Номер ТВК",
+          "caption": "TVC number",
           "type": 14,
           "property": "numb",
           "size": null,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Место вещания",
+          "caption": "Broadcast location",
           "type": 5,
           "property": "place",
           "size": null,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Мощность, кВт",
+          "caption": "Power, kW",
           "type": 15,
           "property": "power",
           "size": null,

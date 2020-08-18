@@ -102,7 +102,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Порядок",
+                  "caption": "Order",
                   "type": 14,
                   "property": "ordList",
                   "size": 2,
@@ -129,7 +129,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Секция схемы движения",
+                  "caption": "Traffic section",
                   "type": 2,
                   "property": "section",
                   "size": 2,
@@ -156,7 +156,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Расписание",
+                  "caption": "Schedule",
                   "type": 7,
                   "property": "frequency",
                   "size": 2,
@@ -258,7 +258,7 @@
           "selSorting": null
         },
         {
-          "caption": "Геообъект",
+          "caption": "GeoObject",
           "type": 100,
           "property": "geoobject",
           "size": 2,

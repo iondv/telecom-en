@@ -51,7 +51,7 @@ if (itemSvyaz) {
     }
     let collType = elem.property('typeTks').evaluate();
     if (collType && collType.length) {
-      result.statsionar += ", ТКС - " + collType;
+      result.statsionar += ", TCC - " + collType;
     }
   } else {
     result.statsionar = 'no';
@@ -79,7 +79,7 @@ if (itemSvyaz) {
       }
       prop = elem.property('typeTKS').evaluate();
       if (prop && prop.length) {
-        result.internet += ', ТКС - ' + prop;
+        result.internet += ', TCC - ' + prop;
       }
       result.internet += '<br>';
     }
@@ -245,7 +245,7 @@ if (itemSvyaz) {
       }
       switch (elem.get('gops')) {
         case 'a':
-          result.ops += 'Type: Сity post office ';
+          result.ops += 'Type: City post office ';
           break;
         case 'b':
           result.ops += 'Type: Operational and post services ';

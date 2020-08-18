@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Медицинская организация",
+          "caption": "Medical organization",
           "type": 3,
           "property": "medicalOrg",
           "size": 2,
@@ -68,7 +68,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 2,
               "property": "address",
               "size": 2,
@@ -95,7 +95,7 @@
             },
             {
               "sorted": true,
-              "caption": "Ведомственная принадлежность",
+              "caption": "Departmental affiliation",
               "type": 1,
               "property": "vedomstvenOwn",
               "size": 2,
@@ -149,7 +149,7 @@
             },
             {
               "sorted": true,
-              "caption": "Интернет в медицинской организации",
+              "caption": "Internet in a medical organization",
               "type": 3,
               "property": "internet",
               "size": 2,

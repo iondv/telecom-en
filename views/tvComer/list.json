@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Операторы кабельного ТВ",
+      "caption": "Cable TV operators",
       "type": 3,
       "property": "operatortv",
       "size": null,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Операторы спутникового ТВ",
+      "caption": "Satellite tv operators",
       "type": 3,
       "property": "operatorSky",
       "size": null,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,

@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "РТРС ЦЭТВ",
+      "caption": "RTRN digital television",
       "type": 3,
       "property": "digitalTV",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Аналоговое ТВ",
+      "caption": "Analog TV",
       "type": 3,
       "property": "analogTV",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,

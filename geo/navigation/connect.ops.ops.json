@@ -3,8 +3,8 @@
   "order": 20,
   "code": "connect.ops.ops",
   "parent": "connect.ops",
-  "caption": "Сity post office/Operational and post services",
-  "hint": "Сity post office/Operational and post services in Australia",
+  "caption": "City post office/Operational and post services",
+  "hint": "City post office/Operational and post services in Australia",
   "layers": [
     "ops"
   ],
@@ -21,7 +21,7 @@
           "values": [
             {
               "value": "a",
-              "label": "Сity post office"
+              "label": "City post office"
             },
             {
               "value": "b",

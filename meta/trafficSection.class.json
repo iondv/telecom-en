@@ -3,7 +3,7 @@
   "key": [
     "id"
   ],
-  "semantic": "inPoint| - |inPointSyn| |dist|км",
+  "semantic": "inPoint| - |inPointSyn| |dist|km",
   "name": "trafficSection",
   "version": "",
   "caption": "Traffic section",

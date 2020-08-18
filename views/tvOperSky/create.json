@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Спутниковый оператор",
+          "caption": "Satellite operator",
           "type": 3,
           "property": "operator",
           "size": null,
@@ -68,7 +68,7 @@
             },
             {
               "sorted": true,
-              "caption": "Количество подключенных абонентов",
+              "caption": "Number of connected subscribers",
               "type": 14,
               "property": "numb",
               "size": 2,
@@ -111,7 +111,7 @@
           "selSorting": null
         },
         {
-          "caption": "Количество подключенных абонентов",
+          "caption": "Number of connected subscribers",
           "type": 14,
           "property": "numbsum",
           "size": null,
