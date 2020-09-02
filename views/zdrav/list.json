@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "okato",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Медицинская организация",
+      "caption": "Medical organization",
       "type": 3,
       "property": "medicalOrg",
       "size": 2,

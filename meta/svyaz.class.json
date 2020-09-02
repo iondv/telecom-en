@@ -489,7 +489,7 @@
       "backRef": "naselenniyPunkt",
       "backColl": "",
       "binding": "",
-      "semantic": "type|, |высота: |height",
+      "semantic": "type|, |height: |height",
       "selConditions": [],
       "selSorting": [],
       "selectionProvider": null,

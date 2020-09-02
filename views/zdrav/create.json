@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Медицинская организация",
+          "caption": "Medical organization",
           "type": 3,
           "property": "medicalOrg",
           "size": 2,
@@ -41,7 +41,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -68,7 +68,7 @@
             },
             {
               "sorted": true,
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 2,
               "property": "address",
               "size": 2,
@@ -95,7 +95,7 @@
             },
             {
               "sorted": true,
-              "caption": "Ведомственная принадлежность",
+              "caption": "Departmental affiliation",
               "type": 1,
               "property": "vedomstvenOwn",
               "size": 2,
@@ -122,7 +122,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип медицинской организации",
+              "caption": "Type of medical organization",
               "type": 2,
               "property": "typeMedicalOrg",
               "size": 2,
@@ -149,7 +149,7 @@
             },
             {
               "sorted": true,
-              "caption": "Интернет в медицинской организации",
+              "caption": "Internet in a medical organization",
               "type": 3,
               "property": "internet",
               "size": 2,

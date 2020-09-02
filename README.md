@@ -54,7 +54,7 @@ Quick start with the **IONDV. Telecom** repository on GitHub — [detailed instr
 3. Build and deploy the app.
 4. Run.
 
-Install and run with a single line under Linux using the [iondv-app](https://github.com/iondv/iondv-app) installer (install lоcally node.js, MongoDB и Git):
+Install and run with a single line under Linux using the [iondv-app](https://github.com/iondv/iondv-app) installer (install lоcally node.js, MongoDB and Git):
 ```
 bash <(curl -sL https://raw.githubusercontent.com/iondv/iondv-app/master/iondv-app) -t git -q -i -m localhost:27017 telecom-ru
 ```

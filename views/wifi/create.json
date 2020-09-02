@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "other",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": null
         },
         {
-          "caption": "Адрес",
+          "caption": "Address",
           "type": 7,
           "property": "adress",
           "size": null,
@@ -108,7 +108,7 @@
           "selSorting": null
         },
         {
-          "caption": "Координаты",
+          "caption": "Coordinates",
           "type": 100,
           "property": "geo",
           "size": null,

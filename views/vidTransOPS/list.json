@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "ОПС",
+      "caption": "Post Office",
       "type": 3,
       "property": "ops",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Магистральные маршруты",
+      "caption": "Trunk routes",
       "type": 3,
       "property": "magGraf",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Внутрикраевые маршруты",
+      "caption": "Inside-territory routes",
       "type": 3,
       "property": "vnutrGraf",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Внутрирайонные маршруты",
+      "caption": "Inside-region routes",
       "type": 3,
       "property": "vnutRaion",
       "size": 2,
@@ -106,7 +106,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModif",
       "size": 2,

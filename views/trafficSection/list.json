@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Начало",
+      "caption": "Start",
       "type": 2,
       "property": "inPoint",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Конец",
+      "caption": "End",
       "type": 2,
       "property": "inPointSyn",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Расстояние (км)",
+      "caption": "Distance (km)",
       "type": 15,
       "property": "dist",
       "size": 2,

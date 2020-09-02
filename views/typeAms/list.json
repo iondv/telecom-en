@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Вид АМС",
+      "caption": "Type of AMC",
       "type": 1,
       "property": "type",
       "size": 2,

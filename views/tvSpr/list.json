@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Название",
+      "caption": "Name",
       "type": 1,
       "property": "name",
       "size": 2,

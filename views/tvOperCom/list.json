@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "name",
       "size": null,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Технический охват",
+      "caption": "Technical coverage",
       "type": 1,
       "property": "tech",
       "size": null,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Количество подключенных абонентов",
+      "caption": "Number of connected subscribers",
       "type": 1,
       "property": "numb",
       "size": null,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип коммерческого ТВ",
+      "caption": "Type of commercial TV",
       "type": 1,
       "property": "typeTv",
       "size": null,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 120,
       "property": "dateModif",
       "size": null,

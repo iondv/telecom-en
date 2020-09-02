@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Тип медицинской организации",
+      "caption": "Type of medical organization",
       "type": 1,
       "property": "type",
       "size": 2,

@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Населенный пункт",
+          "caption": "Locality",
           "type": 2,
           "property": "okato",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Кабельное ТВ",
+          "caption": "Cable TV",
           "type": 0,
           "property": "",
           "size": 2,
@@ -38,7 +38,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Операторы",
+              "caption": "Operators",
               "type": 3,
               "property": "operatortv",
               "size": null,
@@ -76,7 +76,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Технический охват",
+                  "caption": "Technical coverage",
                   "type": 1,
                   "property": "tech",
                   "size": 2,
@@ -102,7 +102,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Количество подключенных абонентов",
+                  "caption": "Number of connected subscribers",
                   "type": 1,
                   "property": "numb",
                   "size": 2,
@@ -128,7 +128,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип коммерческого ТВ",
+                  "caption": "Type of commercial TV",
                   "type": 5,
                   "property": "typeTv",
                   "size": 2,
@@ -226,7 +226,7 @@
           "tags": null
         },
         {
-          "caption": "Спутниковое ТВ",
+          "caption": "Satellite TV",
           "type": 0,
           "property": "",
           "size": 2,
@@ -235,7 +235,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Операторы",
+              "caption": "Operators",
               "type": 3,
               "property": "operatorSky",
               "size": null,
@@ -247,7 +247,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Спутниковый оператор",
+                  "caption": "Satellite operator",
                   "type": 3,
                   "property": "operator",
                   "size": 2,
@@ -273,7 +273,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Количество подключенных абонентов",
+                  "caption": "Number of connected subscribers",
                   "type": 1,
                   "property": "numb",
                   "size": 2,
@@ -330,7 +330,7 @@
           "tags": null
         },
         {
-          "caption": "Статус верификации",
+          "caption": "Verification Status",
           "type": 4,
           "property": "verified",
           "size": 2,
@@ -355,7 +355,7 @@
           "tags": null
         },
         {
-          "caption": "Дата изменения",
+          "caption": "Date of change",
           "type": 120,
           "property": "dateModified",
           "size": 2,

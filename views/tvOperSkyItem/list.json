@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "name",
       "size": null,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Пакет оператора спутниковой связи",
+      "caption": "Package of satellite operator",
       "type": 3,
       "property": "pack",
       "size": null,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата модификации",
+      "caption": "Modification date",
       "type": 120,
       "property": "dateModif",
       "size": null,

@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Населенный пункт",
+      "caption": "Locality",
       "type": 2,
       "property": "other",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Номер таксофона",
+      "caption": "Payphone number",
       "type": 1,
       "property": "nomer",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Адрес",
+      "caption": "Address",
       "type": 7,
       "property": "adress",
       "size": 2,
@@ -106,7 +106,7 @@
     },
     {
       "sorted": true,
-      "caption": "Статус верификации",
+      "caption": "Verification Status",
       "type": 4,
       "property": "verified",
       "size": 2,
@@ -132,7 +132,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата изменения",
+      "caption": "Date of change",
       "type": 120,
       "property": "dateModified",
       "size": 2,

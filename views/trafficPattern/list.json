@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Магистральный маршрут",
+      "caption": "Trunk route",
       "type": 2,
       "property": "magGraf",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Внутрикраевой маршрут",
+      "caption": "Inside-territory route",
       "type": 2,
       "property": "vnutrGraf",
       "size": 2,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Внутрирайонный маршрут",
+      "caption": "Inside-region route",
       "type": 2,
       "property": "vnutRaion",
       "size": 2,
@@ -80,7 +80,7 @@
     },
     {
       "sorted": true,
-      "caption": "Расписание",
+      "caption": "Schedule",
       "type": 7,
       "property": "frequency",
       "size": 2,
@@ -106,7 +106,7 @@
     },
     {
       "sorted": true,
-      "caption": "Секция схемы движения",
+      "caption": "Traffic section",
       "type": 2,
       "property": "section",
       "size": 2,
@@ -132,7 +132,7 @@
     },
     {
       "sorted": true,
-      "caption": "Порядок",
+      "caption": "Order",
       "type": 14,
       "property": "ordList",
       "size": 2,

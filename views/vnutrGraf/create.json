@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Тип маршрута",
+          "caption": "Route type",
           "type": 1,
           "property": "typeGraf",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": null
         },
         {
-          "caption": "Вид транспорта",
+          "caption": "Type of transport",
           "type": 0,
           "property": null,
           "size": 2,
@@ -65,7 +65,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Вид транспорта",
+              "caption": "Type of transport",
               "type": 1,
               "property": "typeTran",
               "size": 2,
@@ -91,7 +91,7 @@
               "selSorting": null
             },
             {
-              "caption": "Порядок движения в маршруте",
+              "caption": "Traffic pattern",
               "type": 3,
               "property": "trafficPattern",
               "size": 2,
@@ -102,7 +102,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Порядок",
+                  "caption": "Order",
                   "type": 14,
                   "property": "ordList",
                   "size": 2,
@@ -129,7 +129,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Секция схемы движения",
+                  "caption": "Traffic section",
                   "type": 2,
                   "property": "section",
                   "size": 2,
@@ -156,7 +156,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Расписание",
+                  "caption": "Schedule",
                   "type": 7,
                   "property": "frequency",
                   "size": 2,
@@ -258,7 +258,7 @@
           "selSorting": null
         },
         {
-          "caption": "Геообъект",
+          "caption": "GeoObject",
           "type": 100,
           "property": "geoobject",
           "size": 2,

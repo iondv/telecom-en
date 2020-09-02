@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Номер",
+          "caption": "Number",
           "type": 1,
           "property": "nomer",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Наименование услуги",
+          "caption": "Service name",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Тип услуги",
+          "caption": "Type of service",
           "type": 1,
           "property": "type",
           "size": 2,

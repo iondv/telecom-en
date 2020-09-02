@@ -188,7 +188,7 @@
       "backRef": "rlink",
       "backColl": "",
       "binding": "",
-      "semantic": "name| (|numb|МГц)",
+      "semantic": "name| (|numb|MHz)",
       "selConditions": [],
       "selSorting": [],
       "selectionProvider": null,
