@@ -422,7 +422,7 @@ sources:
                       - contains:
                         - $mobile
                         - nempty:
-                          - $mobileOperator
+                          - $mobile
                       - in:
                         - $mobile.mobileStandart.standart
                         -
