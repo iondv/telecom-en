@@ -46,7 +46,7 @@
   "filters" : [
     {
       "type" : "regions",
-      "osmIds" : [151223]
+      "osmIds" : [80500]
     }
   ]
 }
