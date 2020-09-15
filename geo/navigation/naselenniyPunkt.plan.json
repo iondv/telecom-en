@@ -1,9 +1,0 @@
-{
-  "type": "data",
-  "order": 5,
-  "code": "naselenniyPunkt.plan",
-  "parent": "naselenniyPunkt",
-  "caption": "Road maps",
-  "hint": "Road maps",
-  "layers": ["plan"]
-}

@@ -1,14 +1,12 @@
 {
   "type": "data",
-  "order": 50,
+  "order": 20,
   "code": "connect.ops",
   "parent": "connect",
-  "caption": "Post",
-  "hint": "Postal services in Australia",
+  "caption": "City post office/Operational and post services",
+  "hint": "City post office/Operational and post services in Australia",
   "layers": [
-    "ops",
-    "pochtamt",
-    "pops"
+    "ops"
   ],
   "filter": [
     {
@@ -28,18 +26,6 @@
             {
               "value": "b",
               "label": "Operational and post services"
-            },
-            {
-              "value": "c",
-              "label": "Mobile post office"
-            },
-            {
-              "value": "d",
-              "label": "Post Office"
-            },
-            {
-              "value": "msc",
-              "label": "Main mail sorting center"
             }
           ]
         }
