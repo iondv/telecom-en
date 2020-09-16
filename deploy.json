@@ -42,7 +42,8 @@
                 "tv.digitalTV.multipl.name",
                 "tvcom.operatortv.operator.name",
                 "tv.tvOperCom",
-                "tvAnalog"
+                "tvAnalog",
+                "internet.okato.okato"
               ]
             },
             "mobile@telecom-en": {
@@ -76,7 +77,8 @@
                 "digitalTV.multipl",
                 "digitalTV.tvlink.okato.okato",
                 "tvlink.okato.okato",
-                "analogTV.name"
+                "analogTV.name",
+                "analogTV.tvlink.okato.okato"
               ],
               "item": [
                 "digitalTV.place"
@@ -125,7 +127,8 @@
             "radio@telecom-en": {
               "list": [
                 "okato.okato",
-                "radioCanals.name"
+                "radioCanals.name",
+                "radioCanals.rlink.okato.okato"
               ]
             },
             "ams@telecom-en": {
