@@ -269,7 +269,7 @@
       "backRef": "tvlink",
       "backColl": "",
       "binding": "",
-      "semantic": "name",
+      "semantic": "",
       "selConditions": [],
       "selSorting": [],
       "selectionProvider": null,

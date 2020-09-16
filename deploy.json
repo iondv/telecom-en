@@ -74,6 +74,7 @@
               "list": [
                 "okato.okato",
                 "digitalTV.multipl",
+                "digitalTV.tvlink.okato.okato",
                 "tvlink.okato.okato",
                 "analogTV.name"
               ],
