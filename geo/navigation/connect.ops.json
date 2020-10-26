@@ -3,7 +3,7 @@
   "order": 20,
   "code": "connect.ops",
   "parent": "connect",
-  "caption": "City post office/Operational and post services",
+  "caption": "City post office",
   "hint": "City post office/Operational and post services in Australia",
   "layers": [
     "ops"
