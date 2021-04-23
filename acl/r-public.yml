@@ -1,0 +1,172 @@
+roles:
+  - id: public
+    name: public
+    permissions:
+      'geonav:::naselenniyPunkt@telecom-en':
+        - read
+      'geolayer:::naselenniyPunkt@telecom-en':
+        - read
+      'geodata:::naselenniyPunkt@telecom-en@0':
+        - read
+      'geonav:::naselenniyPunkt.plan@telecom-en':
+        - read
+      'geolayer:::plan@telecom-en':
+        - read
+      'geodata:::plan@telecom-en@0':
+        - read
+      'geonav:::connect@telecom-en':
+        - read
+      'geolayer:::connect@telecom-en':
+        - read
+      'geodata:::connect@telecom-en@0':
+        - read
+      'geonav:::connect.uniKray@telecom-en':
+        - read
+      'geolayer:::taksofon@telecom-en':
+        - read
+      'geodata:::taksofon@telecom-en@0':
+        - read
+      'geolayer:::wifi@telecom-en':
+        - read
+      'geodata:::wifi@telecom-en@0':
+        - read
+      'geolayer:::infomat@telecom-en':
+        - read
+      'geodata:::infomat@telecom-en@0':
+        - read
+      'geonav:::connect.uniKray.taksofon@telecom-en':
+        - read
+      'geonav:::connect.uniKray.wifi@telecom-en':
+        - read
+      'geonav:::connect.uniKray.infomat@telecom-en':
+        - read
+      'geonav:::connect.ops@telecom-en':
+        - read
+      'geolayer:::ops@telecom-en':
+        - read
+      'geodata:::ops@telecom-en@0':
+        - read
+      'geolayer:::pochtamt@telecom-en':
+        - read
+      'geodata:::pochtamt@telecom-en@0':
+        - read
+      'geolayer:::pops@telecom-en':
+        - read
+      'geodata:::pops@telecom-en@0':
+        - read
+      'geonav:::connect.ops.pops@telecom-en':
+        - read
+      'geonav:::connect.ops.ops@telecom-en':
+        - read
+      'geonav:::connect.ops.pochtamt@telecom-en':
+        - read
+      'geonav:::connect.mobileKray@telecom-en':
+        - read
+      'geolayer:::allMobileKray@telecom-en':
+        - read
+      'geodata:::allMobileKray@telecom-en@0':
+        - read
+      'geonav:::connect.mobileKray.2gMobileKray@telecom-en':
+        - read
+      'geolayer:::2gMobileKray@telecom-en':
+        - read
+      'geodata:::2gMobileKray@telecom-en@0':
+        - read
+      'geonav:::connect.mobileKray.3gMobileKray@telecom-en':
+        - read
+      'geolayer:::3gMobileKray@telecom-en':
+        - read
+      'geodata:::3gMobileKray@telecom-en@0':
+        - read
+      'geonav:::connect.mobileKray.4gMobileKray@telecom-en':
+        - read
+      'geolayer:::4gMobileKray@telecom-en':
+        - read
+      'geodata:::4gMobileKray@telecom-en@0':
+        - read
+      'geonav:::connect.statsionar@telecom-en':
+        - read
+      'geolayer:::statsionar@telecom-en':
+        - read
+      'geodata:::statsionar@telecom-en@0':
+        - read
+      'geonav:::connect.TvRadio@telecom-en':
+        - read
+      'geolayer:::cetc@telecom-en':
+        - read
+      'geodata:::cetc@telecom-en@0':
+        - read
+      'geolayer:::tvAnalog@telecom-en':
+        - read
+      'geodata:::tvAnalog@telecom-en@0':
+        - read
+      'geolayer:::ComTv@telecom-en':
+        - read
+      'geodata:::ComTv@telecom-en@0':
+        - read
+      'geolayer:::radio@telecom-en':
+        - read
+      'geodata:::radio@telecom-en@0':
+        - read
+      'geonav:::connect.TvRadio.ComTv@telecom-en':
+        - read
+      'geonav:::connect.TvRadio.radio@telecom-en':
+        - read
+      'geonav:::connect.TvRadio.RadioTv@telecom-en':
+        - read
+      'geonav:::connect.TvRadio.RadioTv.tvAnalog@telecom-en':
+        - read
+      'geonav:::connect.TvRadio.RadioTv.cetc@telecom-en':
+        - read
+      'geonav:::connect.ams@telecom-en':
+        - read
+      'geolayer:::ams@telecom-en':
+        - read
+      'geodata:::ams@telecom-en@0':
+        - read
+      'geonav:::connect.canals@telecom-en':
+        - read
+      'geonav:::connect.internet@telecom-en':
+        - read
+      'geolayer:::internet@telecom-en':
+        - read
+      'geodata:::internet@telecom-en@0':
+        - read
+      'geolayer:::wireless@telecom-en':
+        - read
+      'geodata:::wireless@telecom-en@0':
+        - read
+      'geonav:::connect.internet.internet@telecom-en':
+        - read
+      'geonav:::connect.internet.wireless@telecom-en':
+        - read
+      'geonav:::education@telecom-en':
+        - read
+      'geolayer:::education@telecom-en':
+        - read
+      'geodata:::education@telecom-en@0':
+        - read
+      'geonav:::education.educationOrg@telecom-en':
+        - read
+      'geolayer:::educationOrg@telecom-en':
+        - read
+      'geodata:::educationOrg@telecom-en@0':
+        - read
+      'geonav:::zdrav@telecom-en':
+        - read
+      'geolayer:::zdrav@telecom-en':
+        - read
+      'geodata:::zdrav@telecom-en@0':
+        - read
+      'geonav:::zdrav.medicalOrg@telecom-en':
+        - read
+      'geolayer:::medicalOrg@telecom-en':
+        - read
+      'geodata:::medicalOrg@telecom-en@0':
+        - read
+      'geonav:::registry@telecom-en':
+        - read
+      'geolayer:::municipalnieObrazovaniya@telecom-en':
+        - read
+      'geodata:::municipalnieObrazovaniya@telecom-en@0':
+        - read
